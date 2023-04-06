@@ -1,5 +1,17 @@
 ;; freecell domain.
 
+;
+;  check = False
+;  while(true)
+;       if(!check)
+;           obbligato = checkaaaa()
+;           check = True
+;        else 
+;           if(obbligato) to Home
+;           else altreMosse
+;           check = Falso
+
+
 (define (domain freecell)
   (:requirements :strips :typing) 
   (:types card
@@ -57,22 +69,22 @@
    (and (not (CLEAR ?card_prev)) (CLEAR ?card) (not (INCELL ?card)) (not (CELLSPACE ?nfree_prev)) (CELLSPACE ?nfree) (ON ?card ?card_prev) )
 )
 
-(:action FROM-STACK-TO-STACK
-  :parameters (?card - card ?card_to - card ?card_prev - card)
-  :precondition
-   (and (CLEAR ?card) (CLEAR ?card_to) (CANSTACK ?card ?card_to) (ON ?card ?card_prev))
-  :effect
-   (and  (CLEAR ?card_prev) (not (CLEAR ?card_to)) (not (ON ?card ?card_prev)) (ON ?card ?card_to))
-)
 ; (:action FROM-STACK-TO-STACK
-;   :parameters (?card - card ?card_to - card ?card_prev - card ?card_home - card ?suit - suit ?val - num ?val_home - num)
+;   :parameters (?card - card ?card_to - card ?card_prev - card)
 ;   :precondition
-;    (and (CLEAR ?card) (CLEAR ?card_to) (CANSTACK ?card ?card_to) 
-;    (ON ?card ?card_prev)  (VALUE ?card ?val) (VALUE ?card_home ?val_home) (SUIT ?card ?suit) (SUIT ?card_home ?suit) (SUCCESSOR ?val ?val_home)
-;   (not (and (HOME ?card_home))))
+;    (and (CLEAR ?card) (CLEAR ?card_to) (CANSTACK ?card ?card_to) (ON ?card ?card_prev))
 ;   :effect
 ;    (and  (CLEAR ?card_prev) (not (CLEAR ?card_to)) (not (ON ?card ?card_prev)) (ON ?card ?card_to))
 ; )
+(:action FROM-STACK-TO-STACK
+  :parameters (?card - card ?card_to - card ?card_prev - card ?card_home - card ?suit - suit ?val - num ?val_home - num)
+  :precondition
+   (and (CLEAR ?card) (CLEAR ?card_to) (CANSTACK ?card ?card_to) 
+   (ON ?card ?card_prev)  (VALUE ?card ?val) (VALUE ?card_home ?val_home) (SUIT ?card ?suit) (SUIT ?card_home ?suit) (SUCCESSOR ?val ?val_home)
+  (not (and (HOME ?card_home))))
+  :effect
+   (and  (CLEAR ?card_prev) (not (CLEAR ?card_to)) (not (ON ?card ?card_prev)) (ON ?card ?card_to))
+)
 
 (:action FROM-BOTTOM-TO-STACK
   :parameters (?card - card ?card_to - card ?ncol - num ?ncol_prev - num)
