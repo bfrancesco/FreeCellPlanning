@@ -1,0 +1,25 @@
+
+; Version LPG-td-1.4
+; Seed 9517616
+; Command line: ./lpg-td -o ../domain.pddl -f ../problem.pddl -onlybestfirst -n 1 
+; Problem ..
+; Actions having STRIPS duration
+; Time 0.07
+; Search time 0.07
+; Parsing time 0.00
+; Mutex time 0.00
+; NrActions 13
+
+0:   (MOVE EVE ROOMB ROOMA) [1]
+1:   (PICK BALL3 ROOMA EVE RIGHT) [1]
+1:   (PICK BALL2 ROOMA EVE LEFT) [1]
+2:   (MOVE EVE ROOMA ROOMB) [1]
+3:   (MOVE EVE ROOMB ROOMC) [1]
+4:   (DROP BALL3 ROOMC EVE RIGHT) [1]
+4:   (DROP BALL2 ROOMC EVE LEFT) [1]
+5:   (MOVE EVE ROOMC ROOMB) [1]
+6:   (MOVE EVE ROOMB ROOMA) [1]
+7:   (PICK BALL1 ROOMA EVE RIGHT) [1]
+8:   (MOVE EVE ROOMA ROOMB) [1]
+9:   (MOVE EVE ROOMB ROOMC) [1]
+10:   (DROP BALL1 ROOMC EVE RIGHT) [1]
