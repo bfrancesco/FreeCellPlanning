@@ -1,0 +1,23 @@
+
+; Version LPG-td-1.4
+; Seed 21641673
+; Command line: ./lpg-td -o ../freecell-problem/freecell-domain.pddl -f ../freecell-problem/freecell-problem-2-3.pddl -n 1 
+; Problem ../freecell-problem
+; Actions having STRIPS duration
+; Time 0.11
+; Search time 0.05
+; Parsing time 0.03
+; Mutex time 0.03
+; NrActions 11
+
+0:   (FROM-BOTTOM-TO-HOME DA D0 D N1 N0 N4 N3) [1]
+0:   (FROM-STACK-TO-FREE C2 SA N4 N3) [1]
+0:   (FROM-STACK-TO-HOME HA H0 CA H N1 N0) [1]
+1:   (FROM-STACK-TO-STACK SA H2 D2) [1]
+2:   (FROM-BOTTOM-TO-HOME D2 DA D N2 N1 N5 N4) [1]
+2:   (FROM-STACK-TO-FREE SA H2 N3 N2) [1]
+3:   (FROM-BOTTOM-TO-HOME H2 HA H N2 N1 N6 N5) [1]
+3:   (FROM-FREE-TO-HOME SA S0 S N1 N0 N3 N2) [1]
+4:   (FROM-BOTTOM-TO-HOME S2 SA S N2 N1 N7 N6) [1]
+5:   (FROM-BOTTOM-TO-HOME CA C0 C N1 N0 N8 N7) [1]
+6:   (FROM-FREE-TO-HOME C2 CA C N2 N1 N4 N3) [1]
