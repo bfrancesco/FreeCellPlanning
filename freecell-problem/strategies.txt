@@ -1,0 +1,2 @@
+1. Spostati se stai coprendo una carta che può andare nella home
+2. Avere più colonne libere possibili? Wait è la stessa cosa di freecell libere? Possibili Loop ?

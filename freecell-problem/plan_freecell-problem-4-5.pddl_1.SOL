@@ -1,7 +1,7 @@
 
 ; Version LPG-td-1.4
-; Seed 94677184
-; Command line: ./lpg-td -o ../freecell-problem/freecell-domain.pddl -f ../freecell-problem/freecell-problem-2-1.pddl -n 1 
+; Seed 49361649
+; Command line: ./lpg-td -o ../freecell-problem/freecell-domain.pddl -f ../freecell-problem/freecell-problem-4-5.pddl -n 1 
 ; Problem ../freecell-problem
 ; Actions having STRIPS duration
 ; Time 0.00

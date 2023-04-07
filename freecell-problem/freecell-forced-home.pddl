@@ -1,7 +1,7 @@
 ;; freecell domain.
 
 (define (domain freecell)
-  (:requirements :strips :typing) 
+  (:requirements :strips :domain-axioms :typing ) 
   (:types card
           num
           suit
@@ -15,7 +15,7 @@
         ; card relation predicates
         (CANSTACK ?card1 - card ?card2 - card)
         (ON ?card1 - card ?card2 - card)
-
+        (CANHOME ?card - card)
         ;card status predicates
         (INCELL ?card - card)
         (CLEAR ?card - card)
@@ -25,6 +25,17 @@
         (CELLSPACE ?ncol - num)
         (COLSPACE ?ncol - num))
   
+(:axiom
+    :vars (?card - card ?card_home - card ?val - num ?val_home - num ?suit - suit)
+    :context (and
+        (CLEAR ?card)
+        (HOME ?card_home)
+        (SUIT ?card ?suit) (SUIT ?car_home ?suit)
+        (VALUE ?card ?val) (VALUE ?card_home ?val_home) (SUCCESSOR ?val ?val_home )
+    )
+    :implies (CANHOME ?card)
+)
+
 (:action FROM-BOTTOM-TO-FREE
   :parameters (?card - card ?ncol - num ?ncol_prev - num ?nfree - num ?nfree_prev - num)
   :precondition
@@ -32,6 +43,7 @@
   :effect
    (and (not (CLEAR ?card)) (not (BOTTOMCOL ?card)) (not (COLSPACE ?ncol_prev)) (COLSPACE ?ncol) (INCELL ?card) (not (CELLSPACE ?nfree)) (CELLSPACE ?nfree_prev))
 )
+
 
 (:action FROM-STACK-TO-FREE
   :parameters (?card - card ?card_prev - card  ?nfree - num ?nfree_prev - num)
@@ -93,12 +105,11 @@
 )
 
 (:action FROM-STACK-TO-HOME
-  :parameters (?card - card ?card_to - card ?card_prev - card ?suit - suit ?val - num ?val_to - num)
+  :parameters (?card - card ?card_to - card ?card_prev - card ?suit - suit)
   :precondition
-   (and (CLEAR ?card) (HOME ?card_to) (ON ?card ?card_prev) (SUIT ?card ?suit) (SUIT ?card_to ?suit) 
-    (VALUE ?card ?val) (VALUE ?card_to ?val_to) (SUCCESSOR ?val ?val_to ))
+   (and (CANHOME ?card) (HOME ?card_to) (ON ?card ?card_prev) (SUIT ?card ?suit) (SUIT ?card_to ?suit))
   :effect
-   (and  (not (HOME ?card_to)) (HOME ?card) (not (CLEAR ?card)) (CLEAR ?card_prev) (not (ON ?card ?card_prev)))
+   (and  (not (HOME ?card_to)) (HOME ?card) (not (CANHOME ?card)) (CLEAR ?card_prev) (not (ON ?card ?card_prev)))
 )
 
 ; (:action FROM-FREE-TO-HOME
