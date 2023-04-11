@@ -63,7 +63,7 @@
   :precondition
    (and (MOVEABLE ?card) (not (ORFREE)) (CELLSPACE ?nfree) (SUCCESSOR ?nfree ?nfree_prev) )
   :effect
-   (and (not (MOVEABLE ?card)) (not (ORBOTT)) (not (OCCUPIED)) (INCELL ?card) (not (CELLSPACE ?nfree)) (CELLSPACE ?nfree_prev) )
+   (and (not (MOVEABLE ?card)) (not (ORFREE)) (not (OCCUPIED)) (INCELL ?card) (not (CELLSPACE ?nfree)) (CELLSPACE ?nfree_prev) )
 )
 
 (:action FROM-MOVEABLE-TO-BOTTOM
@@ -71,7 +71,7 @@
   :precondition
    (and (MOVEABLE ?card) (not (ORBOTT)) (COLSPACE ?ncol) (SUCCESSOR ?ncol ?ncol_prev))
   :effect
-   (and (not (MOVEABLE ?card)) (not (ORFREE)) (not (OCCUPIED)) (CLEAR ?card)  (BOTTOMCOL ?card) (not (COLSPACE ?ncol)) (COLSPACE ?ncol_prev))
+   (and (not (MOVEABLE ?card)) (not (ORBOTT)) (not (OCCUPIED)) (CLEAR ?card)  (BOTTOMCOL ?card) (not (COLSPACE ?ncol)) (COLSPACE ?ncol_prev))
 )
 
 (:action FROM-MOVEABLE-TO-STACK

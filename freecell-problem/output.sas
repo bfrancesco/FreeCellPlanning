@@ -1014,21 +1014,9 @@ end_variable
 begin_variable
 var104
 -1
-14
-Atom cellspace(n0)
-Atom cellspace(n1)
-Atom cellspace(n10)
-Atom cellspace(n11)
-Atom cellspace(n12)
-Atom cellspace(n13)
-Atom cellspace(n2)
-Atom cellspace(n3)
-Atom cellspace(n4)
-Atom cellspace(n5)
-Atom cellspace(n6)
-Atom cellspace(n7)
-Atom cellspace(n8)
-Atom cellspace(n9)
+2
+Atom orbott()
+NegatedAtom orbott()
 end_variable
 begin_variable
 var105
@@ -1053,15 +1041,27 @@ begin_variable
 var106
 -1
 2
-Atom orbott()
-NegatedAtom orbott()
+Atom orfree()
+NegatedAtom orfree()
 end_variable
 begin_variable
 var107
 -1
-2
-Atom orfree()
-NegatedAtom orfree()
+14
+Atom cellspace(n0)
+Atom cellspace(n1)
+Atom cellspace(n10)
+Atom cellspace(n11)
+Atom cellspace(n12)
+Atom cellspace(n13)
+Atom cellspace(n2)
+Atom cellspace(n3)
+Atom cellspace(n4)
+Atom cellspace(n5)
+Atom cellspace(n6)
+Atom cellspace(n7)
+Atom cellspace(n8)
+Atom cellspace(n9)
 end_variable
 begin_variable
 var108
@@ -1216,10 +1216,10 @@ begin_state
 5
 5
 5
-8
+1
 0
 1
-1
+8
 1
 4
 4
@@ -1242,7 +1242,7 @@ from-bottom-to-moveable c10 n1 n0
 0 35 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1253,7 +1253,7 @@ from-bottom-to-moveable c10 n10 n9
 0 35 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1264,7 +1264,7 @@ from-bottom-to-moveable c10 n11 n10
 0 35 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1275,7 +1275,7 @@ from-bottom-to-moveable c10 n12 n11
 0 35 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1286,7 +1286,7 @@ from-bottom-to-moveable c10 n13 n12
 0 35 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1297,7 +1297,7 @@ from-bottom-to-moveable c10 n2 n1
 0 35 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1308,7 +1308,7 @@ from-bottom-to-moveable c10 n3 n2
 0 35 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1319,7 +1319,7 @@ from-bottom-to-moveable c10 n4 n3
 0 35 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1330,7 +1330,7 @@ from-bottom-to-moveable c10 n5 n4
 0 35 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1341,7 +1341,7 @@ from-bottom-to-moveable c10 n6 n5
 0 35 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1352,7 +1352,7 @@ from-bottom-to-moveable c10 n7 n6
 0 35 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1363,7 +1363,7 @@ from-bottom-to-moveable c10 n8 n7
 0 35 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1374,7 +1374,7 @@ from-bottom-to-moveable c10 n9 n8
 0 35 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1385,7 +1385,7 @@ from-bottom-to-moveable c2 n1 n0
 0 9 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1396,7 +1396,7 @@ from-bottom-to-moveable c2 n10 n9
 0 9 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1407,7 +1407,7 @@ from-bottom-to-moveable c2 n11 n10
 0 9 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1418,7 +1418,7 @@ from-bottom-to-moveable c2 n12 n11
 0 9 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1429,7 +1429,7 @@ from-bottom-to-moveable c2 n13 n12
 0 9 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1440,7 +1440,7 @@ from-bottom-to-moveable c2 n2 n1
 0 9 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1451,7 +1451,7 @@ from-bottom-to-moveable c2 n3 n2
 0 9 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1462,7 +1462,7 @@ from-bottom-to-moveable c2 n4 n3
 0 9 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1473,7 +1473,7 @@ from-bottom-to-moveable c2 n5 n4
 0 9 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1484,7 +1484,7 @@ from-bottom-to-moveable c2 n6 n5
 0 9 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1495,7 +1495,7 @@ from-bottom-to-moveable c2 n7 n6
 0 9 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1506,7 +1506,7 @@ from-bottom-to-moveable c2 n8 n7
 0 9 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1517,7 +1517,7 @@ from-bottom-to-moveable c2 n9 n8
 0 9 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1528,7 +1528,7 @@ from-bottom-to-moveable c3 n1 n0
 0 42 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1539,7 +1539,7 @@ from-bottom-to-moveable c3 n10 n9
 0 42 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1550,7 +1550,7 @@ from-bottom-to-moveable c3 n11 n10
 0 42 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1561,7 +1561,7 @@ from-bottom-to-moveable c3 n12 n11
 0 42 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1572,7 +1572,7 @@ from-bottom-to-moveable c3 n13 n12
 0 42 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1583,7 +1583,7 @@ from-bottom-to-moveable c3 n2 n1
 0 42 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1594,7 +1594,7 @@ from-bottom-to-moveable c3 n3 n2
 0 42 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1605,7 +1605,7 @@ from-bottom-to-moveable c3 n4 n3
 0 42 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1616,7 +1616,7 @@ from-bottom-to-moveable c3 n5 n4
 0 42 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1627,7 +1627,7 @@ from-bottom-to-moveable c3 n6 n5
 0 42 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1638,7 +1638,7 @@ from-bottom-to-moveable c3 n7 n6
 0 42 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1649,7 +1649,7 @@ from-bottom-to-moveable c3 n8 n7
 0 42 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1660,7 +1660,7 @@ from-bottom-to-moveable c3 n9 n8
 0 42 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1671,7 +1671,7 @@ from-bottom-to-moveable c4 n1 n0
 0 17 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1682,7 +1682,7 @@ from-bottom-to-moveable c4 n10 n9
 0 17 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1693,7 +1693,7 @@ from-bottom-to-moveable c4 n11 n10
 0 17 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1704,7 +1704,7 @@ from-bottom-to-moveable c4 n12 n11
 0 17 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1715,7 +1715,7 @@ from-bottom-to-moveable c4 n13 n12
 0 17 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1726,7 +1726,7 @@ from-bottom-to-moveable c4 n2 n1
 0 17 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1737,7 +1737,7 @@ from-bottom-to-moveable c4 n3 n2
 0 17 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1748,7 +1748,7 @@ from-bottom-to-moveable c4 n4 n3
 0 17 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1759,7 +1759,7 @@ from-bottom-to-moveable c4 n5 n4
 0 17 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1770,7 +1770,7 @@ from-bottom-to-moveable c4 n6 n5
 0 17 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1781,7 +1781,7 @@ from-bottom-to-moveable c4 n7 n6
 0 17 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1792,7 +1792,7 @@ from-bottom-to-moveable c4 n8 n7
 0 17 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1803,7 +1803,7 @@ from-bottom-to-moveable c4 n9 n8
 0 17 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1814,7 +1814,7 @@ from-bottom-to-moveable c5 n1 n0
 0 52 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1825,7 +1825,7 @@ from-bottom-to-moveable c5 n10 n9
 0 52 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1836,7 +1836,7 @@ from-bottom-to-moveable c5 n11 n10
 0 52 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1847,7 +1847,7 @@ from-bottom-to-moveable c5 n12 n11
 0 52 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1858,7 +1858,7 @@ from-bottom-to-moveable c5 n13 n12
 0 52 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1869,7 +1869,7 @@ from-bottom-to-moveable c5 n2 n1
 0 52 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1880,7 +1880,7 @@ from-bottom-to-moveable c5 n3 n2
 0 52 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1891,7 +1891,7 @@ from-bottom-to-moveable c5 n4 n3
 0 52 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1902,7 +1902,7 @@ from-bottom-to-moveable c5 n5 n4
 0 52 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1913,7 +1913,7 @@ from-bottom-to-moveable c5 n6 n5
 0 52 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1924,7 +1924,7 @@ from-bottom-to-moveable c5 n7 n6
 0 52 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1935,7 +1935,7 @@ from-bottom-to-moveable c5 n8 n7
 0 52 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1946,7 +1946,7 @@ from-bottom-to-moveable c5 n9 n8
 0 52 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1957,7 +1957,7 @@ from-bottom-to-moveable c6 n1 n0
 0 23 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1968,7 +1968,7 @@ from-bottom-to-moveable c6 n10 n9
 0 23 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1979,7 +1979,7 @@ from-bottom-to-moveable c6 n11 n10
 0 23 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -1990,7 +1990,7 @@ from-bottom-to-moveable c6 n12 n11
 0 23 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2001,7 +2001,7 @@ from-bottom-to-moveable c6 n13 n12
 0 23 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2012,7 +2012,7 @@ from-bottom-to-moveable c6 n2 n1
 0 23 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2023,7 +2023,7 @@ from-bottom-to-moveable c6 n3 n2
 0 23 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2034,7 +2034,7 @@ from-bottom-to-moveable c6 n4 n3
 0 23 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2045,7 +2045,7 @@ from-bottom-to-moveable c6 n5 n4
 0 23 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2056,7 +2056,7 @@ from-bottom-to-moveable c6 n6 n5
 0 23 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2067,7 +2067,7 @@ from-bottom-to-moveable c6 n7 n6
 0 23 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2078,7 +2078,7 @@ from-bottom-to-moveable c6 n8 n7
 0 23 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2089,7 +2089,7 @@ from-bottom-to-moveable c6 n9 n8
 0 23 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2100,7 +2100,7 @@ from-bottom-to-moveable c7 n1 n0
 0 51 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2111,7 +2111,7 @@ from-bottom-to-moveable c7 n10 n9
 0 51 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2122,7 +2122,7 @@ from-bottom-to-moveable c7 n11 n10
 0 51 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2133,7 +2133,7 @@ from-bottom-to-moveable c7 n12 n11
 0 51 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2144,7 +2144,7 @@ from-bottom-to-moveable c7 n13 n12
 0 51 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2155,7 +2155,7 @@ from-bottom-to-moveable c7 n2 n1
 0 51 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2166,7 +2166,7 @@ from-bottom-to-moveable c7 n3 n2
 0 51 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2177,7 +2177,7 @@ from-bottom-to-moveable c7 n4 n3
 0 51 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2188,7 +2188,7 @@ from-bottom-to-moveable c7 n5 n4
 0 51 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2199,7 +2199,7 @@ from-bottom-to-moveable c7 n6 n5
 0 51 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2210,7 +2210,7 @@ from-bottom-to-moveable c7 n7 n6
 0 51 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2221,7 +2221,7 @@ from-bottom-to-moveable c7 n8 n7
 0 51 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2232,7 +2232,7 @@ from-bottom-to-moveable c7 n9 n8
 0 51 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2243,7 +2243,7 @@ from-bottom-to-moveable c8 n1 n0
 0 31 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2254,7 +2254,7 @@ from-bottom-to-moveable c8 n10 n9
 0 31 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2265,7 +2265,7 @@ from-bottom-to-moveable c8 n11 n10
 0 31 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2276,7 +2276,7 @@ from-bottom-to-moveable c8 n12 n11
 0 31 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2287,7 +2287,7 @@ from-bottom-to-moveable c8 n13 n12
 0 31 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2298,7 +2298,7 @@ from-bottom-to-moveable c8 n2 n1
 0 31 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2309,7 +2309,7 @@ from-bottom-to-moveable c8 n3 n2
 0 31 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2320,7 +2320,7 @@ from-bottom-to-moveable c8 n4 n3
 0 31 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2331,7 +2331,7 @@ from-bottom-to-moveable c8 n5 n4
 0 31 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2342,7 +2342,7 @@ from-bottom-to-moveable c8 n6 n5
 0 31 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2353,7 +2353,7 @@ from-bottom-to-moveable c8 n7 n6
 0 31 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2364,7 +2364,7 @@ from-bottom-to-moveable c8 n8 n7
 0 31 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2375,7 +2375,7 @@ from-bottom-to-moveable c8 n9 n8
 0 31 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2386,7 +2386,7 @@ from-bottom-to-moveable c9 n1 n0
 0 45 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2397,7 +2397,7 @@ from-bottom-to-moveable c9 n10 n9
 0 45 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2408,7 +2408,7 @@ from-bottom-to-moveable c9 n11 n10
 0 45 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2419,7 +2419,7 @@ from-bottom-to-moveable c9 n12 n11
 0 45 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2430,7 +2430,7 @@ from-bottom-to-moveable c9 n13 n12
 0 45 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2441,7 +2441,7 @@ from-bottom-to-moveable c9 n2 n1
 0 45 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2452,7 +2452,7 @@ from-bottom-to-moveable c9 n3 n2
 0 45 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2463,7 +2463,7 @@ from-bottom-to-moveable c9 n4 n3
 0 45 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2474,7 +2474,7 @@ from-bottom-to-moveable c9 n5 n4
 0 45 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2485,7 +2485,7 @@ from-bottom-to-moveable c9 n6 n5
 0 45 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2496,7 +2496,7 @@ from-bottom-to-moveable c9 n7 n6
 0 45 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2507,7 +2507,7 @@ from-bottom-to-moveable c9 n8 n7
 0 45 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2518,7 +2518,7 @@ from-bottom-to-moveable c9 n9 n8
 0 45 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2529,7 +2529,7 @@ from-bottom-to-moveable ca n1 n0
 0 5 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2540,7 +2540,7 @@ from-bottom-to-moveable ca n10 n9
 0 5 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2551,7 +2551,7 @@ from-bottom-to-moveable ca n11 n10
 0 5 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2562,7 +2562,7 @@ from-bottom-to-moveable ca n12 n11
 0 5 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2573,7 +2573,7 @@ from-bottom-to-moveable ca n13 n12
 0 5 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2584,7 +2584,7 @@ from-bottom-to-moveable ca n2 n1
 0 5 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2595,7 +2595,7 @@ from-bottom-to-moveable ca n3 n2
 0 5 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2606,7 +2606,7 @@ from-bottom-to-moveable ca n4 n3
 0 5 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2617,7 +2617,7 @@ from-bottom-to-moveable ca n5 n4
 0 5 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2628,7 +2628,7 @@ from-bottom-to-moveable ca n6 n5
 0 5 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2639,7 +2639,7 @@ from-bottom-to-moveable ca n7 n6
 0 5 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2650,7 +2650,7 @@ from-bottom-to-moveable ca n8 n7
 0 5 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2661,7 +2661,7 @@ from-bottom-to-moveable ca n9 n8
 0 5 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2672,7 +2672,7 @@ from-bottom-to-moveable cj n1 n0
 0 38 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2683,7 +2683,7 @@ from-bottom-to-moveable cj n10 n9
 0 38 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2694,7 +2694,7 @@ from-bottom-to-moveable cj n11 n10
 0 38 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2705,7 +2705,7 @@ from-bottom-to-moveable cj n12 n11
 0 38 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2716,7 +2716,7 @@ from-bottom-to-moveable cj n13 n12
 0 38 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2727,7 +2727,7 @@ from-bottom-to-moveable cj n2 n1
 0 38 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2738,7 +2738,7 @@ from-bottom-to-moveable cj n3 n2
 0 38 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2749,7 +2749,7 @@ from-bottom-to-moveable cj n4 n3
 0 38 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2760,7 +2760,7 @@ from-bottom-to-moveable cj n5 n4
 0 38 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2771,7 +2771,7 @@ from-bottom-to-moveable cj n6 n5
 0 38 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2782,7 +2782,7 @@ from-bottom-to-moveable cj n7 n6
 0 38 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2793,7 +2793,7 @@ from-bottom-to-moveable cj n8 n7
 0 38 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2804,7 +2804,7 @@ from-bottom-to-moveable cj n9 n8
 0 38 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2815,7 +2815,7 @@ from-bottom-to-moveable ck n1 n0
 0 13 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2826,7 +2826,7 @@ from-bottom-to-moveable ck n10 n9
 0 13 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2837,7 +2837,7 @@ from-bottom-to-moveable ck n11 n10
 0 13 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2848,7 +2848,7 @@ from-bottom-to-moveable ck n12 n11
 0 13 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2859,7 +2859,7 @@ from-bottom-to-moveable ck n13 n12
 0 13 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2870,7 +2870,7 @@ from-bottom-to-moveable ck n2 n1
 0 13 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2881,7 +2881,7 @@ from-bottom-to-moveable ck n3 n2
 0 13 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2892,7 +2892,7 @@ from-bottom-to-moveable ck n4 n3
 0 13 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2903,7 +2903,7 @@ from-bottom-to-moveable ck n5 n4
 0 13 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2914,7 +2914,7 @@ from-bottom-to-moveable ck n6 n5
 0 13 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2925,7 +2925,7 @@ from-bottom-to-moveable ck n7 n6
 0 13 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2936,7 +2936,7 @@ from-bottom-to-moveable ck n8 n7
 0 13 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2947,7 +2947,7 @@ from-bottom-to-moveable ck n9 n8
 0 13 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2958,7 +2958,7 @@ from-bottom-to-moveable cq n1 n0
 0 12 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2969,7 +2969,7 @@ from-bottom-to-moveable cq n10 n9
 0 12 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2980,7 +2980,7 @@ from-bottom-to-moveable cq n11 n10
 0 12 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -2991,7 +2991,7 @@ from-bottom-to-moveable cq n12 n11
 0 12 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3002,7 +3002,7 @@ from-bottom-to-moveable cq n13 n12
 0 12 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3013,7 +3013,7 @@ from-bottom-to-moveable cq n2 n1
 0 12 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3024,7 +3024,7 @@ from-bottom-to-moveable cq n3 n2
 0 12 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3035,7 +3035,7 @@ from-bottom-to-moveable cq n4 n3
 0 12 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3046,7 +3046,7 @@ from-bottom-to-moveable cq n5 n4
 0 12 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3057,7 +3057,7 @@ from-bottom-to-moveable cq n6 n5
 0 12 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3068,7 +3068,7 @@ from-bottom-to-moveable cq n7 n6
 0 12 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3079,7 +3079,7 @@ from-bottom-to-moveable cq n8 n7
 0 12 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3090,7 +3090,7 @@ from-bottom-to-moveable cq n9 n8
 0 12 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3101,7 +3101,7 @@ from-bottom-to-moveable d10 n1 n0
 0 39 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3112,7 +3112,7 @@ from-bottom-to-moveable d10 n10 n9
 0 39 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3123,7 +3123,7 @@ from-bottom-to-moveable d10 n11 n10
 0 39 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3134,7 +3134,7 @@ from-bottom-to-moveable d10 n12 n11
 0 39 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3145,7 +3145,7 @@ from-bottom-to-moveable d10 n13 n12
 0 39 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3156,7 +3156,7 @@ from-bottom-to-moveable d10 n2 n1
 0 39 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3167,7 +3167,7 @@ from-bottom-to-moveable d10 n3 n2
 0 39 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3178,7 +3178,7 @@ from-bottom-to-moveable d10 n4 n3
 0 39 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3189,7 +3189,7 @@ from-bottom-to-moveable d10 n5 n4
 0 39 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3200,7 +3200,7 @@ from-bottom-to-moveable d10 n6 n5
 0 39 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3211,7 +3211,7 @@ from-bottom-to-moveable d10 n7 n6
 0 39 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3222,7 +3222,7 @@ from-bottom-to-moveable d10 n8 n7
 0 39 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3233,7 +3233,7 @@ from-bottom-to-moveable d10 n9 n8
 0 39 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3244,7 +3244,7 @@ from-bottom-to-moveable d2 n1 n0
 0 40 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3255,7 +3255,7 @@ from-bottom-to-moveable d2 n10 n9
 0 40 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3266,7 +3266,7 @@ from-bottom-to-moveable d2 n11 n10
 0 40 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3277,7 +3277,7 @@ from-bottom-to-moveable d2 n12 n11
 0 40 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3288,7 +3288,7 @@ from-bottom-to-moveable d2 n13 n12
 0 40 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3299,7 +3299,7 @@ from-bottom-to-moveable d2 n2 n1
 0 40 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3310,7 +3310,7 @@ from-bottom-to-moveable d2 n3 n2
 0 40 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3321,7 +3321,7 @@ from-bottom-to-moveable d2 n4 n3
 0 40 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3332,7 +3332,7 @@ from-bottom-to-moveable d2 n5 n4
 0 40 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3343,7 +3343,7 @@ from-bottom-to-moveable d2 n6 n5
 0 40 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3354,7 +3354,7 @@ from-bottom-to-moveable d2 n7 n6
 0 40 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3365,7 +3365,7 @@ from-bottom-to-moveable d2 n8 n7
 0 40 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3376,7 +3376,7 @@ from-bottom-to-moveable d2 n9 n8
 0 40 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3387,7 +3387,7 @@ from-bottom-to-moveable d3 n1 n0
 0 25 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3398,7 +3398,7 @@ from-bottom-to-moveable d3 n10 n9
 0 25 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3409,7 +3409,7 @@ from-bottom-to-moveable d3 n11 n10
 0 25 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3420,7 +3420,7 @@ from-bottom-to-moveable d3 n12 n11
 0 25 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3431,7 +3431,7 @@ from-bottom-to-moveable d3 n13 n12
 0 25 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3442,7 +3442,7 @@ from-bottom-to-moveable d3 n2 n1
 0 25 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3453,7 +3453,7 @@ from-bottom-to-moveable d3 n3 n2
 0 25 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3464,7 +3464,7 @@ from-bottom-to-moveable d3 n4 n3
 0 25 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3475,7 +3475,7 @@ from-bottom-to-moveable d3 n5 n4
 0 25 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3486,7 +3486,7 @@ from-bottom-to-moveable d3 n6 n5
 0 25 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3497,7 +3497,7 @@ from-bottom-to-moveable d3 n7 n6
 0 25 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3508,7 +3508,7 @@ from-bottom-to-moveable d3 n8 n7
 0 25 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3519,7 +3519,7 @@ from-bottom-to-moveable d3 n9 n8
 0 25 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3530,7 +3530,7 @@ from-bottom-to-moveable d4 n1 n0
 0 49 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3541,7 +3541,7 @@ from-bottom-to-moveable d4 n10 n9
 0 49 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3552,7 +3552,7 @@ from-bottom-to-moveable d4 n11 n10
 0 49 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3563,7 +3563,7 @@ from-bottom-to-moveable d4 n12 n11
 0 49 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3574,7 +3574,7 @@ from-bottom-to-moveable d4 n13 n12
 0 49 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3585,7 +3585,7 @@ from-bottom-to-moveable d4 n2 n1
 0 49 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3596,7 +3596,7 @@ from-bottom-to-moveable d4 n3 n2
 0 49 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3607,7 +3607,7 @@ from-bottom-to-moveable d4 n4 n3
 0 49 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3618,7 +3618,7 @@ from-bottom-to-moveable d4 n5 n4
 0 49 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3629,7 +3629,7 @@ from-bottom-to-moveable d4 n6 n5
 0 49 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3640,7 +3640,7 @@ from-bottom-to-moveable d4 n7 n6
 0 49 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3651,7 +3651,7 @@ from-bottom-to-moveable d4 n8 n7
 0 49 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3662,7 +3662,7 @@ from-bottom-to-moveable d4 n9 n8
 0 49 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3673,7 +3673,7 @@ from-bottom-to-moveable d5 n1 n0
 0 16 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3684,7 +3684,7 @@ from-bottom-to-moveable d5 n10 n9
 0 16 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3695,7 +3695,7 @@ from-bottom-to-moveable d5 n11 n10
 0 16 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3706,7 +3706,7 @@ from-bottom-to-moveable d5 n12 n11
 0 16 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3717,7 +3717,7 @@ from-bottom-to-moveable d5 n13 n12
 0 16 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3728,7 +3728,7 @@ from-bottom-to-moveable d5 n2 n1
 0 16 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3739,7 +3739,7 @@ from-bottom-to-moveable d5 n3 n2
 0 16 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3750,7 +3750,7 @@ from-bottom-to-moveable d5 n4 n3
 0 16 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3761,7 +3761,7 @@ from-bottom-to-moveable d5 n5 n4
 0 16 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3772,7 +3772,7 @@ from-bottom-to-moveable d5 n6 n5
 0 16 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3783,7 +3783,7 @@ from-bottom-to-moveable d5 n7 n6
 0 16 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3794,7 +3794,7 @@ from-bottom-to-moveable d5 n8 n7
 0 16 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3805,7 +3805,7 @@ from-bottom-to-moveable d5 n9 n8
 0 16 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3816,7 +3816,7 @@ from-bottom-to-moveable d6 n1 n0
 0 53 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3827,7 +3827,7 @@ from-bottom-to-moveable d6 n10 n9
 0 53 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3838,7 +3838,7 @@ from-bottom-to-moveable d6 n11 n10
 0 53 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3849,7 +3849,7 @@ from-bottom-to-moveable d6 n12 n11
 0 53 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3860,7 +3860,7 @@ from-bottom-to-moveable d6 n13 n12
 0 53 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3871,7 +3871,7 @@ from-bottom-to-moveable d6 n2 n1
 0 53 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3882,7 +3882,7 @@ from-bottom-to-moveable d6 n3 n2
 0 53 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3893,7 +3893,7 @@ from-bottom-to-moveable d6 n4 n3
 0 53 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3904,7 +3904,7 @@ from-bottom-to-moveable d6 n5 n4
 0 53 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3915,7 +3915,7 @@ from-bottom-to-moveable d6 n6 n5
 0 53 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3926,7 +3926,7 @@ from-bottom-to-moveable d6 n7 n6
 0 53 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3937,7 +3937,7 @@ from-bottom-to-moveable d6 n8 n7
 0 53 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3948,7 +3948,7 @@ from-bottom-to-moveable d6 n9 n8
 0 53 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3959,7 +3959,7 @@ from-bottom-to-moveable d7 n1 n0
 0 15 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3970,7 +3970,7 @@ from-bottom-to-moveable d7 n10 n9
 0 15 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3981,7 +3981,7 @@ from-bottom-to-moveable d7 n11 n10
 0 15 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -3992,7 +3992,7 @@ from-bottom-to-moveable d7 n12 n11
 0 15 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4003,7 +4003,7 @@ from-bottom-to-moveable d7 n13 n12
 0 15 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4014,7 +4014,7 @@ from-bottom-to-moveable d7 n2 n1
 0 15 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4025,7 +4025,7 @@ from-bottom-to-moveable d7 n3 n2
 0 15 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4036,7 +4036,7 @@ from-bottom-to-moveable d7 n4 n3
 0 15 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4047,7 +4047,7 @@ from-bottom-to-moveable d7 n5 n4
 0 15 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4058,7 +4058,7 @@ from-bottom-to-moveable d7 n6 n5
 0 15 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4069,7 +4069,7 @@ from-bottom-to-moveable d7 n7 n6
 0 15 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4080,7 +4080,7 @@ from-bottom-to-moveable d7 n8 n7
 0 15 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4091,7 +4091,7 @@ from-bottom-to-moveable d7 n9 n8
 0 15 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4102,7 +4102,7 @@ from-bottom-to-moveable d8 n1 n0
 0 48 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4113,7 +4113,7 @@ from-bottom-to-moveable d8 n10 n9
 0 48 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4124,7 +4124,7 @@ from-bottom-to-moveable d8 n11 n10
 0 48 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4135,7 +4135,7 @@ from-bottom-to-moveable d8 n12 n11
 0 48 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4146,7 +4146,7 @@ from-bottom-to-moveable d8 n13 n12
 0 48 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4157,7 +4157,7 @@ from-bottom-to-moveable d8 n2 n1
 0 48 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4168,7 +4168,7 @@ from-bottom-to-moveable d8 n3 n2
 0 48 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4179,7 +4179,7 @@ from-bottom-to-moveable d8 n4 n3
 0 48 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4190,7 +4190,7 @@ from-bottom-to-moveable d8 n5 n4
 0 48 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4201,7 +4201,7 @@ from-bottom-to-moveable d8 n6 n5
 0 48 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4212,7 +4212,7 @@ from-bottom-to-moveable d8 n7 n6
 0 48 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4223,7 +4223,7 @@ from-bottom-to-moveable d8 n8 n7
 0 48 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4234,7 +4234,7 @@ from-bottom-to-moveable d8 n9 n8
 0 48 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4245,7 +4245,7 @@ from-bottom-to-moveable d9 n1 n0
 0 33 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4256,7 +4256,7 @@ from-bottom-to-moveable d9 n10 n9
 0 33 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4267,7 +4267,7 @@ from-bottom-to-moveable d9 n11 n10
 0 33 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4278,7 +4278,7 @@ from-bottom-to-moveable d9 n12 n11
 0 33 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4289,7 +4289,7 @@ from-bottom-to-moveable d9 n13 n12
 0 33 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4300,7 +4300,7 @@ from-bottom-to-moveable d9 n2 n1
 0 33 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4311,7 +4311,7 @@ from-bottom-to-moveable d9 n3 n2
 0 33 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4322,7 +4322,7 @@ from-bottom-to-moveable d9 n4 n3
 0 33 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4333,7 +4333,7 @@ from-bottom-to-moveable d9 n5 n4
 0 33 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4344,7 +4344,7 @@ from-bottom-to-moveable d9 n6 n5
 0 33 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4355,7 +4355,7 @@ from-bottom-to-moveable d9 n7 n6
 0 33 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4366,7 +4366,7 @@ from-bottom-to-moveable d9 n8 n7
 0 33 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4377,7 +4377,7 @@ from-bottom-to-moveable d9 n9 n8
 0 33 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4388,7 +4388,7 @@ from-bottom-to-moveable da n1 n0
 0 4 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4399,7 +4399,7 @@ from-bottom-to-moveable da n10 n9
 0 4 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4410,7 +4410,7 @@ from-bottom-to-moveable da n11 n10
 0 4 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4421,7 +4421,7 @@ from-bottom-to-moveable da n12 n11
 0 4 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4432,7 +4432,7 @@ from-bottom-to-moveable da n13 n12
 0 4 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4443,7 +4443,7 @@ from-bottom-to-moveable da n2 n1
 0 4 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4454,7 +4454,7 @@ from-bottom-to-moveable da n3 n2
 0 4 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4465,7 +4465,7 @@ from-bottom-to-moveable da n4 n3
 0 4 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4476,7 +4476,7 @@ from-bottom-to-moveable da n5 n4
 0 4 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4487,7 +4487,7 @@ from-bottom-to-moveable da n6 n5
 0 4 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4498,7 +4498,7 @@ from-bottom-to-moveable da n7 n6
 0 4 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4509,7 +4509,7 @@ from-bottom-to-moveable da n8 n7
 0 4 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4520,7 +4520,7 @@ from-bottom-to-moveable da n9 n8
 0 4 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4531,7 +4531,7 @@ from-bottom-to-moveable dj n1 n0
 0 14 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4542,7 +4542,7 @@ from-bottom-to-moveable dj n10 n9
 0 14 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4553,7 +4553,7 @@ from-bottom-to-moveable dj n11 n10
 0 14 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4564,7 +4564,7 @@ from-bottom-to-moveable dj n12 n11
 0 14 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4575,7 +4575,7 @@ from-bottom-to-moveable dj n13 n12
 0 14 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4586,7 +4586,7 @@ from-bottom-to-moveable dj n2 n1
 0 14 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4597,7 +4597,7 @@ from-bottom-to-moveable dj n3 n2
 0 14 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4608,7 +4608,7 @@ from-bottom-to-moveable dj n4 n3
 0 14 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4619,7 +4619,7 @@ from-bottom-to-moveable dj n5 n4
 0 14 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4630,7 +4630,7 @@ from-bottom-to-moveable dj n6 n5
 0 14 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4641,7 +4641,7 @@ from-bottom-to-moveable dj n7 n6
 0 14 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4652,7 +4652,7 @@ from-bottom-to-moveable dj n8 n7
 0 14 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4663,7 +4663,7 @@ from-bottom-to-moveable dj n9 n8
 0 14 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4674,7 +4674,7 @@ from-bottom-to-moveable dk n1 n0
 0 11 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4685,7 +4685,7 @@ from-bottom-to-moveable dk n10 n9
 0 11 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4696,7 +4696,7 @@ from-bottom-to-moveable dk n11 n10
 0 11 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4707,7 +4707,7 @@ from-bottom-to-moveable dk n12 n11
 0 11 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4718,7 +4718,7 @@ from-bottom-to-moveable dk n13 n12
 0 11 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4729,7 +4729,7 @@ from-bottom-to-moveable dk n2 n1
 0 11 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4740,7 +4740,7 @@ from-bottom-to-moveable dk n3 n2
 0 11 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4751,7 +4751,7 @@ from-bottom-to-moveable dk n4 n3
 0 11 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4762,7 +4762,7 @@ from-bottom-to-moveable dk n5 n4
 0 11 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4773,7 +4773,7 @@ from-bottom-to-moveable dk n6 n5
 0 11 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4784,7 +4784,7 @@ from-bottom-to-moveable dk n7 n6
 0 11 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4795,7 +4795,7 @@ from-bottom-to-moveable dk n8 n7
 0 11 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4806,7 +4806,7 @@ from-bottom-to-moveable dk n9 n8
 0 11 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4817,7 +4817,7 @@ from-bottom-to-moveable dq n1 n0
 0 29 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4828,7 +4828,7 @@ from-bottom-to-moveable dq n10 n9
 0 29 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4839,7 +4839,7 @@ from-bottom-to-moveable dq n11 n10
 0 29 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4850,7 +4850,7 @@ from-bottom-to-moveable dq n12 n11
 0 29 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4861,7 +4861,7 @@ from-bottom-to-moveable dq n13 n12
 0 29 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4872,7 +4872,7 @@ from-bottom-to-moveable dq n2 n1
 0 29 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4883,7 +4883,7 @@ from-bottom-to-moveable dq n3 n2
 0 29 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4894,7 +4894,7 @@ from-bottom-to-moveable dq n4 n3
 0 29 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4905,7 +4905,7 @@ from-bottom-to-moveable dq n5 n4
 0 29 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4916,7 +4916,7 @@ from-bottom-to-moveable dq n6 n5
 0 29 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4927,7 +4927,7 @@ from-bottom-to-moveable dq n7 n6
 0 29 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4938,7 +4938,7 @@ from-bottom-to-moveable dq n8 n7
 0 29 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4949,7 +4949,7 @@ from-bottom-to-moveable dq n9 n8
 0 29 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4960,7 +4960,7 @@ from-bottom-to-moveable h10 n1 n0
 0 44 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4971,7 +4971,7 @@ from-bottom-to-moveable h10 n10 n9
 0 44 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4982,7 +4982,7 @@ from-bottom-to-moveable h10 n11 n10
 0 44 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -4993,7 +4993,7 @@ from-bottom-to-moveable h10 n12 n11
 0 44 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5004,7 +5004,7 @@ from-bottom-to-moveable h10 n13 n12
 0 44 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5015,7 +5015,7 @@ from-bottom-to-moveable h10 n2 n1
 0 44 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5026,7 +5026,7 @@ from-bottom-to-moveable h10 n3 n2
 0 44 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5037,7 +5037,7 @@ from-bottom-to-moveable h10 n4 n3
 0 44 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5048,7 +5048,7 @@ from-bottom-to-moveable h10 n5 n4
 0 44 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5059,7 +5059,7 @@ from-bottom-to-moveable h10 n6 n5
 0 44 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5070,7 +5070,7 @@ from-bottom-to-moveable h10 n7 n6
 0 44 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5081,7 +5081,7 @@ from-bottom-to-moveable h10 n8 n7
 0 44 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5092,7 +5092,7 @@ from-bottom-to-moveable h10 n9 n8
 0 44 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5103,7 +5103,7 @@ from-bottom-to-moveable h2 n1 n0
 0 41 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5114,7 +5114,7 @@ from-bottom-to-moveable h2 n10 n9
 0 41 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5125,7 +5125,7 @@ from-bottom-to-moveable h2 n11 n10
 0 41 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5136,7 +5136,7 @@ from-bottom-to-moveable h2 n12 n11
 0 41 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5147,7 +5147,7 @@ from-bottom-to-moveable h2 n13 n12
 0 41 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5158,7 +5158,7 @@ from-bottom-to-moveable h2 n2 n1
 0 41 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5169,7 +5169,7 @@ from-bottom-to-moveable h2 n3 n2
 0 41 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5180,7 +5180,7 @@ from-bottom-to-moveable h2 n4 n3
 0 41 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5191,7 +5191,7 @@ from-bottom-to-moveable h2 n5 n4
 0 41 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5202,7 +5202,7 @@ from-bottom-to-moveable h2 n6 n5
 0 41 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5213,7 +5213,7 @@ from-bottom-to-moveable h2 n7 n6
 0 41 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5224,7 +5224,7 @@ from-bottom-to-moveable h2 n8 n7
 0 41 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5235,7 +5235,7 @@ from-bottom-to-moveable h2 n9 n8
 0 41 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5246,7 +5246,7 @@ from-bottom-to-moveable h3 n1 n0
 0 27 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5257,7 +5257,7 @@ from-bottom-to-moveable h3 n10 n9
 0 27 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5268,7 +5268,7 @@ from-bottom-to-moveable h3 n11 n10
 0 27 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5279,7 +5279,7 @@ from-bottom-to-moveable h3 n12 n11
 0 27 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5290,7 +5290,7 @@ from-bottom-to-moveable h3 n13 n12
 0 27 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5301,7 +5301,7 @@ from-bottom-to-moveable h3 n2 n1
 0 27 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5312,7 +5312,7 @@ from-bottom-to-moveable h3 n3 n2
 0 27 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5323,7 +5323,7 @@ from-bottom-to-moveable h3 n4 n3
 0 27 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5334,7 +5334,7 @@ from-bottom-to-moveable h3 n5 n4
 0 27 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5345,7 +5345,7 @@ from-bottom-to-moveable h3 n6 n5
 0 27 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5356,7 +5356,7 @@ from-bottom-to-moveable h3 n7 n6
 0 27 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5367,7 +5367,7 @@ from-bottom-to-moveable h3 n8 n7
 0 27 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5378,7 +5378,7 @@ from-bottom-to-moveable h3 n9 n8
 0 27 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5389,7 +5389,7 @@ from-bottom-to-moveable h4 n1 n0
 0 50 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5400,7 +5400,7 @@ from-bottom-to-moveable h4 n10 n9
 0 50 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5411,7 +5411,7 @@ from-bottom-to-moveable h4 n11 n10
 0 50 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5422,7 +5422,7 @@ from-bottom-to-moveable h4 n12 n11
 0 50 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5433,7 +5433,7 @@ from-bottom-to-moveable h4 n13 n12
 0 50 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5444,7 +5444,7 @@ from-bottom-to-moveable h4 n2 n1
 0 50 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5455,7 +5455,7 @@ from-bottom-to-moveable h4 n3 n2
 0 50 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5466,7 +5466,7 @@ from-bottom-to-moveable h4 n4 n3
 0 50 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5477,7 +5477,7 @@ from-bottom-to-moveable h4 n5 n4
 0 50 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5488,7 +5488,7 @@ from-bottom-to-moveable h4 n6 n5
 0 50 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5499,7 +5499,7 @@ from-bottom-to-moveable h4 n7 n6
 0 50 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5510,7 +5510,7 @@ from-bottom-to-moveable h4 n8 n7
 0 50 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5521,7 +5521,7 @@ from-bottom-to-moveable h4 n9 n8
 0 50 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5532,7 +5532,7 @@ from-bottom-to-moveable h5 n1 n0
 0 18 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5543,7 +5543,7 @@ from-bottom-to-moveable h5 n10 n9
 0 18 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5554,7 +5554,7 @@ from-bottom-to-moveable h5 n11 n10
 0 18 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5565,7 +5565,7 @@ from-bottom-to-moveable h5 n12 n11
 0 18 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5576,7 +5576,7 @@ from-bottom-to-moveable h5 n13 n12
 0 18 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5587,7 +5587,7 @@ from-bottom-to-moveable h5 n2 n1
 0 18 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5598,7 +5598,7 @@ from-bottom-to-moveable h5 n3 n2
 0 18 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5609,7 +5609,7 @@ from-bottom-to-moveable h5 n4 n3
 0 18 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5620,7 +5620,7 @@ from-bottom-to-moveable h5 n5 n4
 0 18 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5631,7 +5631,7 @@ from-bottom-to-moveable h5 n6 n5
 0 18 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5642,7 +5642,7 @@ from-bottom-to-moveable h5 n7 n6
 0 18 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5653,7 +5653,7 @@ from-bottom-to-moveable h5 n8 n7
 0 18 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5664,7 +5664,7 @@ from-bottom-to-moveable h5 n9 n8
 0 18 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5675,7 +5675,7 @@ from-bottom-to-moveable h6 n1 n0
 0 54 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5686,7 +5686,7 @@ from-bottom-to-moveable h6 n10 n9
 0 54 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5697,7 +5697,7 @@ from-bottom-to-moveable h6 n11 n10
 0 54 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5708,7 +5708,7 @@ from-bottom-to-moveable h6 n12 n11
 0 54 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5719,7 +5719,7 @@ from-bottom-to-moveable h6 n13 n12
 0 54 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5730,7 +5730,7 @@ from-bottom-to-moveable h6 n2 n1
 0 54 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5741,7 +5741,7 @@ from-bottom-to-moveable h6 n3 n2
 0 54 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5752,7 +5752,7 @@ from-bottom-to-moveable h6 n4 n3
 0 54 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5763,7 +5763,7 @@ from-bottom-to-moveable h6 n5 n4
 0 54 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5774,7 +5774,7 @@ from-bottom-to-moveable h6 n6 n5
 0 54 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5785,7 +5785,7 @@ from-bottom-to-moveable h6 n7 n6
 0 54 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5796,7 +5796,7 @@ from-bottom-to-moveable h6 n8 n7
 0 54 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5807,7 +5807,7 @@ from-bottom-to-moveable h6 n9 n8
 0 54 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5818,7 +5818,7 @@ from-bottom-to-moveable h7 n1 n0
 0 30 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5829,7 +5829,7 @@ from-bottom-to-moveable h7 n10 n9
 0 30 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5840,7 +5840,7 @@ from-bottom-to-moveable h7 n11 n10
 0 30 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5851,7 +5851,7 @@ from-bottom-to-moveable h7 n12 n11
 0 30 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5862,7 +5862,7 @@ from-bottom-to-moveable h7 n13 n12
 0 30 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5873,7 +5873,7 @@ from-bottom-to-moveable h7 n2 n1
 0 30 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5884,7 +5884,7 @@ from-bottom-to-moveable h7 n3 n2
 0 30 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5895,7 +5895,7 @@ from-bottom-to-moveable h7 n4 n3
 0 30 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5906,7 +5906,7 @@ from-bottom-to-moveable h7 n5 n4
 0 30 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5917,7 +5917,7 @@ from-bottom-to-moveable h7 n6 n5
 0 30 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5928,7 +5928,7 @@ from-bottom-to-moveable h7 n7 n6
 0 30 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5939,7 +5939,7 @@ from-bottom-to-moveable h7 n8 n7
 0 30 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5950,7 +5950,7 @@ from-bottom-to-moveable h7 n9 n8
 0 30 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5961,7 +5961,7 @@ from-bottom-to-moveable h8 n1 n0
 0 43 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5972,7 +5972,7 @@ from-bottom-to-moveable h8 n10 n9
 0 43 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5983,7 +5983,7 @@ from-bottom-to-moveable h8 n11 n10
 0 43 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -5994,7 +5994,7 @@ from-bottom-to-moveable h8 n12 n11
 0 43 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6005,7 +6005,7 @@ from-bottom-to-moveable h8 n13 n12
 0 43 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6016,7 +6016,7 @@ from-bottom-to-moveable h8 n2 n1
 0 43 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6027,7 +6027,7 @@ from-bottom-to-moveable h8 n3 n2
 0 43 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6038,7 +6038,7 @@ from-bottom-to-moveable h8 n4 n3
 0 43 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6049,7 +6049,7 @@ from-bottom-to-moveable h8 n5 n4
 0 43 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6060,7 +6060,7 @@ from-bottom-to-moveable h8 n6 n5
 0 43 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6071,7 +6071,7 @@ from-bottom-to-moveable h8 n7 n6
 0 43 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6082,7 +6082,7 @@ from-bottom-to-moveable h8 n8 n7
 0 43 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6093,7 +6093,7 @@ from-bottom-to-moveable h8 n9 n8
 0 43 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6104,7 +6104,7 @@ from-bottom-to-moveable h9 n1 n0
 0 34 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6115,7 +6115,7 @@ from-bottom-to-moveable h9 n10 n9
 0 34 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6126,7 +6126,7 @@ from-bottom-to-moveable h9 n11 n10
 0 34 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6137,7 +6137,7 @@ from-bottom-to-moveable h9 n12 n11
 0 34 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6148,7 +6148,7 @@ from-bottom-to-moveable h9 n13 n12
 0 34 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6159,7 +6159,7 @@ from-bottom-to-moveable h9 n2 n1
 0 34 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6170,7 +6170,7 @@ from-bottom-to-moveable h9 n3 n2
 0 34 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6181,7 +6181,7 @@ from-bottom-to-moveable h9 n4 n3
 0 34 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6192,7 +6192,7 @@ from-bottom-to-moveable h9 n5 n4
 0 34 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6203,7 +6203,7 @@ from-bottom-to-moveable h9 n6 n5
 0 34 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6214,7 +6214,7 @@ from-bottom-to-moveable h9 n7 n6
 0 34 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6225,7 +6225,7 @@ from-bottom-to-moveable h9 n8 n7
 0 34 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6236,7 +6236,7 @@ from-bottom-to-moveable h9 n9 n8
 0 34 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6247,7 +6247,7 @@ from-bottom-to-moveable ha n1 n0
 0 6 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6258,7 +6258,7 @@ from-bottom-to-moveable ha n10 n9
 0 6 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6269,7 +6269,7 @@ from-bottom-to-moveable ha n11 n10
 0 6 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6280,7 +6280,7 @@ from-bottom-to-moveable ha n12 n11
 0 6 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6291,7 +6291,7 @@ from-bottom-to-moveable ha n13 n12
 0 6 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6302,7 +6302,7 @@ from-bottom-to-moveable ha n2 n1
 0 6 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6313,7 +6313,7 @@ from-bottom-to-moveable ha n3 n2
 0 6 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6324,7 +6324,7 @@ from-bottom-to-moveable ha n4 n3
 0 6 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6335,7 +6335,7 @@ from-bottom-to-moveable ha n5 n4
 0 6 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6346,7 +6346,7 @@ from-bottom-to-moveable ha n6 n5
 0 6 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6357,7 +6357,7 @@ from-bottom-to-moveable ha n7 n6
 0 6 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6368,7 +6368,7 @@ from-bottom-to-moveable ha n8 n7
 0 6 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6379,7 +6379,7 @@ from-bottom-to-moveable ha n9 n8
 0 6 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6390,7 +6390,7 @@ from-bottom-to-moveable hj n1 n0
 0 37 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6401,7 +6401,7 @@ from-bottom-to-moveable hj n10 n9
 0 37 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6412,7 +6412,7 @@ from-bottom-to-moveable hj n11 n10
 0 37 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6423,7 +6423,7 @@ from-bottom-to-moveable hj n12 n11
 0 37 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6434,7 +6434,7 @@ from-bottom-to-moveable hj n13 n12
 0 37 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6445,7 +6445,7 @@ from-bottom-to-moveable hj n2 n1
 0 37 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6456,7 +6456,7 @@ from-bottom-to-moveable hj n3 n2
 0 37 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6467,7 +6467,7 @@ from-bottom-to-moveable hj n4 n3
 0 37 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6478,7 +6478,7 @@ from-bottom-to-moveable hj n5 n4
 0 37 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6489,7 +6489,7 @@ from-bottom-to-moveable hj n6 n5
 0 37 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6500,7 +6500,7 @@ from-bottom-to-moveable hj n7 n6
 0 37 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6511,7 +6511,7 @@ from-bottom-to-moveable hj n8 n7
 0 37 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6522,7 +6522,7 @@ from-bottom-to-moveable hj n9 n8
 0 37 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6533,7 +6533,7 @@ from-bottom-to-moveable hk n1 n0
 0 8 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6544,7 +6544,7 @@ from-bottom-to-moveable hk n10 n9
 0 8 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6555,7 +6555,7 @@ from-bottom-to-moveable hk n11 n10
 0 8 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6566,7 +6566,7 @@ from-bottom-to-moveable hk n12 n11
 0 8 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6577,7 +6577,7 @@ from-bottom-to-moveable hk n13 n12
 0 8 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6588,7 +6588,7 @@ from-bottom-to-moveable hk n2 n1
 0 8 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6599,7 +6599,7 @@ from-bottom-to-moveable hk n3 n2
 0 8 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6610,7 +6610,7 @@ from-bottom-to-moveable hk n4 n3
 0 8 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6621,7 +6621,7 @@ from-bottom-to-moveable hk n5 n4
 0 8 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6632,7 +6632,7 @@ from-bottom-to-moveable hk n6 n5
 0 8 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6643,7 +6643,7 @@ from-bottom-to-moveable hk n7 n6
 0 8 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6654,7 +6654,7 @@ from-bottom-to-moveable hk n8 n7
 0 8 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6665,7 +6665,7 @@ from-bottom-to-moveable hk n9 n8
 0 8 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6676,7 +6676,7 @@ from-bottom-to-moveable hq n1 n0
 0 24 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6687,7 +6687,7 @@ from-bottom-to-moveable hq n10 n9
 0 24 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6698,7 +6698,7 @@ from-bottom-to-moveable hq n11 n10
 0 24 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6709,7 +6709,7 @@ from-bottom-to-moveable hq n12 n11
 0 24 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6720,7 +6720,7 @@ from-bottom-to-moveable hq n13 n12
 0 24 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6731,7 +6731,7 @@ from-bottom-to-moveable hq n2 n1
 0 24 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6742,7 +6742,7 @@ from-bottom-to-moveable hq n3 n2
 0 24 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6753,7 +6753,7 @@ from-bottom-to-moveable hq n4 n3
 0 24 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6764,7 +6764,7 @@ from-bottom-to-moveable hq n5 n4
 0 24 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6775,7 +6775,7 @@ from-bottom-to-moveable hq n6 n5
 0 24 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6786,7 +6786,7 @@ from-bottom-to-moveable hq n7 n6
 0 24 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6797,7 +6797,7 @@ from-bottom-to-moveable hq n8 n7
 0 24 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6808,7 +6808,7 @@ from-bottom-to-moveable hq n9 n8
 0 24 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6819,7 +6819,7 @@ from-bottom-to-moveable s10 n1 n0
 0 36 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6830,7 +6830,7 @@ from-bottom-to-moveable s10 n10 n9
 0 36 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6841,7 +6841,7 @@ from-bottom-to-moveable s10 n11 n10
 0 36 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6852,7 +6852,7 @@ from-bottom-to-moveable s10 n12 n11
 0 36 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6863,7 +6863,7 @@ from-bottom-to-moveable s10 n13 n12
 0 36 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6874,7 +6874,7 @@ from-bottom-to-moveable s10 n2 n1
 0 36 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6885,7 +6885,7 @@ from-bottom-to-moveable s10 n3 n2
 0 36 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6896,7 +6896,7 @@ from-bottom-to-moveable s10 n4 n3
 0 36 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6907,7 +6907,7 @@ from-bottom-to-moveable s10 n5 n4
 0 36 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6918,7 +6918,7 @@ from-bottom-to-moveable s10 n6 n5
 0 36 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6929,7 +6929,7 @@ from-bottom-to-moveable s10 n7 n6
 0 36 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6940,7 +6940,7 @@ from-bottom-to-moveable s10 n8 n7
 0 36 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6951,7 +6951,7 @@ from-bottom-to-moveable s10 n9 n8
 0 36 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6962,7 +6962,7 @@ from-bottom-to-moveable s2 n1 n0
 0 22 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6973,7 +6973,7 @@ from-bottom-to-moveable s2 n10 n9
 0 22 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6984,7 +6984,7 @@ from-bottom-to-moveable s2 n11 n10
 0 22 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -6995,7 +6995,7 @@ from-bottom-to-moveable s2 n12 n11
 0 22 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7006,7 +7006,7 @@ from-bottom-to-moveable s2 n13 n12
 0 22 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7017,7 +7017,7 @@ from-bottom-to-moveable s2 n2 n1
 0 22 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7028,7 +7028,7 @@ from-bottom-to-moveable s2 n3 n2
 0 22 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7039,7 +7039,7 @@ from-bottom-to-moveable s2 n4 n3
 0 22 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7050,7 +7050,7 @@ from-bottom-to-moveable s2 n5 n4
 0 22 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7061,7 +7061,7 @@ from-bottom-to-moveable s2 n6 n5
 0 22 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7072,7 +7072,7 @@ from-bottom-to-moveable s2 n7 n6
 0 22 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7083,7 +7083,7 @@ from-bottom-to-moveable s2 n8 n7
 0 22 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7094,7 +7094,7 @@ from-bottom-to-moveable s2 n9 n8
 0 22 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7105,7 +7105,7 @@ from-bottom-to-moveable s3 n1 n0
 0 46 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7116,7 +7116,7 @@ from-bottom-to-moveable s3 n10 n9
 0 46 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7127,7 +7127,7 @@ from-bottom-to-moveable s3 n11 n10
 0 46 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7138,7 +7138,7 @@ from-bottom-to-moveable s3 n12 n11
 0 46 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7149,7 +7149,7 @@ from-bottom-to-moveable s3 n13 n12
 0 46 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7160,7 +7160,7 @@ from-bottom-to-moveable s3 n2 n1
 0 46 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7171,7 +7171,7 @@ from-bottom-to-moveable s3 n3 n2
 0 46 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7182,7 +7182,7 @@ from-bottom-to-moveable s3 n4 n3
 0 46 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7193,7 +7193,7 @@ from-bottom-to-moveable s3 n5 n4
 0 46 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7204,7 +7204,7 @@ from-bottom-to-moveable s3 n6 n5
 0 46 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7215,7 +7215,7 @@ from-bottom-to-moveable s3 n7 n6
 0 46 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7226,7 +7226,7 @@ from-bottom-to-moveable s3 n8 n7
 0 46 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7237,7 +7237,7 @@ from-bottom-to-moveable s3 n9 n8
 0 46 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7248,7 +7248,7 @@ from-bottom-to-moveable s4 n1 n0
 0 26 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7259,7 +7259,7 @@ from-bottom-to-moveable s4 n10 n9
 0 26 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7270,7 +7270,7 @@ from-bottom-to-moveable s4 n11 n10
 0 26 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7281,7 +7281,7 @@ from-bottom-to-moveable s4 n12 n11
 0 26 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7292,7 +7292,7 @@ from-bottom-to-moveable s4 n13 n12
 0 26 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7303,7 +7303,7 @@ from-bottom-to-moveable s4 n2 n1
 0 26 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7314,7 +7314,7 @@ from-bottom-to-moveable s4 n3 n2
 0 26 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7325,7 +7325,7 @@ from-bottom-to-moveable s4 n4 n3
 0 26 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7336,7 +7336,7 @@ from-bottom-to-moveable s4 n5 n4
 0 26 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7347,7 +7347,7 @@ from-bottom-to-moveable s4 n6 n5
 0 26 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7358,7 +7358,7 @@ from-bottom-to-moveable s4 n7 n6
 0 26 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7369,7 +7369,7 @@ from-bottom-to-moveable s4 n8 n7
 0 26 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7380,7 +7380,7 @@ from-bottom-to-moveable s4 n9 n8
 0 26 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7391,7 +7391,7 @@ from-bottom-to-moveable s5 n1 n0
 0 55 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7402,7 +7402,7 @@ from-bottom-to-moveable s5 n10 n9
 0 55 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7413,7 +7413,7 @@ from-bottom-to-moveable s5 n11 n10
 0 55 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7424,7 +7424,7 @@ from-bottom-to-moveable s5 n12 n11
 0 55 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7435,7 +7435,7 @@ from-bottom-to-moveable s5 n13 n12
 0 55 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7446,7 +7446,7 @@ from-bottom-to-moveable s5 n2 n1
 0 55 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7457,7 +7457,7 @@ from-bottom-to-moveable s5 n3 n2
 0 55 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7468,7 +7468,7 @@ from-bottom-to-moveable s5 n4 n3
 0 55 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7479,7 +7479,7 @@ from-bottom-to-moveable s5 n5 n4
 0 55 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7490,7 +7490,7 @@ from-bottom-to-moveable s5 n6 n5
 0 55 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7501,7 +7501,7 @@ from-bottom-to-moveable s5 n7 n6
 0 55 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7512,7 +7512,7 @@ from-bottom-to-moveable s5 n8 n7
 0 55 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7523,7 +7523,7 @@ from-bottom-to-moveable s5 n9 n8
 0 55 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7534,7 +7534,7 @@ from-bottom-to-moveable s6 n1 n0
 0 28 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7545,7 +7545,7 @@ from-bottom-to-moveable s6 n10 n9
 0 28 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7556,7 +7556,7 @@ from-bottom-to-moveable s6 n11 n10
 0 28 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7567,7 +7567,7 @@ from-bottom-to-moveable s6 n12 n11
 0 28 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7578,7 +7578,7 @@ from-bottom-to-moveable s6 n13 n12
 0 28 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7589,7 +7589,7 @@ from-bottom-to-moveable s6 n2 n1
 0 28 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7600,7 +7600,7 @@ from-bottom-to-moveable s6 n3 n2
 0 28 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7611,7 +7611,7 @@ from-bottom-to-moveable s6 n4 n3
 0 28 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7622,7 +7622,7 @@ from-bottom-to-moveable s6 n5 n4
 0 28 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7633,7 +7633,7 @@ from-bottom-to-moveable s6 n6 n5
 0 28 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7644,7 +7644,7 @@ from-bottom-to-moveable s6 n7 n6
 0 28 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7655,7 +7655,7 @@ from-bottom-to-moveable s6 n8 n7
 0 28 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7666,7 +7666,7 @@ from-bottom-to-moveable s6 n9 n8
 0 28 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7677,7 +7677,7 @@ from-bottom-to-moveable s7 n1 n0
 0 19 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7688,7 +7688,7 @@ from-bottom-to-moveable s7 n10 n9
 0 19 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7699,7 +7699,7 @@ from-bottom-to-moveable s7 n11 n10
 0 19 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7710,7 +7710,7 @@ from-bottom-to-moveable s7 n12 n11
 0 19 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7721,7 +7721,7 @@ from-bottom-to-moveable s7 n13 n12
 0 19 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7732,7 +7732,7 @@ from-bottom-to-moveable s7 n2 n1
 0 19 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7743,7 +7743,7 @@ from-bottom-to-moveable s7 n3 n2
 0 19 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7754,7 +7754,7 @@ from-bottom-to-moveable s7 n4 n3
 0 19 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7765,7 +7765,7 @@ from-bottom-to-moveable s7 n5 n4
 0 19 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7776,7 +7776,7 @@ from-bottom-to-moveable s7 n6 n5
 0 19 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7787,7 +7787,7 @@ from-bottom-to-moveable s7 n7 n6
 0 19 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7798,7 +7798,7 @@ from-bottom-to-moveable s7 n8 n7
 0 19 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7809,7 +7809,7 @@ from-bottom-to-moveable s7 n9 n8
 0 19 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7820,7 +7820,7 @@ from-bottom-to-moveable s8 n1 n0
 0 32 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7831,7 +7831,7 @@ from-bottom-to-moveable s8 n10 n9
 0 32 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7842,7 +7842,7 @@ from-bottom-to-moveable s8 n11 n10
 0 32 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7853,7 +7853,7 @@ from-bottom-to-moveable s8 n12 n11
 0 32 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7864,7 +7864,7 @@ from-bottom-to-moveable s8 n13 n12
 0 32 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7875,7 +7875,7 @@ from-bottom-to-moveable s8 n2 n1
 0 32 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7886,7 +7886,7 @@ from-bottom-to-moveable s8 n3 n2
 0 32 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7897,7 +7897,7 @@ from-bottom-to-moveable s8 n4 n3
 0 32 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7908,7 +7908,7 @@ from-bottom-to-moveable s8 n5 n4
 0 32 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7919,7 +7919,7 @@ from-bottom-to-moveable s8 n6 n5
 0 32 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7930,7 +7930,7 @@ from-bottom-to-moveable s8 n7 n6
 0 32 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7941,7 +7941,7 @@ from-bottom-to-moveable s8 n8 n7
 0 32 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7952,7 +7952,7 @@ from-bottom-to-moveable s8 n9 n8
 0 32 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7963,7 +7963,7 @@ from-bottom-to-moveable s9 n1 n0
 0 47 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7974,7 +7974,7 @@ from-bottom-to-moveable s9 n10 n9
 0 47 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7985,7 +7985,7 @@ from-bottom-to-moveable s9 n11 n10
 0 47 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -7996,7 +7996,7 @@ from-bottom-to-moveable s9 n12 n11
 0 47 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8007,7 +8007,7 @@ from-bottom-to-moveable s9 n13 n12
 0 47 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8018,7 +8018,7 @@ from-bottom-to-moveable s9 n2 n1
 0 47 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8029,7 +8029,7 @@ from-bottom-to-moveable s9 n3 n2
 0 47 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8040,7 +8040,7 @@ from-bottom-to-moveable s9 n4 n3
 0 47 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8051,7 +8051,7 @@ from-bottom-to-moveable s9 n5 n4
 0 47 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8062,7 +8062,7 @@ from-bottom-to-moveable s9 n6 n5
 0 47 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8073,7 +8073,7 @@ from-bottom-to-moveable s9 n7 n6
 0 47 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8084,7 +8084,7 @@ from-bottom-to-moveable s9 n8 n7
 0 47 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8095,7 +8095,7 @@ from-bottom-to-moveable s9 n9 n8
 0 47 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8106,7 +8106,7 @@ from-bottom-to-moveable sa n1 n0
 0 7 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8117,7 +8117,7 @@ from-bottom-to-moveable sa n10 n9
 0 7 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8128,7 +8128,7 @@ from-bottom-to-moveable sa n11 n10
 0 7 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8139,7 +8139,7 @@ from-bottom-to-moveable sa n12 n11
 0 7 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8150,7 +8150,7 @@ from-bottom-to-moveable sa n13 n12
 0 7 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8161,7 +8161,7 @@ from-bottom-to-moveable sa n2 n1
 0 7 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8172,7 +8172,7 @@ from-bottom-to-moveable sa n3 n2
 0 7 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8183,7 +8183,7 @@ from-bottom-to-moveable sa n4 n3
 0 7 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8194,7 +8194,7 @@ from-bottom-to-moveable sa n5 n4
 0 7 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8205,7 +8205,7 @@ from-bottom-to-moveable sa n6 n5
 0 7 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8216,7 +8216,7 @@ from-bottom-to-moveable sa n7 n6
 0 7 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8227,7 +8227,7 @@ from-bottom-to-moveable sa n8 n7
 0 7 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8238,7 +8238,7 @@ from-bottom-to-moveable sa n9 n8
 0 7 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8249,7 +8249,7 @@ from-bottom-to-moveable sj n1 n0
 0 20 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8260,7 +8260,7 @@ from-bottom-to-moveable sj n10 n9
 0 20 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8271,7 +8271,7 @@ from-bottom-to-moveable sj n11 n10
 0 20 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8282,7 +8282,7 @@ from-bottom-to-moveable sj n12 n11
 0 20 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8293,7 +8293,7 @@ from-bottom-to-moveable sj n13 n12
 0 20 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8304,7 +8304,7 @@ from-bottom-to-moveable sj n2 n1
 0 20 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8315,7 +8315,7 @@ from-bottom-to-moveable sj n3 n2
 0 20 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8326,7 +8326,7 @@ from-bottom-to-moveable sj n4 n3
 0 20 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8337,7 +8337,7 @@ from-bottom-to-moveable sj n5 n4
 0 20 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8348,7 +8348,7 @@ from-bottom-to-moveable sj n6 n5
 0 20 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8359,7 +8359,7 @@ from-bottom-to-moveable sj n7 n6
 0 20 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8370,7 +8370,7 @@ from-bottom-to-moveable sj n8 n7
 0 20 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8381,7 +8381,7 @@ from-bottom-to-moveable sj n9 n8
 0 20 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8392,7 +8392,7 @@ from-bottom-to-moveable sk n1 n0
 0 10 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8403,7 +8403,7 @@ from-bottom-to-moveable sk n10 n9
 0 10 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8414,7 +8414,7 @@ from-bottom-to-moveable sk n11 n10
 0 10 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8425,7 +8425,7 @@ from-bottom-to-moveable sk n12 n11
 0 10 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8436,7 +8436,7 @@ from-bottom-to-moveable sk n13 n12
 0 10 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8447,7 +8447,7 @@ from-bottom-to-moveable sk n2 n1
 0 10 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8458,7 +8458,7 @@ from-bottom-to-moveable sk n3 n2
 0 10 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8469,7 +8469,7 @@ from-bottom-to-moveable sk n4 n3
 0 10 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8480,7 +8480,7 @@ from-bottom-to-moveable sk n5 n4
 0 10 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8491,7 +8491,7 @@ from-bottom-to-moveable sk n6 n5
 0 10 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8502,7 +8502,7 @@ from-bottom-to-moveable sk n7 n6
 0 10 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8513,7 +8513,7 @@ from-bottom-to-moveable sk n8 n7
 0 10 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8524,7 +8524,7 @@ from-bottom-to-moveable sk n9 n8
 0 10 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8535,7 +8535,7 @@ from-bottom-to-moveable sq n1 n0
 0 21 0 1
 0 105 0 1
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8546,7 +8546,7 @@ from-bottom-to-moveable sq n10 n9
 0 21 0 1
 0 105 13 2
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8557,7 +8557,7 @@ from-bottom-to-moveable sq n11 n10
 0 21 0 1
 0 105 2 3
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8568,7 +8568,7 @@ from-bottom-to-moveable sq n12 n11
 0 21 0 1
 0 105 3 4
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8579,7 +8579,7 @@ from-bottom-to-moveable sq n13 n12
 0 21 0 1
 0 105 4 5
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8590,7 +8590,7 @@ from-bottom-to-moveable sq n2 n1
 0 21 0 1
 0 105 1 6
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8601,7 +8601,7 @@ from-bottom-to-moveable sq n3 n2
 0 21 0 1
 0 105 6 7
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8612,7 +8612,7 @@ from-bottom-to-moveable sq n4 n3
 0 21 0 1
 0 105 7 8
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8623,7 +8623,7 @@ from-bottom-to-moveable sq n5 n4
 0 21 0 1
 0 105 8 9
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8634,7 +8634,7 @@ from-bottom-to-moveable sq n6 n5
 0 21 0 1
 0 105 9 10
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8645,7 +8645,7 @@ from-bottom-to-moveable sq n7 n6
 0 21 0 1
 0 105 10 11
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8656,7 +8656,7 @@ from-bottom-to-moveable sq n8 n7
 0 21 0 1
 0 105 11 12
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8667,7 +8667,7 @@ from-bottom-to-moveable sq n9 n8
 0 21 0 1
 0 105 12 13
 0 108 1 0
-0 106 -1 0
+0 104 -1 0
 1
 end_operator
 begin_operator
@@ -8675,9 +8675,9 @@ from-free-to-moveable c10 n1 n0
 0
 4
 0 100 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8685,9 +8685,9 @@ from-free-to-moveable c10 n10 n9
 0
 4
 0 100 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8695,9 +8695,9 @@ from-free-to-moveable c10 n11 n10
 0
 4
 0 100 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8705,9 +8705,9 @@ from-free-to-moveable c10 n12 n11
 0
 4
 0 100 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8715,9 +8715,9 @@ from-free-to-moveable c10 n13 n12
 0
 4
 0 100 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8725,9 +8725,9 @@ from-free-to-moveable c10 n2 n1
 0
 4
 0 100 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8735,9 +8735,9 @@ from-free-to-moveable c10 n3 n2
 0
 4
 0 100 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8745,9 +8745,9 @@ from-free-to-moveable c10 n4 n3
 0
 4
 0 100 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8755,9 +8755,9 @@ from-free-to-moveable c10 n5 n4
 0
 4
 0 100 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8765,9 +8765,9 @@ from-free-to-moveable c10 n6 n5
 0
 4
 0 100 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8775,9 +8775,9 @@ from-free-to-moveable c10 n7 n6
 0
 4
 0 100 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8785,9 +8785,9 @@ from-free-to-moveable c10 n8 n7
 0
 4
 0 100 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8795,9 +8795,9 @@ from-free-to-moveable c10 n9 n8
 0
 4
 0 100 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8805,9 +8805,9 @@ from-free-to-moveable c2 n1 n0
 0
 4
 0 72 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8815,9 +8815,9 @@ from-free-to-moveable c2 n10 n9
 0
 4
 0 72 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8825,9 +8825,9 @@ from-free-to-moveable c2 n11 n10
 0
 4
 0 72 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8835,9 +8835,9 @@ from-free-to-moveable c2 n12 n11
 0
 4
 0 72 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8845,9 +8845,9 @@ from-free-to-moveable c2 n13 n12
 0
 4
 0 72 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8855,9 +8855,9 @@ from-free-to-moveable c2 n2 n1
 0
 4
 0 72 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8865,9 +8865,9 @@ from-free-to-moveable c2 n3 n2
 0
 4
 0 72 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8875,9 +8875,9 @@ from-free-to-moveable c2 n4 n3
 0
 4
 0 72 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8885,9 +8885,9 @@ from-free-to-moveable c2 n5 n4
 0
 4
 0 72 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8895,9 +8895,9 @@ from-free-to-moveable c2 n6 n5
 0
 4
 0 72 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8905,9 +8905,9 @@ from-free-to-moveable c2 n7 n6
 0
 4
 0 72 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8915,9 +8915,9 @@ from-free-to-moveable c2 n8 n7
 0
 4
 0 72 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8925,9 +8925,9 @@ from-free-to-moveable c2 n9 n8
 0
 4
 0 72 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8935,9 +8935,9 @@ from-free-to-moveable c3 n1 n0
 0
 4
 0 71 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8945,9 +8945,9 @@ from-free-to-moveable c3 n10 n9
 0
 4
 0 71 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8955,9 +8955,9 @@ from-free-to-moveable c3 n11 n10
 0
 4
 0 71 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8965,9 +8965,9 @@ from-free-to-moveable c3 n12 n11
 0
 4
 0 71 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8975,9 +8975,9 @@ from-free-to-moveable c3 n13 n12
 0
 4
 0 71 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8985,9 +8985,9 @@ from-free-to-moveable c3 n2 n1
 0
 4
 0 71 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -8995,9 +8995,9 @@ from-free-to-moveable c3 n3 n2
 0
 4
 0 71 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9005,9 +9005,9 @@ from-free-to-moveable c3 n4 n3
 0
 4
 0 71 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9015,9 +9015,9 @@ from-free-to-moveable c3 n5 n4
 0
 4
 0 71 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9025,9 +9025,9 @@ from-free-to-moveable c3 n6 n5
 0
 4
 0 71 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9035,9 +9035,9 @@ from-free-to-moveable c3 n7 n6
 0
 4
 0 71 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9045,9 +9045,9 @@ from-free-to-moveable c3 n8 n7
 0
 4
 0 71 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9055,9 +9055,9 @@ from-free-to-moveable c3 n9 n8
 0
 4
 0 71 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9065,9 +9065,9 @@ from-free-to-moveable c4 n1 n0
 0
 4
 0 84 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9075,9 +9075,9 @@ from-free-to-moveable c4 n10 n9
 0
 4
 0 84 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9085,9 +9085,9 @@ from-free-to-moveable c4 n11 n10
 0
 4
 0 84 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9095,9 +9095,9 @@ from-free-to-moveable c4 n12 n11
 0
 4
 0 84 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9105,9 +9105,9 @@ from-free-to-moveable c4 n13 n12
 0
 4
 0 84 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9115,9 +9115,9 @@ from-free-to-moveable c4 n2 n1
 0
 4
 0 84 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9125,9 +9125,9 @@ from-free-to-moveable c4 n3 n2
 0
 4
 0 84 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9135,9 +9135,9 @@ from-free-to-moveable c4 n4 n3
 0
 4
 0 84 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9145,9 +9145,9 @@ from-free-to-moveable c4 n5 n4
 0
 4
 0 84 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9155,9 +9155,9 @@ from-free-to-moveable c4 n6 n5
 0
 4
 0 84 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9165,9 +9165,9 @@ from-free-to-moveable c4 n7 n6
 0
 4
 0 84 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9175,9 +9175,9 @@ from-free-to-moveable c4 n8 n7
 0
 4
 0 84 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9185,9 +9185,9 @@ from-free-to-moveable c4 n9 n8
 0
 4
 0 84 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9195,9 +9195,9 @@ from-free-to-moveable c5 n1 n0
 0
 4
 0 87 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9205,9 +9205,9 @@ from-free-to-moveable c5 n10 n9
 0
 4
 0 87 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9215,9 +9215,9 @@ from-free-to-moveable c5 n11 n10
 0
 4
 0 87 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9225,9 +9225,9 @@ from-free-to-moveable c5 n12 n11
 0
 4
 0 87 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9235,9 +9235,9 @@ from-free-to-moveable c5 n13 n12
 0
 4
 0 87 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9245,9 +9245,9 @@ from-free-to-moveable c5 n2 n1
 0
 4
 0 87 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9255,9 +9255,9 @@ from-free-to-moveable c5 n3 n2
 0
 4
 0 87 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9265,9 +9265,9 @@ from-free-to-moveable c5 n4 n3
 0
 4
 0 87 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9275,9 +9275,9 @@ from-free-to-moveable c5 n5 n4
 0
 4
 0 87 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9285,9 +9285,9 @@ from-free-to-moveable c5 n6 n5
 0
 4
 0 87 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9295,9 +9295,9 @@ from-free-to-moveable c5 n7 n6
 0
 4
 0 87 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9305,9 +9305,9 @@ from-free-to-moveable c5 n8 n7
 0
 4
 0 87 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9315,9 +9315,9 @@ from-free-to-moveable c5 n9 n8
 0
 4
 0 87 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9325,9 +9325,9 @@ from-free-to-moveable c6 n1 n0
 0
 4
 0 90 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9335,9 +9335,9 @@ from-free-to-moveable c6 n10 n9
 0
 4
 0 90 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9345,9 +9345,9 @@ from-free-to-moveable c6 n11 n10
 0
 4
 0 90 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9355,9 +9355,9 @@ from-free-to-moveable c6 n12 n11
 0
 4
 0 90 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9365,9 +9365,9 @@ from-free-to-moveable c6 n13 n12
 0
 4
 0 90 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9375,9 +9375,9 @@ from-free-to-moveable c6 n2 n1
 0
 4
 0 90 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9385,9 +9385,9 @@ from-free-to-moveable c6 n3 n2
 0
 4
 0 90 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9395,9 +9395,9 @@ from-free-to-moveable c6 n4 n3
 0
 4
 0 90 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9405,9 +9405,9 @@ from-free-to-moveable c6 n5 n4
 0
 4
 0 90 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9415,9 +9415,9 @@ from-free-to-moveable c6 n6 n5
 0
 4
 0 90 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9425,9 +9425,9 @@ from-free-to-moveable c6 n7 n6
 0
 4
 0 90 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9435,9 +9435,9 @@ from-free-to-moveable c6 n8 n7
 0
 4
 0 90 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9445,9 +9445,9 @@ from-free-to-moveable c6 n9 n8
 0
 4
 0 90 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9455,9 +9455,9 @@ from-free-to-moveable c7 n1 n0
 0
 4
 0 93 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9465,9 +9465,9 @@ from-free-to-moveable c7 n10 n9
 0
 4
 0 93 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9475,9 +9475,9 @@ from-free-to-moveable c7 n11 n10
 0
 4
 0 93 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9485,9 +9485,9 @@ from-free-to-moveable c7 n12 n11
 0
 4
 0 93 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9495,9 +9495,9 @@ from-free-to-moveable c7 n13 n12
 0
 4
 0 93 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9505,9 +9505,9 @@ from-free-to-moveable c7 n2 n1
 0
 4
 0 93 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9515,9 +9515,9 @@ from-free-to-moveable c7 n3 n2
 0
 4
 0 93 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9525,9 +9525,9 @@ from-free-to-moveable c7 n4 n3
 0
 4
 0 93 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9535,9 +9535,9 @@ from-free-to-moveable c7 n5 n4
 0
 4
 0 93 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9545,9 +9545,9 @@ from-free-to-moveable c7 n6 n5
 0
 4
 0 93 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9555,9 +9555,9 @@ from-free-to-moveable c7 n7 n6
 0
 4
 0 93 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9565,9 +9565,9 @@ from-free-to-moveable c7 n8 n7
 0
 4
 0 93 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9575,9 +9575,9 @@ from-free-to-moveable c7 n9 n8
 0
 4
 0 93 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9585,9 +9585,9 @@ from-free-to-moveable c8 n1 n0
 0
 4
 0 96 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9595,9 +9595,9 @@ from-free-to-moveable c8 n10 n9
 0
 4
 0 96 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9605,9 +9605,9 @@ from-free-to-moveable c8 n11 n10
 0
 4
 0 96 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9615,9 +9615,9 @@ from-free-to-moveable c8 n12 n11
 0
 4
 0 96 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9625,9 +9625,9 @@ from-free-to-moveable c8 n13 n12
 0
 4
 0 96 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9635,9 +9635,9 @@ from-free-to-moveable c8 n2 n1
 0
 4
 0 96 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9645,9 +9645,9 @@ from-free-to-moveable c8 n3 n2
 0
 4
 0 96 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9655,9 +9655,9 @@ from-free-to-moveable c8 n4 n3
 0
 4
 0 96 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9665,9 +9665,9 @@ from-free-to-moveable c8 n5 n4
 0
 4
 0 96 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9675,9 +9675,9 @@ from-free-to-moveable c8 n6 n5
 0
 4
 0 96 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9685,9 +9685,9 @@ from-free-to-moveable c8 n7 n6
 0
 4
 0 96 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9695,9 +9695,9 @@ from-free-to-moveable c8 n8 n7
 0
 4
 0 96 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9705,9 +9705,9 @@ from-free-to-moveable c8 n9 n8
 0
 4
 0 96 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9715,9 +9715,9 @@ from-free-to-moveable c9 n1 n0
 0
 4
 0 98 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9725,9 +9725,9 @@ from-free-to-moveable c9 n10 n9
 0
 4
 0 98 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9735,9 +9735,9 @@ from-free-to-moveable c9 n11 n10
 0
 4
 0 98 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9745,9 +9745,9 @@ from-free-to-moveable c9 n12 n11
 0
 4
 0 98 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9755,9 +9755,9 @@ from-free-to-moveable c9 n13 n12
 0
 4
 0 98 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9765,9 +9765,9 @@ from-free-to-moveable c9 n2 n1
 0
 4
 0 98 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9775,9 +9775,9 @@ from-free-to-moveable c9 n3 n2
 0
 4
 0 98 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9785,9 +9785,9 @@ from-free-to-moveable c9 n4 n3
 0
 4
 0 98 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9795,9 +9795,9 @@ from-free-to-moveable c9 n5 n4
 0
 4
 0 98 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9805,9 +9805,9 @@ from-free-to-moveable c9 n6 n5
 0
 4
 0 98 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9815,9 +9815,9 @@ from-free-to-moveable c9 n7 n6
 0
 4
 0 98 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9825,9 +9825,9 @@ from-free-to-moveable c9 n8 n7
 0
 4
 0 98 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9835,9 +9835,9 @@ from-free-to-moveable c9 n9 n8
 0
 4
 0 98 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9845,9 +9845,9 @@ from-free-to-moveable ca n1 n0
 0
 4
 0 69 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9855,9 +9855,9 @@ from-free-to-moveable ca n10 n9
 0
 4
 0 69 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9865,9 +9865,9 @@ from-free-to-moveable ca n11 n10
 0
 4
 0 69 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9875,9 +9875,9 @@ from-free-to-moveable ca n12 n11
 0
 4
 0 69 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9885,9 +9885,9 @@ from-free-to-moveable ca n13 n12
 0
 4
 0 69 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9895,9 +9895,9 @@ from-free-to-moveable ca n2 n1
 0
 4
 0 69 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9905,9 +9905,9 @@ from-free-to-moveable ca n3 n2
 0
 4
 0 69 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9915,9 +9915,9 @@ from-free-to-moveable ca n4 n3
 0
 4
 0 69 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9925,9 +9925,9 @@ from-free-to-moveable ca n5 n4
 0
 4
 0 69 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9935,9 +9935,9 @@ from-free-to-moveable ca n6 n5
 0
 4
 0 69 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9945,9 +9945,9 @@ from-free-to-moveable ca n7 n6
 0
 4
 0 69 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9955,9 +9955,9 @@ from-free-to-moveable ca n8 n7
 0
 4
 0 69 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9965,9 +9965,9 @@ from-free-to-moveable ca n9 n8
 0
 4
 0 69 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9975,9 +9975,9 @@ from-free-to-moveable cj n1 n0
 0
 4
 0 102 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9985,9 +9985,9 @@ from-free-to-moveable cj n10 n9
 0
 4
 0 102 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -9995,9 +9995,9 @@ from-free-to-moveable cj n11 n10
 0
 4
 0 102 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10005,9 +10005,9 @@ from-free-to-moveable cj n12 n11
 0
 4
 0 102 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10015,9 +10015,9 @@ from-free-to-moveable cj n13 n12
 0
 4
 0 102 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10025,9 +10025,9 @@ from-free-to-moveable cj n2 n1
 0
 4
 0 102 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10035,9 +10035,9 @@ from-free-to-moveable cj n3 n2
 0
 4
 0 102 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10045,9 +10045,9 @@ from-free-to-moveable cj n4 n3
 0
 4
 0 102 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10055,9 +10055,9 @@ from-free-to-moveable cj n5 n4
 0
 4
 0 102 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10065,9 +10065,9 @@ from-free-to-moveable cj n6 n5
 0
 4
 0 102 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10075,9 +10075,9 @@ from-free-to-moveable cj n7 n6
 0
 4
 0 102 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10085,9 +10085,9 @@ from-free-to-moveable cj n8 n7
 0
 4
 0 102 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10095,9 +10095,9 @@ from-free-to-moveable cj n9 n8
 0
 4
 0 102 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10105,9 +10105,9 @@ from-free-to-moveable ck n1 n0
 0
 4
 0 109 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10115,9 +10115,9 @@ from-free-to-moveable ck n10 n9
 0
 4
 0 109 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10125,9 +10125,9 @@ from-free-to-moveable ck n11 n10
 0
 4
 0 109 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10135,9 +10135,9 @@ from-free-to-moveable ck n12 n11
 0
 4
 0 109 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10145,9 +10145,9 @@ from-free-to-moveable ck n13 n12
 0
 4
 0 109 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10155,9 +10155,9 @@ from-free-to-moveable ck n2 n1
 0
 4
 0 109 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10165,9 +10165,9 @@ from-free-to-moveable ck n3 n2
 0
 4
 0 109 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10175,9 +10175,9 @@ from-free-to-moveable ck n4 n3
 0
 4
 0 109 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10185,9 +10185,9 @@ from-free-to-moveable ck n5 n4
 0
 4
 0 109 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10195,9 +10195,9 @@ from-free-to-moveable ck n6 n5
 0
 4
 0 109 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10205,9 +10205,9 @@ from-free-to-moveable ck n7 n6
 0
 4
 0 109 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10215,9 +10215,9 @@ from-free-to-moveable ck n8 n7
 0
 4
 0 109 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10225,9 +10225,9 @@ from-free-to-moveable ck n9 n8
 0
 4
 0 109 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10235,9 +10235,9 @@ from-free-to-moveable cq n1 n0
 0
 4
 0 103 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10245,9 +10245,9 @@ from-free-to-moveable cq n10 n9
 0
 4
 0 103 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10255,9 +10255,9 @@ from-free-to-moveable cq n11 n10
 0
 4
 0 103 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10265,9 +10265,9 @@ from-free-to-moveable cq n12 n11
 0
 4
 0 103 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10275,9 +10275,9 @@ from-free-to-moveable cq n13 n12
 0
 4
 0 103 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10285,9 +10285,9 @@ from-free-to-moveable cq n2 n1
 0
 4
 0 103 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10295,9 +10295,9 @@ from-free-to-moveable cq n3 n2
 0
 4
 0 103 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10305,9 +10305,9 @@ from-free-to-moveable cq n4 n3
 0
 4
 0 103 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10315,9 +10315,9 @@ from-free-to-moveable cq n5 n4
 0
 4
 0 103 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10325,9 +10325,9 @@ from-free-to-moveable cq n6 n5
 0
 4
 0 103 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10335,9 +10335,9 @@ from-free-to-moveable cq n7 n6
 0
 4
 0 103 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10345,9 +10345,9 @@ from-free-to-moveable cq n8 n7
 0
 4
 0 103 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10355,9 +10355,9 @@ from-free-to-moveable cq n9 n8
 0
 4
 0 103 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10365,9 +10365,9 @@ from-free-to-moveable d10 n1 n0
 0
 4
 0 83 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10375,9 +10375,9 @@ from-free-to-moveable d10 n10 n9
 0
 4
 0 83 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10385,9 +10385,9 @@ from-free-to-moveable d10 n11 n10
 0
 4
 0 83 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10395,9 +10395,9 @@ from-free-to-moveable d10 n12 n11
 0
 4
 0 83 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10405,9 +10405,9 @@ from-free-to-moveable d10 n13 n12
 0
 4
 0 83 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10415,9 +10415,9 @@ from-free-to-moveable d10 n2 n1
 0
 4
 0 83 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10425,9 +10425,9 @@ from-free-to-moveable d10 n3 n2
 0
 4
 0 83 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10435,9 +10435,9 @@ from-free-to-moveable d10 n4 n3
 0
 4
 0 83 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10445,9 +10445,9 @@ from-free-to-moveable d10 n5 n4
 0
 4
 0 83 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10455,9 +10455,9 @@ from-free-to-moveable d10 n6 n5
 0
 4
 0 83 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10465,9 +10465,9 @@ from-free-to-moveable d10 n7 n6
 0
 4
 0 83 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10475,9 +10475,9 @@ from-free-to-moveable d10 n8 n7
 0
 4
 0 83 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10485,9 +10485,9 @@ from-free-to-moveable d10 n9 n8
 0
 4
 0 83 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10495,9 +10495,9 @@ from-free-to-moveable d2 n1 n0
 0
 4
 0 60 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10505,9 +10505,9 @@ from-free-to-moveable d2 n10 n9
 0
 4
 0 60 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10515,9 +10515,9 @@ from-free-to-moveable d2 n11 n10
 0
 4
 0 60 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10525,9 +10525,9 @@ from-free-to-moveable d2 n12 n11
 0
 4
 0 60 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10535,9 +10535,9 @@ from-free-to-moveable d2 n13 n12
 0
 4
 0 60 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10545,9 +10545,9 @@ from-free-to-moveable d2 n2 n1
 0
 4
 0 60 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10555,9 +10555,9 @@ from-free-to-moveable d2 n3 n2
 0
 4
 0 60 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10565,9 +10565,9 @@ from-free-to-moveable d2 n4 n3
 0
 4
 0 60 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10575,9 +10575,9 @@ from-free-to-moveable d2 n5 n4
 0
 4
 0 60 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10585,9 +10585,9 @@ from-free-to-moveable d2 n6 n5
 0
 4
 0 60 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10595,9 +10595,9 @@ from-free-to-moveable d2 n7 n6
 0
 4
 0 60 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10605,9 +10605,9 @@ from-free-to-moveable d2 n8 n7
 0
 4
 0 60 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10615,9 +10615,9 @@ from-free-to-moveable d2 n9 n8
 0
 4
 0 60 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10625,9 +10625,9 @@ from-free-to-moveable d3 n1 n0
 0
 4
 0 59 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10635,9 +10635,9 @@ from-free-to-moveable d3 n10 n9
 0
 4
 0 59 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10645,9 +10645,9 @@ from-free-to-moveable d3 n11 n10
 0
 4
 0 59 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10655,9 +10655,9 @@ from-free-to-moveable d3 n12 n11
 0
 4
 0 59 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10665,9 +10665,9 @@ from-free-to-moveable d3 n13 n12
 0
 4
 0 59 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10675,9 +10675,9 @@ from-free-to-moveable d3 n2 n1
 0
 4
 0 59 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10685,9 +10685,9 @@ from-free-to-moveable d3 n3 n2
 0
 4
 0 59 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10695,9 +10695,9 @@ from-free-to-moveable d3 n4 n3
 0
 4
 0 59 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10705,9 +10705,9 @@ from-free-to-moveable d3 n5 n4
 0
 4
 0 59 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10715,9 +10715,9 @@ from-free-to-moveable d3 n6 n5
 0
 4
 0 59 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10725,9 +10725,9 @@ from-free-to-moveable d3 n7 n6
 0
 4
 0 59 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10735,9 +10735,9 @@ from-free-to-moveable d3 n8 n7
 0
 4
 0 59 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10745,9 +10745,9 @@ from-free-to-moveable d3 n9 n8
 0
 4
 0 59 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10755,9 +10755,9 @@ from-free-to-moveable d4 n1 n0
 0
 4
 0 77 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10765,9 +10765,9 @@ from-free-to-moveable d4 n10 n9
 0
 4
 0 77 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10775,9 +10775,9 @@ from-free-to-moveable d4 n11 n10
 0
 4
 0 77 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10785,9 +10785,9 @@ from-free-to-moveable d4 n12 n11
 0
 4
 0 77 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10795,9 +10795,9 @@ from-free-to-moveable d4 n13 n12
 0
 4
 0 77 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10805,9 +10805,9 @@ from-free-to-moveable d4 n2 n1
 0
 4
 0 77 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10815,9 +10815,9 @@ from-free-to-moveable d4 n3 n2
 0
 4
 0 77 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10825,9 +10825,9 @@ from-free-to-moveable d4 n4 n3
 0
 4
 0 77 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10835,9 +10835,9 @@ from-free-to-moveable d4 n5 n4
 0
 4
 0 77 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10845,9 +10845,9 @@ from-free-to-moveable d4 n6 n5
 0
 4
 0 77 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10855,9 +10855,9 @@ from-free-to-moveable d4 n7 n6
 0
 4
 0 77 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10865,9 +10865,9 @@ from-free-to-moveable d4 n8 n7
 0
 4
 0 77 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10875,9 +10875,9 @@ from-free-to-moveable d4 n9 n8
 0
 4
 0 77 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10885,9 +10885,9 @@ from-free-to-moveable d5 n1 n0
 0
 4
 0 78 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10895,9 +10895,9 @@ from-free-to-moveable d5 n10 n9
 0
 4
 0 78 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10905,9 +10905,9 @@ from-free-to-moveable d5 n11 n10
 0
 4
 0 78 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10915,9 +10915,9 @@ from-free-to-moveable d5 n12 n11
 0
 4
 0 78 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10925,9 +10925,9 @@ from-free-to-moveable d5 n13 n12
 0
 4
 0 78 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10935,9 +10935,9 @@ from-free-to-moveable d5 n2 n1
 0
 4
 0 78 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10945,9 +10945,9 @@ from-free-to-moveable d5 n3 n2
 0
 4
 0 78 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10955,9 +10955,9 @@ from-free-to-moveable d5 n4 n3
 0
 4
 0 78 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10965,9 +10965,9 @@ from-free-to-moveable d5 n5 n4
 0
 4
 0 78 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10975,9 +10975,9 @@ from-free-to-moveable d5 n6 n5
 0
 4
 0 78 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10985,9 +10985,9 @@ from-free-to-moveable d5 n7 n6
 0
 4
 0 78 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -10995,9 +10995,9 @@ from-free-to-moveable d5 n8 n7
 0
 4
 0 78 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11005,9 +11005,9 @@ from-free-to-moveable d5 n9 n8
 0
 4
 0 78 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11015,9 +11015,9 @@ from-free-to-moveable d6 n1 n0
 0
 4
 0 73 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11025,9 +11025,9 @@ from-free-to-moveable d6 n10 n9
 0
 4
 0 73 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11035,9 +11035,9 @@ from-free-to-moveable d6 n11 n10
 0
 4
 0 73 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11045,9 +11045,9 @@ from-free-to-moveable d6 n12 n11
 0
 4
 0 73 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11055,9 +11055,9 @@ from-free-to-moveable d6 n13 n12
 0
 4
 0 73 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11065,9 +11065,9 @@ from-free-to-moveable d6 n2 n1
 0
 4
 0 73 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11075,9 +11075,9 @@ from-free-to-moveable d6 n3 n2
 0
 4
 0 73 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11085,9 +11085,9 @@ from-free-to-moveable d6 n4 n3
 0
 4
 0 73 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11095,9 +11095,9 @@ from-free-to-moveable d6 n5 n4
 0
 4
 0 73 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11105,9 +11105,9 @@ from-free-to-moveable d6 n6 n5
 0
 4
 0 73 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11115,9 +11115,9 @@ from-free-to-moveable d6 n7 n6
 0
 4
 0 73 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11125,9 +11125,9 @@ from-free-to-moveable d6 n8 n7
 0
 4
 0 73 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11135,9 +11135,9 @@ from-free-to-moveable d6 n9 n8
 0
 4
 0 73 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11145,9 +11145,9 @@ from-free-to-moveable d7 n1 n0
 0
 4
 0 74 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11155,9 +11155,9 @@ from-free-to-moveable d7 n10 n9
 0
 4
 0 74 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11165,9 +11165,9 @@ from-free-to-moveable d7 n11 n10
 0
 4
 0 74 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11175,9 +11175,9 @@ from-free-to-moveable d7 n12 n11
 0
 4
 0 74 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11185,9 +11185,9 @@ from-free-to-moveable d7 n13 n12
 0
 4
 0 74 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11195,9 +11195,9 @@ from-free-to-moveable d7 n2 n1
 0
 4
 0 74 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11205,9 +11205,9 @@ from-free-to-moveable d7 n3 n2
 0
 4
 0 74 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11215,9 +11215,9 @@ from-free-to-moveable d7 n4 n3
 0
 4
 0 74 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11225,9 +11225,9 @@ from-free-to-moveable d7 n5 n4
 0
 4
 0 74 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11235,9 +11235,9 @@ from-free-to-moveable d7 n6 n5
 0
 4
 0 74 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11245,9 +11245,9 @@ from-free-to-moveable d7 n7 n6
 0
 4
 0 74 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11255,9 +11255,9 @@ from-free-to-moveable d7 n8 n7
 0
 4
 0 74 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11265,9 +11265,9 @@ from-free-to-moveable d7 n9 n8
 0
 4
 0 74 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11275,9 +11275,9 @@ from-free-to-moveable d8 n1 n0
 0
 4
 0 70 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11285,9 +11285,9 @@ from-free-to-moveable d8 n10 n9
 0
 4
 0 70 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11295,9 +11295,9 @@ from-free-to-moveable d8 n11 n10
 0
 4
 0 70 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11305,9 +11305,9 @@ from-free-to-moveable d8 n12 n11
 0
 4
 0 70 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11315,9 +11315,9 @@ from-free-to-moveable d8 n13 n12
 0
 4
 0 70 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11325,9 +11325,9 @@ from-free-to-moveable d8 n2 n1
 0
 4
 0 70 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11335,9 +11335,9 @@ from-free-to-moveable d8 n3 n2
 0
 4
 0 70 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11345,9 +11345,9 @@ from-free-to-moveable d8 n4 n3
 0
 4
 0 70 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11355,9 +11355,9 @@ from-free-to-moveable d8 n5 n4
 0
 4
 0 70 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11365,9 +11365,9 @@ from-free-to-moveable d8 n6 n5
 0
 4
 0 70 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11375,9 +11375,9 @@ from-free-to-moveable d8 n7 n6
 0
 4
 0 70 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11385,9 +11385,9 @@ from-free-to-moveable d8 n8 n7
 0
 4
 0 70 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11395,9 +11395,9 @@ from-free-to-moveable d8 n9 n8
 0
 4
 0 70 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11405,9 +11405,9 @@ from-free-to-moveable d9 n1 n0
 0
 4
 0 82 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11415,9 +11415,9 @@ from-free-to-moveable d9 n10 n9
 0
 4
 0 82 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11425,9 +11425,9 @@ from-free-to-moveable d9 n11 n10
 0
 4
 0 82 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11435,9 +11435,9 @@ from-free-to-moveable d9 n12 n11
 0
 4
 0 82 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11445,9 +11445,9 @@ from-free-to-moveable d9 n13 n12
 0
 4
 0 82 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11455,9 +11455,9 @@ from-free-to-moveable d9 n2 n1
 0
 4
 0 82 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11465,9 +11465,9 @@ from-free-to-moveable d9 n3 n2
 0
 4
 0 82 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11475,9 +11475,9 @@ from-free-to-moveable d9 n4 n3
 0
 4
 0 82 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11485,9 +11485,9 @@ from-free-to-moveable d9 n5 n4
 0
 4
 0 82 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11495,9 +11495,9 @@ from-free-to-moveable d9 n6 n5
 0
 4
 0 82 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11505,9 +11505,9 @@ from-free-to-moveable d9 n7 n6
 0
 4
 0 82 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11515,9 +11515,9 @@ from-free-to-moveable d9 n8 n7
 0
 4
 0 82 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11525,9 +11525,9 @@ from-free-to-moveable d9 n9 n8
 0
 4
 0 82 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11535,9 +11535,9 @@ from-free-to-moveable da n1 n0
 0
 4
 0 57 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11545,9 +11545,9 @@ from-free-to-moveable da n10 n9
 0
 4
 0 57 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11555,9 +11555,9 @@ from-free-to-moveable da n11 n10
 0
 4
 0 57 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11565,9 +11565,9 @@ from-free-to-moveable da n12 n11
 0
 4
 0 57 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11575,9 +11575,9 @@ from-free-to-moveable da n13 n12
 0
 4
 0 57 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11585,9 +11585,9 @@ from-free-to-moveable da n2 n1
 0
 4
 0 57 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11595,9 +11595,9 @@ from-free-to-moveable da n3 n2
 0
 4
 0 57 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11605,9 +11605,9 @@ from-free-to-moveable da n4 n3
 0
 4
 0 57 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11615,9 +11615,9 @@ from-free-to-moveable da n5 n4
 0
 4
 0 57 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11625,9 +11625,9 @@ from-free-to-moveable da n6 n5
 0
 4
 0 57 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11635,9 +11635,9 @@ from-free-to-moveable da n7 n6
 0
 4
 0 57 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11645,9 +11645,9 @@ from-free-to-moveable da n8 n7
 0
 4
 0 57 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11655,9 +11655,9 @@ from-free-to-moveable da n9 n8
 0
 4
 0 57 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11665,9 +11665,9 @@ from-free-to-moveable dj n1 n0
 0
 4
 0 80 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11675,9 +11675,9 @@ from-free-to-moveable dj n10 n9
 0
 4
 0 80 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11685,9 +11685,9 @@ from-free-to-moveable dj n11 n10
 0
 4
 0 80 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11695,9 +11695,9 @@ from-free-to-moveable dj n12 n11
 0
 4
 0 80 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11705,9 +11705,9 @@ from-free-to-moveable dj n13 n12
 0
 4
 0 80 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11715,9 +11715,9 @@ from-free-to-moveable dj n2 n1
 0
 4
 0 80 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11725,9 +11725,9 @@ from-free-to-moveable dj n3 n2
 0
 4
 0 80 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11735,9 +11735,9 @@ from-free-to-moveable dj n4 n3
 0
 4
 0 80 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11745,9 +11745,9 @@ from-free-to-moveable dj n5 n4
 0
 4
 0 80 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11755,9 +11755,9 @@ from-free-to-moveable dj n6 n5
 0
 4
 0 80 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11765,9 +11765,9 @@ from-free-to-moveable dj n7 n6
 0
 4
 0 80 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11775,9 +11775,9 @@ from-free-to-moveable dj n8 n7
 0
 4
 0 80 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11785,9 +11785,9 @@ from-free-to-moveable dj n9 n8
 0
 4
 0 80 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11795,9 +11795,9 @@ from-free-to-moveable dk n1 n0
 0
 4
 0 110 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11805,9 +11805,9 @@ from-free-to-moveable dk n10 n9
 0
 4
 0 110 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11815,9 +11815,9 @@ from-free-to-moveable dk n11 n10
 0
 4
 0 110 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11825,9 +11825,9 @@ from-free-to-moveable dk n12 n11
 0
 4
 0 110 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11835,9 +11835,9 @@ from-free-to-moveable dk n13 n12
 0
 4
 0 110 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11845,9 +11845,9 @@ from-free-to-moveable dk n2 n1
 0
 4
 0 110 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11855,9 +11855,9 @@ from-free-to-moveable dk n3 n2
 0
 4
 0 110 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11865,9 +11865,9 @@ from-free-to-moveable dk n4 n3
 0
 4
 0 110 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11875,9 +11875,9 @@ from-free-to-moveable dk n5 n4
 0
 4
 0 110 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11885,9 +11885,9 @@ from-free-to-moveable dk n6 n5
 0
 4
 0 110 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11895,9 +11895,9 @@ from-free-to-moveable dk n7 n6
 0
 4
 0 110 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11905,9 +11905,9 @@ from-free-to-moveable dk n8 n7
 0
 4
 0 110 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11915,9 +11915,9 @@ from-free-to-moveable dk n9 n8
 0
 4
 0 110 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11925,9 +11925,9 @@ from-free-to-moveable dq n1 n0
 0
 4
 0 66 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11935,9 +11935,9 @@ from-free-to-moveable dq n10 n9
 0
 4
 0 66 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11945,9 +11945,9 @@ from-free-to-moveable dq n11 n10
 0
 4
 0 66 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11955,9 +11955,9 @@ from-free-to-moveable dq n12 n11
 0
 4
 0 66 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11965,9 +11965,9 @@ from-free-to-moveable dq n13 n12
 0
 4
 0 66 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11975,9 +11975,9 @@ from-free-to-moveable dq n2 n1
 0
 4
 0 66 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11985,9 +11985,9 @@ from-free-to-moveable dq n3 n2
 0
 4
 0 66 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -11995,9 +11995,9 @@ from-free-to-moveable dq n4 n3
 0
 4
 0 66 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12005,9 +12005,9 @@ from-free-to-moveable dq n5 n4
 0
 4
 0 66 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12015,9 +12015,9 @@ from-free-to-moveable dq n6 n5
 0
 4
 0 66 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12025,9 +12025,9 @@ from-free-to-moveable dq n7 n6
 0
 4
 0 66 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12035,9 +12035,9 @@ from-free-to-moveable dq n8 n7
 0
 4
 0 66 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12045,9 +12045,9 @@ from-free-to-moveable dq n9 n8
 0
 4
 0 66 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12055,9 +12055,9 @@ from-free-to-moveable h10 n1 n0
 0
 4
 0 89 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12065,9 +12065,9 @@ from-free-to-moveable h10 n10 n9
 0
 4
 0 89 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12075,9 +12075,9 @@ from-free-to-moveable h10 n11 n10
 0
 4
 0 89 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12085,9 +12085,9 @@ from-free-to-moveable h10 n12 n11
 0
 4
 0 89 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12095,9 +12095,9 @@ from-free-to-moveable h10 n13 n12
 0
 4
 0 89 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12105,9 +12105,9 @@ from-free-to-moveable h10 n2 n1
 0
 4
 0 89 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12115,9 +12115,9 @@ from-free-to-moveable h10 n3 n2
 0
 4
 0 89 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12125,9 +12125,9 @@ from-free-to-moveable h10 n4 n3
 0
 4
 0 89 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12135,9 +12135,9 @@ from-free-to-moveable h10 n5 n4
 0
 4
 0 89 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12145,9 +12145,9 @@ from-free-to-moveable h10 n6 n5
 0
 4
 0 89 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12155,9 +12155,9 @@ from-free-to-moveable h10 n7 n6
 0
 4
 0 89 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12165,9 +12165,9 @@ from-free-to-moveable h10 n8 n7
 0
 4
 0 89 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12175,9 +12175,9 @@ from-free-to-moveable h10 n9 n8
 0
 4
 0 89 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12185,9 +12185,9 @@ from-free-to-moveable h2 n1 n0
 0
 4
 0 63 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12195,9 +12195,9 @@ from-free-to-moveable h2 n10 n9
 0
 4
 0 63 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12205,9 +12205,9 @@ from-free-to-moveable h2 n11 n10
 0
 4
 0 63 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12215,9 +12215,9 @@ from-free-to-moveable h2 n12 n11
 0
 4
 0 63 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12225,9 +12225,9 @@ from-free-to-moveable h2 n13 n12
 0
 4
 0 63 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12235,9 +12235,9 @@ from-free-to-moveable h2 n2 n1
 0
 4
 0 63 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12245,9 +12245,9 @@ from-free-to-moveable h2 n3 n2
 0
 4
 0 63 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12255,9 +12255,9 @@ from-free-to-moveable h2 n4 n3
 0
 4
 0 63 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12265,9 +12265,9 @@ from-free-to-moveable h2 n5 n4
 0
 4
 0 63 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12275,9 +12275,9 @@ from-free-to-moveable h2 n6 n5
 0
 4
 0 63 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12285,9 +12285,9 @@ from-free-to-moveable h2 n7 n6
 0
 4
 0 63 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12295,9 +12295,9 @@ from-free-to-moveable h2 n8 n7
 0
 4
 0 63 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12305,9 +12305,9 @@ from-free-to-moveable h2 n9 n8
 0
 4
 0 63 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12315,9 +12315,9 @@ from-free-to-moveable h3 n1 n0
 0
 4
 0 62 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12325,9 +12325,9 @@ from-free-to-moveable h3 n10 n9
 0
 4
 0 62 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12335,9 +12335,9 @@ from-free-to-moveable h3 n11 n10
 0
 4
 0 62 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12345,9 +12345,9 @@ from-free-to-moveable h3 n12 n11
 0
 4
 0 62 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12355,9 +12355,9 @@ from-free-to-moveable h3 n13 n12
 0
 4
 0 62 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12365,9 +12365,9 @@ from-free-to-moveable h3 n2 n1
 0
 4
 0 62 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12375,9 +12375,9 @@ from-free-to-moveable h3 n3 n2
 0
 4
 0 62 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12385,9 +12385,9 @@ from-free-to-moveable h3 n4 n3
 0
 4
 0 62 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12395,9 +12395,9 @@ from-free-to-moveable h3 n5 n4
 0
 4
 0 62 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12405,9 +12405,9 @@ from-free-to-moveable h3 n6 n5
 0
 4
 0 62 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12415,9 +12415,9 @@ from-free-to-moveable h3 n7 n6
 0
 4
 0 62 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12425,9 +12425,9 @@ from-free-to-moveable h3 n8 n7
 0
 4
 0 62 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12435,9 +12435,9 @@ from-free-to-moveable h3 n9 n8
 0
 4
 0 62 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12445,9 +12445,9 @@ from-free-to-moveable h4 n1 n0
 0
 4
 0 65 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12455,9 +12455,9 @@ from-free-to-moveable h4 n10 n9
 0
 4
 0 65 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12465,9 +12465,9 @@ from-free-to-moveable h4 n11 n10
 0
 4
 0 65 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12475,9 +12475,9 @@ from-free-to-moveable h4 n12 n11
 0
 4
 0 65 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12485,9 +12485,9 @@ from-free-to-moveable h4 n13 n12
 0
 4
 0 65 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12495,9 +12495,9 @@ from-free-to-moveable h4 n2 n1
 0
 4
 0 65 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12505,9 +12505,9 @@ from-free-to-moveable h4 n3 n2
 0
 4
 0 65 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12515,9 +12515,9 @@ from-free-to-moveable h4 n4 n3
 0
 4
 0 65 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12525,9 +12525,9 @@ from-free-to-moveable h4 n5 n4
 0
 4
 0 65 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12535,9 +12535,9 @@ from-free-to-moveable h4 n6 n5
 0
 4
 0 65 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12545,9 +12545,9 @@ from-free-to-moveable h4 n7 n6
 0
 4
 0 65 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12555,9 +12555,9 @@ from-free-to-moveable h4 n8 n7
 0
 4
 0 65 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12565,9 +12565,9 @@ from-free-to-moveable h4 n9 n8
 0
 4
 0 65 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12575,9 +12575,9 @@ from-free-to-moveable h5 n1 n0
 0
 4
 0 64 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12585,9 +12585,9 @@ from-free-to-moveable h5 n10 n9
 0
 4
 0 64 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12595,9 +12595,9 @@ from-free-to-moveable h5 n11 n10
 0
 4
 0 64 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12605,9 +12605,9 @@ from-free-to-moveable h5 n12 n11
 0
 4
 0 64 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12615,9 +12615,9 @@ from-free-to-moveable h5 n13 n12
 0
 4
 0 64 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12625,9 +12625,9 @@ from-free-to-moveable h5 n2 n1
 0
 4
 0 64 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12635,9 +12635,9 @@ from-free-to-moveable h5 n3 n2
 0
 4
 0 64 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12645,9 +12645,9 @@ from-free-to-moveable h5 n4 n3
 0
 4
 0 64 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12655,9 +12655,9 @@ from-free-to-moveable h5 n5 n4
 0
 4
 0 64 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12665,9 +12665,9 @@ from-free-to-moveable h5 n6 n5
 0
 4
 0 64 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12675,9 +12675,9 @@ from-free-to-moveable h5 n7 n6
 0
 4
 0 64 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12685,9 +12685,9 @@ from-free-to-moveable h5 n8 n7
 0
 4
 0 64 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12695,9 +12695,9 @@ from-free-to-moveable h5 n9 n8
 0
 4
 0 64 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12705,9 +12705,9 @@ from-free-to-moveable h6 n1 n0
 0
 4
 0 68 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12715,9 +12715,9 @@ from-free-to-moveable h6 n10 n9
 0
 4
 0 68 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12725,9 +12725,9 @@ from-free-to-moveable h6 n11 n10
 0
 4
 0 68 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12735,9 +12735,9 @@ from-free-to-moveable h6 n12 n11
 0
 4
 0 68 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12745,9 +12745,9 @@ from-free-to-moveable h6 n13 n12
 0
 4
 0 68 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12755,9 +12755,9 @@ from-free-to-moveable h6 n2 n1
 0
 4
 0 68 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12765,9 +12765,9 @@ from-free-to-moveable h6 n3 n2
 0
 4
 0 68 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12775,9 +12775,9 @@ from-free-to-moveable h6 n4 n3
 0
 4
 0 68 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12785,9 +12785,9 @@ from-free-to-moveable h6 n5 n4
 0
 4
 0 68 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12795,9 +12795,9 @@ from-free-to-moveable h6 n6 n5
 0
 4
 0 68 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12805,9 +12805,9 @@ from-free-to-moveable h6 n7 n6
 0
 4
 0 68 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12815,9 +12815,9 @@ from-free-to-moveable h6 n8 n7
 0
 4
 0 68 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12825,9 +12825,9 @@ from-free-to-moveable h6 n9 n8
 0
 4
 0 68 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12835,9 +12835,9 @@ from-free-to-moveable h7 n1 n0
 0
 4
 0 67 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12845,9 +12845,9 @@ from-free-to-moveable h7 n10 n9
 0
 4
 0 67 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12855,9 +12855,9 @@ from-free-to-moveable h7 n11 n10
 0
 4
 0 67 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12865,9 +12865,9 @@ from-free-to-moveable h7 n12 n11
 0
 4
 0 67 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12875,9 +12875,9 @@ from-free-to-moveable h7 n13 n12
 0
 4
 0 67 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12885,9 +12885,9 @@ from-free-to-moveable h7 n2 n1
 0
 4
 0 67 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12895,9 +12895,9 @@ from-free-to-moveable h7 n3 n2
 0
 4
 0 67 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12905,9 +12905,9 @@ from-free-to-moveable h7 n4 n3
 0
 4
 0 67 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12915,9 +12915,9 @@ from-free-to-moveable h7 n5 n4
 0
 4
 0 67 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12925,9 +12925,9 @@ from-free-to-moveable h7 n6 n5
 0
 4
 0 67 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12935,9 +12935,9 @@ from-free-to-moveable h7 n7 n6
 0
 4
 0 67 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12945,9 +12945,9 @@ from-free-to-moveable h7 n8 n7
 0
 4
 0 67 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12955,9 +12955,9 @@ from-free-to-moveable h7 n9 n8
 0
 4
 0 67 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12965,9 +12965,9 @@ from-free-to-moveable h8 n1 n0
 0
 4
 0 81 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12975,9 +12975,9 @@ from-free-to-moveable h8 n10 n9
 0
 4
 0 81 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12985,9 +12985,9 @@ from-free-to-moveable h8 n11 n10
 0
 4
 0 81 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -12995,9 +12995,9 @@ from-free-to-moveable h8 n12 n11
 0
 4
 0 81 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13005,9 +13005,9 @@ from-free-to-moveable h8 n13 n12
 0
 4
 0 81 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13015,9 +13015,9 @@ from-free-to-moveable h8 n2 n1
 0
 4
 0 81 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13025,9 +13025,9 @@ from-free-to-moveable h8 n3 n2
 0
 4
 0 81 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13035,9 +13035,9 @@ from-free-to-moveable h8 n4 n3
 0
 4
 0 81 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13045,9 +13045,9 @@ from-free-to-moveable h8 n5 n4
 0
 4
 0 81 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13055,9 +13055,9 @@ from-free-to-moveable h8 n6 n5
 0
 4
 0 81 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13065,9 +13065,9 @@ from-free-to-moveable h8 n7 n6
 0
 4
 0 81 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13075,9 +13075,9 @@ from-free-to-moveable h8 n8 n7
 0
 4
 0 81 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13085,9 +13085,9 @@ from-free-to-moveable h8 n9 n8
 0
 4
 0 81 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13095,9 +13095,9 @@ from-free-to-moveable h9 n1 n0
 0
 4
 0 86 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13105,9 +13105,9 @@ from-free-to-moveable h9 n10 n9
 0
 4
 0 86 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13115,9 +13115,9 @@ from-free-to-moveable h9 n11 n10
 0
 4
 0 86 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13125,9 +13125,9 @@ from-free-to-moveable h9 n12 n11
 0
 4
 0 86 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13135,9 +13135,9 @@ from-free-to-moveable h9 n13 n12
 0
 4
 0 86 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13145,9 +13145,9 @@ from-free-to-moveable h9 n2 n1
 0
 4
 0 86 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13155,9 +13155,9 @@ from-free-to-moveable h9 n3 n2
 0
 4
 0 86 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13165,9 +13165,9 @@ from-free-to-moveable h9 n4 n3
 0
 4
 0 86 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13175,9 +13175,9 @@ from-free-to-moveable h9 n5 n4
 0
 4
 0 86 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13185,9 +13185,9 @@ from-free-to-moveable h9 n6 n5
 0
 4
 0 86 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13195,9 +13195,9 @@ from-free-to-moveable h9 n7 n6
 0
 4
 0 86 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13205,9 +13205,9 @@ from-free-to-moveable h9 n8 n7
 0
 4
 0 86 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13215,9 +13215,9 @@ from-free-to-moveable h9 n9 n8
 0
 4
 0 86 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13225,9 +13225,9 @@ from-free-to-moveable ha n1 n0
 0
 4
 0 58 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13235,9 +13235,9 @@ from-free-to-moveable ha n10 n9
 0
 4
 0 58 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13245,9 +13245,9 @@ from-free-to-moveable ha n11 n10
 0
 4
 0 58 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13255,9 +13255,9 @@ from-free-to-moveable ha n12 n11
 0
 4
 0 58 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13265,9 +13265,9 @@ from-free-to-moveable ha n13 n12
 0
 4
 0 58 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13275,9 +13275,9 @@ from-free-to-moveable ha n2 n1
 0
 4
 0 58 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13285,9 +13285,9 @@ from-free-to-moveable ha n3 n2
 0
 4
 0 58 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13295,9 +13295,9 @@ from-free-to-moveable ha n4 n3
 0
 4
 0 58 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13305,9 +13305,9 @@ from-free-to-moveable ha n5 n4
 0
 4
 0 58 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13315,9 +13315,9 @@ from-free-to-moveable ha n6 n5
 0
 4
 0 58 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13325,9 +13325,9 @@ from-free-to-moveable ha n7 n6
 0
 4
 0 58 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13335,9 +13335,9 @@ from-free-to-moveable ha n8 n7
 0
 4
 0 58 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13345,9 +13345,9 @@ from-free-to-moveable ha n9 n8
 0
 4
 0 58 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13355,9 +13355,9 @@ from-free-to-moveable hj n1 n0
 0
 4
 0 92 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13365,9 +13365,9 @@ from-free-to-moveable hj n10 n9
 0
 4
 0 92 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13375,9 +13375,9 @@ from-free-to-moveable hj n11 n10
 0
 4
 0 92 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13385,9 +13385,9 @@ from-free-to-moveable hj n12 n11
 0
 4
 0 92 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13395,9 +13395,9 @@ from-free-to-moveable hj n13 n12
 0
 4
 0 92 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13405,9 +13405,9 @@ from-free-to-moveable hj n2 n1
 0
 4
 0 92 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13415,9 +13415,9 @@ from-free-to-moveable hj n3 n2
 0
 4
 0 92 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13425,9 +13425,9 @@ from-free-to-moveable hj n4 n3
 0
 4
 0 92 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13435,9 +13435,9 @@ from-free-to-moveable hj n5 n4
 0
 4
 0 92 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13445,9 +13445,9 @@ from-free-to-moveable hj n6 n5
 0
 4
 0 92 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13455,9 +13455,9 @@ from-free-to-moveable hj n7 n6
 0
 4
 0 92 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13465,9 +13465,9 @@ from-free-to-moveable hj n8 n7
 0
 4
 0 92 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13475,9 +13475,9 @@ from-free-to-moveable hj n9 n8
 0
 4
 0 92 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13485,9 +13485,9 @@ from-free-to-moveable hk n1 n0
 0
 4
 0 111 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13495,9 +13495,9 @@ from-free-to-moveable hk n10 n9
 0
 4
 0 111 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13505,9 +13505,9 @@ from-free-to-moveable hk n11 n10
 0
 4
 0 111 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13515,9 +13515,9 @@ from-free-to-moveable hk n12 n11
 0
 4
 0 111 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13525,9 +13525,9 @@ from-free-to-moveable hk n13 n12
 0
 4
 0 111 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13535,9 +13535,9 @@ from-free-to-moveable hk n2 n1
 0
 4
 0 111 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13545,9 +13545,9 @@ from-free-to-moveable hk n3 n2
 0
 4
 0 111 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13555,9 +13555,9 @@ from-free-to-moveable hk n4 n3
 0
 4
 0 111 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13565,9 +13565,9 @@ from-free-to-moveable hk n5 n4
 0
 4
 0 111 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13575,9 +13575,9 @@ from-free-to-moveable hk n6 n5
 0
 4
 0 111 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13585,9 +13585,9 @@ from-free-to-moveable hk n7 n6
 0
 4
 0 111 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13595,9 +13595,9 @@ from-free-to-moveable hk n8 n7
 0
 4
 0 111 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13605,9 +13605,9 @@ from-free-to-moveable hk n9 n8
 0
 4
 0 111 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13615,9 +13615,9 @@ from-free-to-moveable hq n1 n0
 0
 4
 0 95 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13625,9 +13625,9 @@ from-free-to-moveable hq n10 n9
 0
 4
 0 95 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13635,9 +13635,9 @@ from-free-to-moveable hq n11 n10
 0
 4
 0 95 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13645,9 +13645,9 @@ from-free-to-moveable hq n12 n11
 0
 4
 0 95 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13655,9 +13655,9 @@ from-free-to-moveable hq n13 n12
 0
 4
 0 95 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13665,9 +13665,9 @@ from-free-to-moveable hq n2 n1
 0
 4
 0 95 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13675,9 +13675,9 @@ from-free-to-moveable hq n3 n2
 0
 4
 0 95 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13685,9 +13685,9 @@ from-free-to-moveable hq n4 n3
 0
 4
 0 95 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13695,9 +13695,9 @@ from-free-to-moveable hq n5 n4
 0
 4
 0 95 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13705,9 +13705,9 @@ from-free-to-moveable hq n6 n5
 0
 4
 0 95 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13715,9 +13715,9 @@ from-free-to-moveable hq n7 n6
 0
 4
 0 95 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13725,9 +13725,9 @@ from-free-to-moveable hq n8 n7
 0
 4
 0 95 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13735,9 +13735,9 @@ from-free-to-moveable hq n9 n8
 0
 4
 0 95 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13745,9 +13745,9 @@ from-free-to-moveable s10 n1 n0
 0
 4
 0 97 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13755,9 +13755,9 @@ from-free-to-moveable s10 n10 n9
 0
 4
 0 97 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13765,9 +13765,9 @@ from-free-to-moveable s10 n11 n10
 0
 4
 0 97 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13775,9 +13775,9 @@ from-free-to-moveable s10 n12 n11
 0
 4
 0 97 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13785,9 +13785,9 @@ from-free-to-moveable s10 n13 n12
 0
 4
 0 97 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13795,9 +13795,9 @@ from-free-to-moveable s10 n2 n1
 0
 4
 0 97 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13805,9 +13805,9 @@ from-free-to-moveable s10 n3 n2
 0
 4
 0 97 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13815,9 +13815,9 @@ from-free-to-moveable s10 n4 n3
 0
 4
 0 97 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13825,9 +13825,9 @@ from-free-to-moveable s10 n5 n4
 0
 4
 0 97 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13835,9 +13835,9 @@ from-free-to-moveable s10 n6 n5
 0
 4
 0 97 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13845,9 +13845,9 @@ from-free-to-moveable s10 n7 n6
 0
 4
 0 97 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13855,9 +13855,9 @@ from-free-to-moveable s10 n8 n7
 0
 4
 0 97 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13865,9 +13865,9 @@ from-free-to-moveable s10 n9 n8
 0
 4
 0 97 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13875,9 +13875,9 @@ from-free-to-moveable s2 n1 n0
 0
 4
 0 75 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13885,9 +13885,9 @@ from-free-to-moveable s2 n10 n9
 0
 4
 0 75 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13895,9 +13895,9 @@ from-free-to-moveable s2 n11 n10
 0
 4
 0 75 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13905,9 +13905,9 @@ from-free-to-moveable s2 n12 n11
 0
 4
 0 75 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13915,9 +13915,9 @@ from-free-to-moveable s2 n13 n12
 0
 4
 0 75 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13925,9 +13925,9 @@ from-free-to-moveable s2 n2 n1
 0
 4
 0 75 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13935,9 +13935,9 @@ from-free-to-moveable s2 n3 n2
 0
 4
 0 75 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13945,9 +13945,9 @@ from-free-to-moveable s2 n4 n3
 0
 4
 0 75 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13955,9 +13955,9 @@ from-free-to-moveable s2 n5 n4
 0
 4
 0 75 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13965,9 +13965,9 @@ from-free-to-moveable s2 n6 n5
 0
 4
 0 75 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13975,9 +13975,9 @@ from-free-to-moveable s2 n7 n6
 0
 4
 0 75 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13985,9 +13985,9 @@ from-free-to-moveable s2 n8 n7
 0
 4
 0 75 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -13995,9 +13995,9 @@ from-free-to-moveable s2 n9 n8
 0
 4
 0 75 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14005,9 +14005,9 @@ from-free-to-moveable s3 n1 n0
 0
 4
 0 76 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14015,9 +14015,9 @@ from-free-to-moveable s3 n10 n9
 0
 4
 0 76 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14025,9 +14025,9 @@ from-free-to-moveable s3 n11 n10
 0
 4
 0 76 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14035,9 +14035,9 @@ from-free-to-moveable s3 n12 n11
 0
 4
 0 76 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14045,9 +14045,9 @@ from-free-to-moveable s3 n13 n12
 0
 4
 0 76 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14055,9 +14055,9 @@ from-free-to-moveable s3 n2 n1
 0
 4
 0 76 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14065,9 +14065,9 @@ from-free-to-moveable s3 n3 n2
 0
 4
 0 76 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14075,9 +14075,9 @@ from-free-to-moveable s3 n4 n3
 0
 4
 0 76 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14085,9 +14085,9 @@ from-free-to-moveable s3 n5 n4
 0
 4
 0 76 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14095,9 +14095,9 @@ from-free-to-moveable s3 n6 n5
 0
 4
 0 76 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14105,9 +14105,9 @@ from-free-to-moveable s3 n7 n6
 0
 4
 0 76 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14115,9 +14115,9 @@ from-free-to-moveable s3 n8 n7
 0
 4
 0 76 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14125,9 +14125,9 @@ from-free-to-moveable s3 n9 n8
 0
 4
 0 76 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14135,9 +14135,9 @@ from-free-to-moveable s4 n1 n0
 0
 4
 0 61 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14145,9 +14145,9 @@ from-free-to-moveable s4 n10 n9
 0
 4
 0 61 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14155,9 +14155,9 @@ from-free-to-moveable s4 n11 n10
 0
 4
 0 61 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14165,9 +14165,9 @@ from-free-to-moveable s4 n12 n11
 0
 4
 0 61 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14175,9 +14175,9 @@ from-free-to-moveable s4 n13 n12
 0
 4
 0 61 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14185,9 +14185,9 @@ from-free-to-moveable s4 n2 n1
 0
 4
 0 61 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14195,9 +14195,9 @@ from-free-to-moveable s4 n3 n2
 0
 4
 0 61 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14205,9 +14205,9 @@ from-free-to-moveable s4 n4 n3
 0
 4
 0 61 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14215,9 +14215,9 @@ from-free-to-moveable s4 n5 n4
 0
 4
 0 61 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14225,9 +14225,9 @@ from-free-to-moveable s4 n6 n5
 0
 4
 0 61 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14235,9 +14235,9 @@ from-free-to-moveable s4 n7 n6
 0
 4
 0 61 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14245,9 +14245,9 @@ from-free-to-moveable s4 n8 n7
 0
 4
 0 61 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14255,9 +14255,9 @@ from-free-to-moveable s4 n9 n8
 0
 4
 0 61 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14265,9 +14265,9 @@ from-free-to-moveable s5 n1 n0
 0
 4
 0 79 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14275,9 +14275,9 @@ from-free-to-moveable s5 n10 n9
 0
 4
 0 79 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14285,9 +14285,9 @@ from-free-to-moveable s5 n11 n10
 0
 4
 0 79 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14295,9 +14295,9 @@ from-free-to-moveable s5 n12 n11
 0
 4
 0 79 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14305,9 +14305,9 @@ from-free-to-moveable s5 n13 n12
 0
 4
 0 79 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14315,9 +14315,9 @@ from-free-to-moveable s5 n2 n1
 0
 4
 0 79 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14325,9 +14325,9 @@ from-free-to-moveable s5 n3 n2
 0
 4
 0 79 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14335,9 +14335,9 @@ from-free-to-moveable s5 n4 n3
 0
 4
 0 79 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14345,9 +14345,9 @@ from-free-to-moveable s5 n5 n4
 0
 4
 0 79 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14355,9 +14355,9 @@ from-free-to-moveable s5 n6 n5
 0
 4
 0 79 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14365,9 +14365,9 @@ from-free-to-moveable s5 n7 n6
 0
 4
 0 79 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14375,9 +14375,9 @@ from-free-to-moveable s5 n8 n7
 0
 4
 0 79 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14385,9 +14385,9 @@ from-free-to-moveable s5 n9 n8
 0
 4
 0 79 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14395,9 +14395,9 @@ from-free-to-moveable s6 n1 n0
 0
 4
 0 85 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14405,9 +14405,9 @@ from-free-to-moveable s6 n10 n9
 0
 4
 0 85 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14415,9 +14415,9 @@ from-free-to-moveable s6 n11 n10
 0
 4
 0 85 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14425,9 +14425,9 @@ from-free-to-moveable s6 n12 n11
 0
 4
 0 85 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14435,9 +14435,9 @@ from-free-to-moveable s6 n13 n12
 0
 4
 0 85 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14445,9 +14445,9 @@ from-free-to-moveable s6 n2 n1
 0
 4
 0 85 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14455,9 +14455,9 @@ from-free-to-moveable s6 n3 n2
 0
 4
 0 85 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14465,9 +14465,9 @@ from-free-to-moveable s6 n4 n3
 0
 4
 0 85 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14475,9 +14475,9 @@ from-free-to-moveable s6 n5 n4
 0
 4
 0 85 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14485,9 +14485,9 @@ from-free-to-moveable s6 n6 n5
 0
 4
 0 85 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14495,9 +14495,9 @@ from-free-to-moveable s6 n7 n6
 0
 4
 0 85 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14505,9 +14505,9 @@ from-free-to-moveable s6 n8 n7
 0
 4
 0 85 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14515,9 +14515,9 @@ from-free-to-moveable s6 n9 n8
 0
 4
 0 85 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14525,9 +14525,9 @@ from-free-to-moveable s7 n1 n0
 0
 4
 0 88 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14535,9 +14535,9 @@ from-free-to-moveable s7 n10 n9
 0
 4
 0 88 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14545,9 +14545,9 @@ from-free-to-moveable s7 n11 n10
 0
 4
 0 88 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14555,9 +14555,9 @@ from-free-to-moveable s7 n12 n11
 0
 4
 0 88 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14565,9 +14565,9 @@ from-free-to-moveable s7 n13 n12
 0
 4
 0 88 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14575,9 +14575,9 @@ from-free-to-moveable s7 n2 n1
 0
 4
 0 88 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14585,9 +14585,9 @@ from-free-to-moveable s7 n3 n2
 0
 4
 0 88 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14595,9 +14595,9 @@ from-free-to-moveable s7 n4 n3
 0
 4
 0 88 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14605,9 +14605,9 @@ from-free-to-moveable s7 n5 n4
 0
 4
 0 88 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14615,9 +14615,9 @@ from-free-to-moveable s7 n6 n5
 0
 4
 0 88 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14625,9 +14625,9 @@ from-free-to-moveable s7 n7 n6
 0
 4
 0 88 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14635,9 +14635,9 @@ from-free-to-moveable s7 n8 n7
 0
 4
 0 88 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14645,9 +14645,9 @@ from-free-to-moveable s7 n9 n8
 0
 4
 0 88 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14655,9 +14655,9 @@ from-free-to-moveable s8 n1 n0
 0
 4
 0 91 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14665,9 +14665,9 @@ from-free-to-moveable s8 n10 n9
 0
 4
 0 91 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14675,9 +14675,9 @@ from-free-to-moveable s8 n11 n10
 0
 4
 0 91 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14685,9 +14685,9 @@ from-free-to-moveable s8 n12 n11
 0
 4
 0 91 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14695,9 +14695,9 @@ from-free-to-moveable s8 n13 n12
 0
 4
 0 91 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14705,9 +14705,9 @@ from-free-to-moveable s8 n2 n1
 0
 4
 0 91 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14715,9 +14715,9 @@ from-free-to-moveable s8 n3 n2
 0
 4
 0 91 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14725,9 +14725,9 @@ from-free-to-moveable s8 n4 n3
 0
 4
 0 91 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14735,9 +14735,9 @@ from-free-to-moveable s8 n5 n4
 0
 4
 0 91 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14745,9 +14745,9 @@ from-free-to-moveable s8 n6 n5
 0
 4
 0 91 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14755,9 +14755,9 @@ from-free-to-moveable s8 n7 n6
 0
 4
 0 91 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14765,9 +14765,9 @@ from-free-to-moveable s8 n8 n7
 0
 4
 0 91 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14775,9 +14775,9 @@ from-free-to-moveable s8 n9 n8
 0
 4
 0 91 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14785,9 +14785,9 @@ from-free-to-moveable s9 n1 n0
 0
 4
 0 94 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14795,9 +14795,9 @@ from-free-to-moveable s9 n10 n9
 0
 4
 0 94 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14805,9 +14805,9 @@ from-free-to-moveable s9 n11 n10
 0
 4
 0 94 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14815,9 +14815,9 @@ from-free-to-moveable s9 n12 n11
 0
 4
 0 94 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14825,9 +14825,9 @@ from-free-to-moveable s9 n13 n12
 0
 4
 0 94 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14835,9 +14835,9 @@ from-free-to-moveable s9 n2 n1
 0
 4
 0 94 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14845,9 +14845,9 @@ from-free-to-moveable s9 n3 n2
 0
 4
 0 94 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14855,9 +14855,9 @@ from-free-to-moveable s9 n4 n3
 0
 4
 0 94 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14865,9 +14865,9 @@ from-free-to-moveable s9 n5 n4
 0
 4
 0 94 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14875,9 +14875,9 @@ from-free-to-moveable s9 n6 n5
 0
 4
 0 94 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14885,9 +14885,9 @@ from-free-to-moveable s9 n7 n6
 0
 4
 0 94 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14895,9 +14895,9 @@ from-free-to-moveable s9 n8 n7
 0
 4
 0 94 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14905,9 +14905,9 @@ from-free-to-moveable s9 n9 n8
 0
 4
 0 94 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14915,9 +14915,9 @@ from-free-to-moveable sa n1 n0
 0
 4
 0 56 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14925,9 +14925,9 @@ from-free-to-moveable sa n10 n9
 0
 4
 0 56 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14935,9 +14935,9 @@ from-free-to-moveable sa n11 n10
 0
 4
 0 56 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14945,9 +14945,9 @@ from-free-to-moveable sa n12 n11
 0
 4
 0 56 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14955,9 +14955,9 @@ from-free-to-moveable sa n13 n12
 0
 4
 0 56 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14965,9 +14965,9 @@ from-free-to-moveable sa n2 n1
 0
 4
 0 56 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14975,9 +14975,9 @@ from-free-to-moveable sa n3 n2
 0
 4
 0 56 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14985,9 +14985,9 @@ from-free-to-moveable sa n4 n3
 0
 4
 0 56 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -14995,9 +14995,9 @@ from-free-to-moveable sa n5 n4
 0
 4
 0 56 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15005,9 +15005,9 @@ from-free-to-moveable sa n6 n5
 0
 4
 0 56 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15015,9 +15015,9 @@ from-free-to-moveable sa n7 n6
 0
 4
 0 56 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15025,9 +15025,9 @@ from-free-to-moveable sa n8 n7
 0
 4
 0 56 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15035,9 +15035,9 @@ from-free-to-moveable sa n9 n8
 0
 4
 0 56 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15045,9 +15045,9 @@ from-free-to-moveable sj n1 n0
 0
 4
 0 99 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15055,9 +15055,9 @@ from-free-to-moveable sj n10 n9
 0
 4
 0 99 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15065,9 +15065,9 @@ from-free-to-moveable sj n11 n10
 0
 4
 0 99 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15075,9 +15075,9 @@ from-free-to-moveable sj n12 n11
 0
 4
 0 99 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15085,9 +15085,9 @@ from-free-to-moveable sj n13 n12
 0
 4
 0 99 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15095,9 +15095,9 @@ from-free-to-moveable sj n2 n1
 0
 4
 0 99 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15105,9 +15105,9 @@ from-free-to-moveable sj n3 n2
 0
 4
 0 99 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15115,9 +15115,9 @@ from-free-to-moveable sj n4 n3
 0
 4
 0 99 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15125,9 +15125,9 @@ from-free-to-moveable sj n5 n4
 0
 4
 0 99 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15135,9 +15135,9 @@ from-free-to-moveable sj n6 n5
 0
 4
 0 99 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15145,9 +15145,9 @@ from-free-to-moveable sj n7 n6
 0
 4
 0 99 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15155,9 +15155,9 @@ from-free-to-moveable sj n8 n7
 0
 4
 0 99 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15165,9 +15165,9 @@ from-free-to-moveable sj n9 n8
 0
 4
 0 99 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15175,9 +15175,9 @@ from-free-to-moveable sk n1 n0
 0
 4
 0 112 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15185,9 +15185,9 @@ from-free-to-moveable sk n10 n9
 0
 4
 0 112 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15195,9 +15195,9 @@ from-free-to-moveable sk n11 n10
 0
 4
 0 112 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15205,9 +15205,9 @@ from-free-to-moveable sk n12 n11
 0
 4
 0 112 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15215,9 +15215,9 @@ from-free-to-moveable sk n13 n12
 0
 4
 0 112 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15225,9 +15225,9 @@ from-free-to-moveable sk n2 n1
 0
 4
 0 112 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15235,9 +15235,9 @@ from-free-to-moveable sk n3 n2
 0
 4
 0 112 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15245,9 +15245,9 @@ from-free-to-moveable sk n4 n3
 0
 4
 0 112 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15255,9 +15255,9 @@ from-free-to-moveable sk n5 n4
 0
 4
 0 112 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15265,9 +15265,9 @@ from-free-to-moveable sk n6 n5
 0
 4
 0 112 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15275,9 +15275,9 @@ from-free-to-moveable sk n7 n6
 0
 4
 0 112 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15285,9 +15285,9 @@ from-free-to-moveable sk n8 n7
 0
 4
 0 112 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15295,9 +15295,9 @@ from-free-to-moveable sk n9 n8
 0
 4
 0 112 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15305,9 +15305,9 @@ from-free-to-moveable sq n1 n0
 0
 4
 0 101 2 3
-0 104 0 1
+0 107 0 1
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15315,9 +15315,9 @@ from-free-to-moveable sq n10 n9
 0
 4
 0 101 2 3
-0 104 13 2
+0 107 13 2
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15325,9 +15325,9 @@ from-free-to-moveable sq n11 n10
 0
 4
 0 101 2 3
-0 104 2 3
+0 107 2 3
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15335,9 +15335,9 @@ from-free-to-moveable sq n12 n11
 0
 4
 0 101 2 3
-0 104 3 4
+0 107 3 4
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15345,9 +15345,9 @@ from-free-to-moveable sq n13 n12
 0
 4
 0 101 2 3
-0 104 4 5
+0 107 4 5
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15355,9 +15355,9 @@ from-free-to-moveable sq n2 n1
 0
 4
 0 101 2 3
-0 104 1 6
+0 107 1 6
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15365,9 +15365,9 @@ from-free-to-moveable sq n3 n2
 0
 4
 0 101 2 3
-0 104 6 7
+0 107 6 7
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15375,9 +15375,9 @@ from-free-to-moveable sq n4 n3
 0
 4
 0 101 2 3
-0 104 7 8
+0 107 7 8
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15385,9 +15385,9 @@ from-free-to-moveable sq n5 n4
 0
 4
 0 101 2 3
-0 104 8 9
+0 107 8 9
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15395,9 +15395,9 @@ from-free-to-moveable sq n6 n5
 0
 4
 0 101 2 3
-0 104 9 10
+0 107 9 10
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15405,9 +15405,9 @@ from-free-to-moveable sq n7 n6
 0
 4
 0 101 2 3
-0 104 10 11
+0 107 10 11
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15415,9 +15415,9 @@ from-free-to-moveable sq n8 n7
 0
 4
 0 101 2 3
-0 104 11 12
+0 107 11 12
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
@@ -15425,15557 +15425,14205 @@ from-free-to-moveable sq n9 n8
 0
 4
 0 101 2 3
-0 104 12 13
+0 107 12 13
 0 108 1 0
-0 107 -1 0
+0 106 -1 0
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c10 n1 n0
 1
-106 1
-5
+104 1
+4
 0 100 3 0
 0 35 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c10 n10 n9
 1
-106 1
-5
+104 1
+4
 0 100 3 0
 0 35 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c10 n11 n10
 1
-106 1
-5
+104 1
+4
 0 100 3 0
 0 35 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c10 n12 n11
 1
-106 1
-5
+104 1
+4
 0 100 3 0
 0 35 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c10 n13 n12
 1
-106 1
-5
+104 1
+4
 0 100 3 0
 0 35 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c10 n2 n1
 1
-106 1
-5
+104 1
+4
 0 100 3 0
 0 35 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c10 n3 n2
 1
-106 1
-5
+104 1
+4
 0 100 3 0
 0 35 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c10 n4 n3
 1
-106 1
-5
+104 1
+4
 0 100 3 0
 0 35 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c10 n5 n4
 1
-106 1
-5
+104 1
+4
 0 100 3 0
 0 35 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c10 n6 n5
 1
-106 1
-5
+104 1
+4
 0 100 3 0
 0 35 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c10 n7 n6
 1
-106 1
-5
+104 1
+4
 0 100 3 0
 0 35 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c10 n8 n7
 1
-106 1
-5
+104 1
+4
 0 100 3 0
 0 35 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c10 n9 n8
 1
-106 1
-5
+104 1
+4
 0 100 3 0
 0 35 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c2 n1 n0
 1
-106 1
-5
+104 1
+4
 0 72 3 0
 0 9 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c2 n10 n9
 1
-106 1
-5
+104 1
+4
 0 72 3 0
 0 9 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c2 n11 n10
 1
-106 1
-5
+104 1
+4
 0 72 3 0
 0 9 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c2 n12 n11
 1
-106 1
-5
+104 1
+4
 0 72 3 0
 0 9 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c2 n13 n12
 1
-106 1
-5
+104 1
+4
 0 72 3 0
 0 9 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c2 n2 n1
 1
-106 1
-5
+104 1
+4
 0 72 3 0
 0 9 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c2 n3 n2
 1
-106 1
-5
+104 1
+4
 0 72 3 0
 0 9 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c2 n4 n3
 1
-106 1
-5
+104 1
+4
 0 72 3 0
 0 9 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c2 n5 n4
 1
-106 1
-5
+104 1
+4
 0 72 3 0
 0 9 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c2 n6 n5
 1
-106 1
-5
+104 1
+4
 0 72 3 0
 0 9 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c2 n7 n6
 1
-106 1
-5
+104 1
+4
 0 72 3 0
 0 9 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c2 n8 n7
 1
-106 1
-5
+104 1
+4
 0 72 3 0
 0 9 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c2 n9 n8
 1
-106 1
-5
+104 1
+4
 0 72 3 0
 0 9 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c3 n1 n0
 1
-106 1
-5
+104 1
+4
 0 71 3 0
 0 42 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c3 n10 n9
 1
-106 1
-5
+104 1
+4
 0 71 3 0
 0 42 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c3 n11 n10
 1
-106 1
-5
+104 1
+4
 0 71 3 0
 0 42 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c3 n12 n11
 1
-106 1
-5
+104 1
+4
 0 71 3 0
 0 42 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c3 n13 n12
 1
-106 1
-5
+104 1
+4
 0 71 3 0
 0 42 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c3 n2 n1
 1
-106 1
-5
+104 1
+4
 0 71 3 0
 0 42 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c3 n3 n2
 1
-106 1
-5
+104 1
+4
 0 71 3 0
 0 42 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c3 n4 n3
 1
-106 1
-5
+104 1
+4
 0 71 3 0
 0 42 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c3 n5 n4
 1
-106 1
-5
+104 1
+4
 0 71 3 0
 0 42 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c3 n6 n5
 1
-106 1
-5
+104 1
+4
 0 71 3 0
 0 42 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c3 n7 n6
 1
-106 1
-5
+104 1
+4
 0 71 3 0
 0 42 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c3 n8 n7
 1
-106 1
-5
+104 1
+4
 0 71 3 0
 0 42 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c3 n9 n8
 1
-106 1
-5
+104 1
+4
 0 71 3 0
 0 42 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c4 n1 n0
 1
-106 1
-5
+104 1
+4
 0 84 3 0
 0 17 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c4 n10 n9
 1
-106 1
-5
+104 1
+4
 0 84 3 0
 0 17 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c4 n11 n10
 1
-106 1
-5
+104 1
+4
 0 84 3 0
 0 17 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c4 n12 n11
 1
-106 1
-5
+104 1
+4
 0 84 3 0
 0 17 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c4 n13 n12
 1
-106 1
-5
+104 1
+4
 0 84 3 0
 0 17 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c4 n2 n1
 1
-106 1
-5
+104 1
+4
 0 84 3 0
 0 17 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c4 n3 n2
 1
-106 1
-5
+104 1
+4
 0 84 3 0
 0 17 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c4 n4 n3
 1
-106 1
-5
+104 1
+4
 0 84 3 0
 0 17 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c4 n5 n4
 1
-106 1
-5
+104 1
+4
 0 84 3 0
 0 17 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c4 n6 n5
 1
-106 1
-5
+104 1
+4
 0 84 3 0
 0 17 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c4 n7 n6
 1
-106 1
-5
+104 1
+4
 0 84 3 0
 0 17 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c4 n8 n7
 1
-106 1
-5
+104 1
+4
 0 84 3 0
 0 17 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c4 n9 n8
 1
-106 1
-5
+104 1
+4
 0 84 3 0
 0 17 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c5 n1 n0
 1
-106 1
-5
+104 1
+4
 0 87 3 0
 0 52 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c5 n10 n9
 1
-106 1
-5
+104 1
+4
 0 87 3 0
 0 52 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c5 n11 n10
 1
-106 1
-5
+104 1
+4
 0 87 3 0
 0 52 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c5 n12 n11
 1
-106 1
-5
+104 1
+4
 0 87 3 0
 0 52 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c5 n13 n12
 1
-106 1
-5
+104 1
+4
 0 87 3 0
 0 52 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c5 n2 n1
 1
-106 1
-5
+104 1
+4
 0 87 3 0
 0 52 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c5 n3 n2
 1
-106 1
-5
+104 1
+4
 0 87 3 0
 0 52 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c5 n4 n3
 1
-106 1
-5
+104 1
+4
 0 87 3 0
 0 52 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c5 n5 n4
 1
-106 1
-5
+104 1
+4
 0 87 3 0
 0 52 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c5 n6 n5
 1
-106 1
-5
+104 1
+4
 0 87 3 0
 0 52 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c5 n7 n6
 1
-106 1
-5
+104 1
+4
 0 87 3 0
 0 52 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c5 n8 n7
 1
-106 1
-5
+104 1
+4
 0 87 3 0
 0 52 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c5 n9 n8
 1
-106 1
-5
+104 1
+4
 0 87 3 0
 0 52 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c6 n1 n0
 1
-106 1
-5
+104 1
+4
 0 90 3 0
 0 23 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c6 n10 n9
 1
-106 1
-5
+104 1
+4
 0 90 3 0
 0 23 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c6 n11 n10
 1
-106 1
-5
+104 1
+4
 0 90 3 0
 0 23 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c6 n12 n11
 1
-106 1
-5
+104 1
+4
 0 90 3 0
 0 23 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c6 n13 n12
 1
-106 1
-5
+104 1
+4
 0 90 3 0
 0 23 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c6 n2 n1
 1
-106 1
-5
+104 1
+4
 0 90 3 0
 0 23 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c6 n3 n2
 1
-106 1
-5
+104 1
+4
 0 90 3 0
 0 23 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c6 n4 n3
 1
-106 1
-5
+104 1
+4
 0 90 3 0
 0 23 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c6 n5 n4
 1
-106 1
-5
+104 1
+4
 0 90 3 0
 0 23 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c6 n6 n5
 1
-106 1
-5
+104 1
+4
 0 90 3 0
 0 23 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c6 n7 n6
 1
-106 1
-5
+104 1
+4
 0 90 3 0
 0 23 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c6 n8 n7
 1
-106 1
-5
+104 1
+4
 0 90 3 0
 0 23 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c6 n9 n8
 1
-106 1
-5
+104 1
+4
 0 90 3 0
 0 23 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c7 n1 n0
 1
-106 1
-5
+104 1
+4
 0 93 3 0
 0 51 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c7 n10 n9
 1
-106 1
-5
+104 1
+4
 0 93 3 0
 0 51 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c7 n11 n10
 1
-106 1
-5
+104 1
+4
 0 93 3 0
 0 51 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c7 n12 n11
 1
-106 1
-5
+104 1
+4
 0 93 3 0
 0 51 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c7 n13 n12
 1
-106 1
-5
+104 1
+4
 0 93 3 0
 0 51 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c7 n2 n1
 1
-106 1
-5
+104 1
+4
 0 93 3 0
 0 51 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c7 n3 n2
 1
-106 1
-5
+104 1
+4
 0 93 3 0
 0 51 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c7 n4 n3
 1
-106 1
-5
+104 1
+4
 0 93 3 0
 0 51 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c7 n5 n4
 1
-106 1
-5
+104 1
+4
 0 93 3 0
 0 51 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c7 n6 n5
 1
-106 1
-5
+104 1
+4
 0 93 3 0
 0 51 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c7 n7 n6
 1
-106 1
-5
+104 1
+4
 0 93 3 0
 0 51 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c7 n8 n7
 1
-106 1
-5
+104 1
+4
 0 93 3 0
 0 51 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c7 n9 n8
 1
-106 1
-5
+104 1
+4
 0 93 3 0
 0 51 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c8 n1 n0
 1
-106 1
-5
+104 1
+4
 0 96 3 0
 0 31 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c8 n10 n9
 1
-106 1
-5
+104 1
+4
 0 96 3 0
 0 31 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c8 n11 n10
 1
-106 1
-5
+104 1
+4
 0 96 3 0
 0 31 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c8 n12 n11
 1
-106 1
-5
+104 1
+4
 0 96 3 0
 0 31 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c8 n13 n12
 1
-106 1
-5
+104 1
+4
 0 96 3 0
 0 31 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c8 n2 n1
 1
-106 1
-5
+104 1
+4
 0 96 3 0
 0 31 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c8 n3 n2
 1
-106 1
-5
+104 1
+4
 0 96 3 0
 0 31 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c8 n4 n3
 1
-106 1
-5
+104 1
+4
 0 96 3 0
 0 31 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c8 n5 n4
 1
-106 1
-5
+104 1
+4
 0 96 3 0
 0 31 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c8 n6 n5
 1
-106 1
-5
+104 1
+4
 0 96 3 0
 0 31 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c8 n7 n6
 1
-106 1
-5
+104 1
+4
 0 96 3 0
 0 31 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c8 n8 n7
 1
-106 1
-5
+104 1
+4
 0 96 3 0
 0 31 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c8 n9 n8
 1
-106 1
-5
+104 1
+4
 0 96 3 0
 0 31 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c9 n1 n0
 1
-106 1
-5
+104 1
+4
 0 98 3 0
 0 45 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c9 n10 n9
 1
-106 1
-5
+104 1
+4
 0 98 3 0
 0 45 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c9 n11 n10
 1
-106 1
-5
+104 1
+4
 0 98 3 0
 0 45 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c9 n12 n11
 1
-106 1
-5
+104 1
+4
 0 98 3 0
 0 45 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c9 n13 n12
 1
-106 1
-5
+104 1
+4
 0 98 3 0
 0 45 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c9 n2 n1
 1
-106 1
-5
+104 1
+4
 0 98 3 0
 0 45 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c9 n3 n2
 1
-106 1
-5
+104 1
+4
 0 98 3 0
 0 45 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c9 n4 n3
 1
-106 1
-5
+104 1
+4
 0 98 3 0
 0 45 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c9 n5 n4
 1
-106 1
-5
+104 1
+4
 0 98 3 0
 0 45 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c9 n6 n5
 1
-106 1
-5
+104 1
+4
 0 98 3 0
 0 45 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c9 n7 n6
 1
-106 1
-5
+104 1
+4
 0 98 3 0
 0 45 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c9 n8 n7
 1
-106 1
-5
+104 1
+4
 0 98 3 0
 0 45 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom c9 n9 n8
 1
-106 1
-5
+104 1
+4
 0 98 3 0
 0 45 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ca n1 n0
 1
-106 1
-5
+104 1
+4
 0 69 3 0
 0 5 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ca n10 n9
 1
-106 1
-5
+104 1
+4
 0 69 3 0
 0 5 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ca n11 n10
 1
-106 1
-5
+104 1
+4
 0 69 3 0
 0 5 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ca n12 n11
 1
-106 1
-5
+104 1
+4
 0 69 3 0
 0 5 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ca n13 n12
 1
-106 1
-5
+104 1
+4
 0 69 3 0
 0 5 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ca n2 n1
 1
-106 1
-5
+104 1
+4
 0 69 3 0
 0 5 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ca n3 n2
 1
-106 1
-5
+104 1
+4
 0 69 3 0
 0 5 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ca n4 n3
 1
-106 1
-5
+104 1
+4
 0 69 3 0
 0 5 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ca n5 n4
 1
-106 1
-5
+104 1
+4
 0 69 3 0
 0 5 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ca n6 n5
 1
-106 1
-5
+104 1
+4
 0 69 3 0
 0 5 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ca n7 n6
 1
-106 1
-5
+104 1
+4
 0 69 3 0
 0 5 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ca n8 n7
 1
-106 1
-5
+104 1
+4
 0 69 3 0
 0 5 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ca n9 n8
 1
-106 1
-5
+104 1
+4
 0 69 3 0
 0 5 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cj n1 n0
 1
-106 1
-5
+104 1
+4
 0 102 3 0
 0 38 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cj n10 n9
 1
-106 1
-5
+104 1
+4
 0 102 3 0
 0 38 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cj n11 n10
 1
-106 1
-5
+104 1
+4
 0 102 3 0
 0 38 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cj n12 n11
 1
-106 1
-5
+104 1
+4
 0 102 3 0
 0 38 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cj n13 n12
 1
-106 1
-5
+104 1
+4
 0 102 3 0
 0 38 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cj n2 n1
 1
-106 1
-5
+104 1
+4
 0 102 3 0
 0 38 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cj n3 n2
 1
-106 1
-5
+104 1
+4
 0 102 3 0
 0 38 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cj n4 n3
 1
-106 1
-5
+104 1
+4
 0 102 3 0
 0 38 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cj n5 n4
 1
-106 1
-5
+104 1
+4
 0 102 3 0
 0 38 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cj n6 n5
 1
-106 1
-5
+104 1
+4
 0 102 3 0
 0 38 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cj n7 n6
 1
-106 1
-5
+104 1
+4
 0 102 3 0
 0 38 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cj n8 n7
 1
-106 1
-5
+104 1
+4
 0 102 3 0
 0 38 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cj n9 n8
 1
-106 1
-5
+104 1
+4
 0 102 3 0
 0 38 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ck n1 n0
 1
-106 1
-5
+104 1
+4
 0 109 3 0
 0 13 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ck n10 n9
 1
-106 1
-5
+104 1
+4
 0 109 3 0
 0 13 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ck n11 n10
 1
-106 1
-5
+104 1
+4
 0 109 3 0
 0 13 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ck n12 n11
 1
-106 1
-5
+104 1
+4
 0 109 3 0
 0 13 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ck n13 n12
 1
-106 1
-5
+104 1
+4
 0 109 3 0
 0 13 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ck n2 n1
 1
-106 1
-5
+104 1
+4
 0 109 3 0
 0 13 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ck n3 n2
 1
-106 1
-5
+104 1
+4
 0 109 3 0
 0 13 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ck n4 n3
 1
-106 1
-5
+104 1
+4
 0 109 3 0
 0 13 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ck n5 n4
 1
-106 1
-5
+104 1
+4
 0 109 3 0
 0 13 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ck n6 n5
 1
-106 1
-5
+104 1
+4
 0 109 3 0
 0 13 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ck n7 n6
 1
-106 1
-5
+104 1
+4
 0 109 3 0
 0 13 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ck n8 n7
 1
-106 1
-5
+104 1
+4
 0 109 3 0
 0 13 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ck n9 n8
 1
-106 1
-5
+104 1
+4
 0 109 3 0
 0 13 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cq n1 n0
 1
-106 1
-5
+104 1
+4
 0 103 3 0
 0 12 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cq n10 n9
 1
-106 1
-5
+104 1
+4
 0 103 3 0
 0 12 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cq n11 n10
 1
-106 1
-5
+104 1
+4
 0 103 3 0
 0 12 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cq n12 n11
 1
-106 1
-5
+104 1
+4
 0 103 3 0
 0 12 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cq n13 n12
 1
-106 1
-5
+104 1
+4
 0 103 3 0
 0 12 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cq n2 n1
 1
-106 1
-5
+104 1
+4
 0 103 3 0
 0 12 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cq n3 n2
 1
-106 1
-5
+104 1
+4
 0 103 3 0
 0 12 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cq n4 n3
 1
-106 1
-5
+104 1
+4
 0 103 3 0
 0 12 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cq n5 n4
 1
-106 1
-5
+104 1
+4
 0 103 3 0
 0 12 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cq n6 n5
 1
-106 1
-5
+104 1
+4
 0 103 3 0
 0 12 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cq n7 n6
 1
-106 1
-5
+104 1
+4
 0 103 3 0
 0 12 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cq n8 n7
 1
-106 1
-5
+104 1
+4
 0 103 3 0
 0 12 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom cq n9 n8
 1
-106 1
-5
+104 1
+4
 0 103 3 0
 0 12 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d10 n1 n0
 1
-106 1
-5
+104 1
+4
 0 83 3 0
 0 39 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d10 n10 n9
 1
-106 1
-5
+104 1
+4
 0 83 3 0
 0 39 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d10 n11 n10
 1
-106 1
-5
+104 1
+4
 0 83 3 0
 0 39 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d10 n12 n11
 1
-106 1
-5
+104 1
+4
 0 83 3 0
 0 39 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d10 n13 n12
 1
-106 1
-5
+104 1
+4
 0 83 3 0
 0 39 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d10 n2 n1
 1
-106 1
-5
+104 1
+4
 0 83 3 0
 0 39 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d10 n3 n2
 1
-106 1
-5
+104 1
+4
 0 83 3 0
 0 39 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d10 n4 n3
 1
-106 1
-5
+104 1
+4
 0 83 3 0
 0 39 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d10 n5 n4
 1
-106 1
-5
+104 1
+4
 0 83 3 0
 0 39 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d10 n6 n5
 1
-106 1
-5
+104 1
+4
 0 83 3 0
 0 39 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d10 n7 n6
 1
-106 1
-5
+104 1
+4
 0 83 3 0
 0 39 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d10 n8 n7
 1
-106 1
-5
+104 1
+4
 0 83 3 0
 0 39 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d10 n9 n8
 1
-106 1
-5
+104 1
+4
 0 83 3 0
 0 39 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d2 n1 n0
 1
-106 1
-5
+104 1
+4
 0 60 3 0
 0 40 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d2 n10 n9
 1
-106 1
-5
+104 1
+4
 0 60 3 0
 0 40 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d2 n11 n10
 1
-106 1
-5
+104 1
+4
 0 60 3 0
 0 40 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d2 n12 n11
 1
-106 1
-5
+104 1
+4
 0 60 3 0
 0 40 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d2 n13 n12
 1
-106 1
-5
+104 1
+4
 0 60 3 0
 0 40 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d2 n2 n1
 1
-106 1
-5
+104 1
+4
 0 60 3 0
 0 40 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d2 n3 n2
 1
-106 1
-5
+104 1
+4
 0 60 3 0
 0 40 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d2 n4 n3
 1
-106 1
-5
+104 1
+4
 0 60 3 0
 0 40 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d2 n5 n4
 1
-106 1
-5
+104 1
+4
 0 60 3 0
 0 40 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d2 n6 n5
 1
-106 1
-5
+104 1
+4
 0 60 3 0
 0 40 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d2 n7 n6
 1
-106 1
-5
+104 1
+4
 0 60 3 0
 0 40 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d2 n8 n7
 1
-106 1
-5
+104 1
+4
 0 60 3 0
 0 40 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d2 n9 n8
 1
-106 1
-5
+104 1
+4
 0 60 3 0
 0 40 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d3 n1 n0
 1
-106 1
-5
+104 1
+4
 0 59 3 0
 0 25 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d3 n10 n9
 1
-106 1
-5
+104 1
+4
 0 59 3 0
 0 25 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d3 n11 n10
 1
-106 1
-5
+104 1
+4
 0 59 3 0
 0 25 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d3 n12 n11
 1
-106 1
-5
+104 1
+4
 0 59 3 0
 0 25 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d3 n13 n12
 1
-106 1
-5
+104 1
+4
 0 59 3 0
 0 25 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d3 n2 n1
 1
-106 1
-5
+104 1
+4
 0 59 3 0
 0 25 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d3 n3 n2
 1
-106 1
-5
+104 1
+4
 0 59 3 0
 0 25 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d3 n4 n3
 1
-106 1
-5
+104 1
+4
 0 59 3 0
 0 25 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d3 n5 n4
 1
-106 1
-5
+104 1
+4
 0 59 3 0
 0 25 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d3 n6 n5
 1
-106 1
-5
+104 1
+4
 0 59 3 0
 0 25 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d3 n7 n6
 1
-106 1
-5
+104 1
+4
 0 59 3 0
 0 25 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d3 n8 n7
 1
-106 1
-5
+104 1
+4
 0 59 3 0
 0 25 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d3 n9 n8
 1
-106 1
-5
+104 1
+4
 0 59 3 0
 0 25 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d4 n1 n0
 1
-106 1
-5
+104 1
+4
 0 77 3 0
 0 49 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d4 n10 n9
 1
-106 1
-5
+104 1
+4
 0 77 3 0
 0 49 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d4 n11 n10
 1
-106 1
-5
+104 1
+4
 0 77 3 0
 0 49 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d4 n12 n11
 1
-106 1
-5
+104 1
+4
 0 77 3 0
 0 49 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d4 n13 n12
 1
-106 1
-5
+104 1
+4
 0 77 3 0
 0 49 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d4 n2 n1
 1
-106 1
-5
+104 1
+4
 0 77 3 0
 0 49 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d4 n3 n2
 1
-106 1
-5
+104 1
+4
 0 77 3 0
 0 49 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d4 n4 n3
 1
-106 1
-5
+104 1
+4
 0 77 3 0
 0 49 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d4 n5 n4
 1
-106 1
-5
+104 1
+4
 0 77 3 0
 0 49 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d4 n6 n5
 1
-106 1
-5
+104 1
+4
 0 77 3 0
 0 49 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d4 n7 n6
 1
-106 1
-5
+104 1
+4
 0 77 3 0
 0 49 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d4 n8 n7
 1
-106 1
-5
+104 1
+4
 0 77 3 0
 0 49 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d4 n9 n8
 1
-106 1
-5
+104 1
+4
 0 77 3 0
 0 49 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d5 n1 n0
 1
-106 1
-5
+104 1
+4
 0 78 3 0
 0 16 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d5 n10 n9
 1
-106 1
-5
+104 1
+4
 0 78 3 0
 0 16 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d5 n11 n10
 1
-106 1
-5
+104 1
+4
 0 78 3 0
 0 16 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d5 n12 n11
 1
-106 1
-5
+104 1
+4
 0 78 3 0
 0 16 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d5 n13 n12
 1
-106 1
-5
+104 1
+4
 0 78 3 0
 0 16 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d5 n2 n1
 1
-106 1
-5
+104 1
+4
 0 78 3 0
 0 16 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d5 n3 n2
 1
-106 1
-5
+104 1
+4
 0 78 3 0
 0 16 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d5 n4 n3
 1
-106 1
-5
+104 1
+4
 0 78 3 0
 0 16 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d5 n5 n4
 1
-106 1
-5
+104 1
+4
 0 78 3 0
 0 16 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d5 n6 n5
 1
-106 1
-5
+104 1
+4
 0 78 3 0
 0 16 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d5 n7 n6
 1
-106 1
-5
+104 1
+4
 0 78 3 0
 0 16 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d5 n8 n7
 1
-106 1
-5
+104 1
+4
 0 78 3 0
 0 16 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d5 n9 n8
 1
-106 1
-5
+104 1
+4
 0 78 3 0
 0 16 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d6 n1 n0
 1
-106 1
-5
+104 1
+4
 0 73 3 0
 0 53 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d6 n10 n9
 1
-106 1
-5
+104 1
+4
 0 73 3 0
 0 53 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d6 n11 n10
 1
-106 1
-5
+104 1
+4
 0 73 3 0
 0 53 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d6 n12 n11
 1
-106 1
-5
+104 1
+4
 0 73 3 0
 0 53 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d6 n13 n12
 1
-106 1
-5
+104 1
+4
 0 73 3 0
 0 53 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d6 n2 n1
 1
-106 1
-5
+104 1
+4
 0 73 3 0
 0 53 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d6 n3 n2
 1
-106 1
-5
+104 1
+4
 0 73 3 0
 0 53 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d6 n4 n3
 1
-106 1
-5
+104 1
+4
 0 73 3 0
 0 53 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d6 n5 n4
 1
-106 1
-5
+104 1
+4
 0 73 3 0
 0 53 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d6 n6 n5
 1
-106 1
-5
+104 1
+4
 0 73 3 0
 0 53 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d6 n7 n6
 1
-106 1
-5
+104 1
+4
 0 73 3 0
 0 53 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d6 n8 n7
 1
-106 1
-5
+104 1
+4
 0 73 3 0
 0 53 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d6 n9 n8
 1
-106 1
-5
+104 1
+4
 0 73 3 0
 0 53 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d7 n1 n0
 1
-106 1
-5
+104 1
+4
 0 74 3 0
 0 15 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d7 n10 n9
 1
-106 1
-5
+104 1
+4
 0 74 3 0
 0 15 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d7 n11 n10
 1
-106 1
-5
+104 1
+4
 0 74 3 0
 0 15 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d7 n12 n11
 1
-106 1
-5
+104 1
+4
 0 74 3 0
 0 15 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d7 n13 n12
 1
-106 1
-5
+104 1
+4
 0 74 3 0
 0 15 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d7 n2 n1
 1
-106 1
-5
+104 1
+4
 0 74 3 0
 0 15 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d7 n3 n2
 1
-106 1
-5
+104 1
+4
 0 74 3 0
 0 15 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d7 n4 n3
 1
-106 1
-5
+104 1
+4
 0 74 3 0
 0 15 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d7 n5 n4
 1
-106 1
-5
+104 1
+4
 0 74 3 0
 0 15 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d7 n6 n5
 1
-106 1
-5
+104 1
+4
 0 74 3 0
 0 15 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d7 n7 n6
 1
-106 1
-5
+104 1
+4
 0 74 3 0
 0 15 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d7 n8 n7
 1
-106 1
-5
+104 1
+4
 0 74 3 0
 0 15 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d7 n9 n8
 1
-106 1
-5
+104 1
+4
 0 74 3 0
 0 15 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d8 n1 n0
 1
-106 1
-5
+104 1
+4
 0 70 3 0
 0 48 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d8 n10 n9
 1
-106 1
-5
+104 1
+4
 0 70 3 0
 0 48 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d8 n11 n10
 1
-106 1
-5
+104 1
+4
 0 70 3 0
 0 48 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d8 n12 n11
 1
-106 1
-5
+104 1
+4
 0 70 3 0
 0 48 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d8 n13 n12
 1
-106 1
-5
+104 1
+4
 0 70 3 0
 0 48 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d8 n2 n1
 1
-106 1
-5
+104 1
+4
 0 70 3 0
 0 48 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d8 n3 n2
 1
-106 1
-5
+104 1
+4
 0 70 3 0
 0 48 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d8 n4 n3
 1
-106 1
-5
+104 1
+4
 0 70 3 0
 0 48 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d8 n5 n4
 1
-106 1
-5
+104 1
+4
 0 70 3 0
 0 48 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d8 n6 n5
 1
-106 1
-5
+104 1
+4
 0 70 3 0
 0 48 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d8 n7 n6
 1
-106 1
-5
+104 1
+4
 0 70 3 0
 0 48 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d8 n8 n7
 1
-106 1
-5
+104 1
+4
 0 70 3 0
 0 48 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d8 n9 n8
 1
-106 1
-5
+104 1
+4
 0 70 3 0
 0 48 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d9 n1 n0
 1
-106 1
-5
+104 1
+4
 0 82 3 0
 0 33 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d9 n10 n9
 1
-106 1
-5
+104 1
+4
 0 82 3 0
 0 33 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d9 n11 n10
 1
-106 1
-5
+104 1
+4
 0 82 3 0
 0 33 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d9 n12 n11
 1
-106 1
-5
+104 1
+4
 0 82 3 0
 0 33 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d9 n13 n12
 1
-106 1
-5
+104 1
+4
 0 82 3 0
 0 33 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d9 n2 n1
 1
-106 1
-5
+104 1
+4
 0 82 3 0
 0 33 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d9 n3 n2
 1
-106 1
-5
+104 1
+4
 0 82 3 0
 0 33 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d9 n4 n3
 1
-106 1
-5
+104 1
+4
 0 82 3 0
 0 33 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d9 n5 n4
 1
-106 1
-5
+104 1
+4
 0 82 3 0
 0 33 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d9 n6 n5
 1
-106 1
-5
+104 1
+4
 0 82 3 0
 0 33 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d9 n7 n6
 1
-106 1
-5
+104 1
+4
 0 82 3 0
 0 33 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d9 n8 n7
 1
-106 1
-5
+104 1
+4
 0 82 3 0
 0 33 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom d9 n9 n8
 1
-106 1
-5
+104 1
+4
 0 82 3 0
 0 33 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom da n1 n0
 1
-106 1
-5
+104 1
+4
 0 57 3 0
 0 4 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom da n10 n9
 1
-106 1
-5
+104 1
+4
 0 57 3 0
 0 4 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom da n11 n10
 1
-106 1
-5
+104 1
+4
 0 57 3 0
 0 4 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom da n12 n11
 1
-106 1
-5
+104 1
+4
 0 57 3 0
 0 4 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom da n13 n12
 1
-106 1
-5
+104 1
+4
 0 57 3 0
 0 4 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom da n2 n1
 1
-106 1
-5
+104 1
+4
 0 57 3 0
 0 4 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom da n3 n2
 1
-106 1
-5
+104 1
+4
 0 57 3 0
 0 4 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom da n4 n3
 1
-106 1
-5
+104 1
+4
 0 57 3 0
 0 4 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom da n5 n4
 1
-106 1
-5
+104 1
+4
 0 57 3 0
 0 4 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom da n6 n5
 1
-106 1
-5
+104 1
+4
 0 57 3 0
 0 4 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom da n7 n6
 1
-106 1
-5
+104 1
+4
 0 57 3 0
 0 4 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom da n8 n7
 1
-106 1
-5
+104 1
+4
 0 57 3 0
 0 4 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom da n9 n8
 1
-106 1
-5
+104 1
+4
 0 57 3 0
 0 4 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dj n1 n0
 1
-106 1
-5
+104 1
+4
 0 80 3 0
 0 14 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dj n10 n9
 1
-106 1
-5
+104 1
+4
 0 80 3 0
 0 14 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dj n11 n10
 1
-106 1
-5
+104 1
+4
 0 80 3 0
 0 14 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dj n12 n11
 1
-106 1
-5
+104 1
+4
 0 80 3 0
 0 14 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dj n13 n12
 1
-106 1
-5
+104 1
+4
 0 80 3 0
 0 14 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dj n2 n1
 1
-106 1
-5
+104 1
+4
 0 80 3 0
 0 14 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dj n3 n2
 1
-106 1
-5
+104 1
+4
 0 80 3 0
 0 14 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dj n4 n3
 1
-106 1
-5
+104 1
+4
 0 80 3 0
 0 14 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dj n5 n4
 1
-106 1
-5
+104 1
+4
 0 80 3 0
 0 14 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dj n6 n5
 1
-106 1
-5
+104 1
+4
 0 80 3 0
 0 14 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dj n7 n6
 1
-106 1
-5
+104 1
+4
 0 80 3 0
 0 14 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dj n8 n7
 1
-106 1
-5
+104 1
+4
 0 80 3 0
 0 14 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dj n9 n8
 1
-106 1
-5
+104 1
+4
 0 80 3 0
 0 14 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dk n1 n0
 1
-106 1
-5
+104 1
+4
 0 110 3 0
 0 11 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dk n10 n9
 1
-106 1
-5
+104 1
+4
 0 110 3 0
 0 11 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dk n11 n10
 1
-106 1
-5
+104 1
+4
 0 110 3 0
 0 11 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dk n12 n11
 1
-106 1
-5
+104 1
+4
 0 110 3 0
 0 11 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dk n13 n12
 1
-106 1
-5
+104 1
+4
 0 110 3 0
 0 11 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dk n2 n1
 1
-106 1
-5
+104 1
+4
 0 110 3 0
 0 11 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dk n3 n2
 1
-106 1
-5
+104 1
+4
 0 110 3 0
 0 11 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dk n4 n3
 1
-106 1
-5
+104 1
+4
 0 110 3 0
 0 11 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dk n5 n4
 1
-106 1
-5
+104 1
+4
 0 110 3 0
 0 11 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dk n6 n5
 1
-106 1
-5
+104 1
+4
 0 110 3 0
 0 11 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dk n7 n6
 1
-106 1
-5
+104 1
+4
 0 110 3 0
 0 11 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dk n8 n7
 1
-106 1
-5
+104 1
+4
 0 110 3 0
 0 11 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dk n9 n8
 1
-106 1
-5
+104 1
+4
 0 110 3 0
 0 11 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dq n1 n0
 1
-106 1
-5
+104 1
+4
 0 66 3 0
 0 29 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dq n10 n9
 1
-106 1
-5
+104 1
+4
 0 66 3 0
 0 29 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dq n11 n10
 1
-106 1
-5
+104 1
+4
 0 66 3 0
 0 29 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dq n12 n11
 1
-106 1
-5
+104 1
+4
 0 66 3 0
 0 29 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dq n13 n12
 1
-106 1
-5
+104 1
+4
 0 66 3 0
 0 29 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dq n2 n1
 1
-106 1
-5
+104 1
+4
 0 66 3 0
 0 29 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dq n3 n2
 1
-106 1
-5
+104 1
+4
 0 66 3 0
 0 29 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dq n4 n3
 1
-106 1
-5
+104 1
+4
 0 66 3 0
 0 29 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dq n5 n4
 1
-106 1
-5
+104 1
+4
 0 66 3 0
 0 29 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dq n6 n5
 1
-106 1
-5
+104 1
+4
 0 66 3 0
 0 29 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dq n7 n6
 1
-106 1
-5
+104 1
+4
 0 66 3 0
 0 29 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dq n8 n7
 1
-106 1
-5
+104 1
+4
 0 66 3 0
 0 29 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom dq n9 n8
 1
-106 1
-5
+104 1
+4
 0 66 3 0
 0 29 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h10 n1 n0
 1
-106 1
-5
+104 1
+4
 0 89 3 0
 0 44 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h10 n10 n9
 1
-106 1
-5
+104 1
+4
 0 89 3 0
 0 44 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h10 n11 n10
 1
-106 1
-5
+104 1
+4
 0 89 3 0
 0 44 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h10 n12 n11
 1
-106 1
-5
+104 1
+4
 0 89 3 0
 0 44 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h10 n13 n12
 1
-106 1
-5
+104 1
+4
 0 89 3 0
 0 44 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h10 n2 n1
 1
-106 1
-5
+104 1
+4
 0 89 3 0
 0 44 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h10 n3 n2
 1
-106 1
-5
+104 1
+4
 0 89 3 0
 0 44 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h10 n4 n3
 1
-106 1
-5
+104 1
+4
 0 89 3 0
 0 44 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h10 n5 n4
 1
-106 1
-5
+104 1
+4
 0 89 3 0
 0 44 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h10 n6 n5
 1
-106 1
-5
+104 1
+4
 0 89 3 0
 0 44 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h10 n7 n6
 1
-106 1
-5
+104 1
+4
 0 89 3 0
 0 44 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h10 n8 n7
 1
-106 1
-5
+104 1
+4
 0 89 3 0
 0 44 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h10 n9 n8
 1
-106 1
-5
+104 1
+4
 0 89 3 0
 0 44 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h2 n1 n0
 1
-106 1
-5
+104 1
+4
 0 63 3 0
 0 41 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h2 n10 n9
 1
-106 1
-5
+104 1
+4
 0 63 3 0
 0 41 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h2 n11 n10
 1
-106 1
-5
+104 1
+4
 0 63 3 0
 0 41 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h2 n12 n11
 1
-106 1
-5
+104 1
+4
 0 63 3 0
 0 41 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h2 n13 n12
 1
-106 1
-5
+104 1
+4
 0 63 3 0
 0 41 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h2 n2 n1
 1
-106 1
-5
+104 1
+4
 0 63 3 0
 0 41 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h2 n3 n2
 1
-106 1
-5
+104 1
+4
 0 63 3 0
 0 41 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h2 n4 n3
 1
-106 1
-5
+104 1
+4
 0 63 3 0
 0 41 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h2 n5 n4
 1
-106 1
-5
+104 1
+4
 0 63 3 0
 0 41 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h2 n6 n5
 1
-106 1
-5
+104 1
+4
 0 63 3 0
 0 41 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h2 n7 n6
 1
-106 1
-5
+104 1
+4
 0 63 3 0
 0 41 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h2 n8 n7
 1
-106 1
-5
+104 1
+4
 0 63 3 0
 0 41 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h2 n9 n8
 1
-106 1
-5
+104 1
+4
 0 63 3 0
 0 41 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h3 n1 n0
 1
-106 1
-5
+104 1
+4
 0 62 3 0
 0 27 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h3 n10 n9
 1
-106 1
-5
+104 1
+4
 0 62 3 0
 0 27 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h3 n11 n10
 1
-106 1
-5
+104 1
+4
 0 62 3 0
 0 27 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h3 n12 n11
 1
-106 1
-5
+104 1
+4
 0 62 3 0
 0 27 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h3 n13 n12
 1
-106 1
-5
+104 1
+4
 0 62 3 0
 0 27 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h3 n2 n1
 1
-106 1
-5
+104 1
+4
 0 62 3 0
 0 27 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h3 n3 n2
 1
-106 1
-5
+104 1
+4
 0 62 3 0
 0 27 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h3 n4 n3
 1
-106 1
-5
+104 1
+4
 0 62 3 0
 0 27 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h3 n5 n4
 1
-106 1
-5
+104 1
+4
 0 62 3 0
 0 27 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h3 n6 n5
 1
-106 1
-5
+104 1
+4
 0 62 3 0
 0 27 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h3 n7 n6
 1
-106 1
-5
+104 1
+4
 0 62 3 0
 0 27 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h3 n8 n7
 1
-106 1
-5
+104 1
+4
 0 62 3 0
 0 27 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h3 n9 n8
 1
-106 1
-5
+104 1
+4
 0 62 3 0
 0 27 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h4 n1 n0
 1
-106 1
-5
+104 1
+4
 0 65 3 0
 0 50 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h4 n10 n9
 1
-106 1
-5
+104 1
+4
 0 65 3 0
 0 50 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h4 n11 n10
 1
-106 1
-5
+104 1
+4
 0 65 3 0
 0 50 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h4 n12 n11
 1
-106 1
-5
+104 1
+4
 0 65 3 0
 0 50 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h4 n13 n12
 1
-106 1
-5
+104 1
+4
 0 65 3 0
 0 50 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h4 n2 n1
 1
-106 1
-5
+104 1
+4
 0 65 3 0
 0 50 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h4 n3 n2
 1
-106 1
-5
+104 1
+4
 0 65 3 0
 0 50 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h4 n4 n3
 1
-106 1
-5
+104 1
+4
 0 65 3 0
 0 50 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h4 n5 n4
 1
-106 1
-5
+104 1
+4
 0 65 3 0
 0 50 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h4 n6 n5
 1
-106 1
-5
+104 1
+4
 0 65 3 0
 0 50 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h4 n7 n6
 1
-106 1
-5
+104 1
+4
 0 65 3 0
 0 50 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h4 n8 n7
 1
-106 1
-5
+104 1
+4
 0 65 3 0
 0 50 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h4 n9 n8
 1
-106 1
-5
+104 1
+4
 0 65 3 0
 0 50 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h5 n1 n0
 1
-106 1
-5
+104 1
+4
 0 64 3 0
 0 18 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h5 n10 n9
 1
-106 1
-5
+104 1
+4
 0 64 3 0
 0 18 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h5 n11 n10
 1
-106 1
-5
+104 1
+4
 0 64 3 0
 0 18 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h5 n12 n11
 1
-106 1
-5
+104 1
+4
 0 64 3 0
 0 18 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h5 n13 n12
 1
-106 1
-5
+104 1
+4
 0 64 3 0
 0 18 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h5 n2 n1
 1
-106 1
-5
+104 1
+4
 0 64 3 0
 0 18 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h5 n3 n2
 1
-106 1
-5
+104 1
+4
 0 64 3 0
 0 18 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h5 n4 n3
 1
-106 1
-5
+104 1
+4
 0 64 3 0
 0 18 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h5 n5 n4
 1
-106 1
-5
+104 1
+4
 0 64 3 0
 0 18 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h5 n6 n5
 1
-106 1
-5
+104 1
+4
 0 64 3 0
 0 18 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h5 n7 n6
 1
-106 1
-5
+104 1
+4
 0 64 3 0
 0 18 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h5 n8 n7
 1
-106 1
-5
+104 1
+4
 0 64 3 0
 0 18 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h5 n9 n8
 1
-106 1
-5
+104 1
+4
 0 64 3 0
 0 18 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h6 n1 n0
 1
-106 1
-5
+104 1
+4
 0 68 3 0
 0 54 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h6 n10 n9
 1
-106 1
-5
+104 1
+4
 0 68 3 0
 0 54 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h6 n11 n10
 1
-106 1
-5
+104 1
+4
 0 68 3 0
 0 54 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h6 n12 n11
 1
-106 1
-5
+104 1
+4
 0 68 3 0
 0 54 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h6 n13 n12
 1
-106 1
-5
+104 1
+4
 0 68 3 0
 0 54 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h6 n2 n1
 1
-106 1
-5
+104 1
+4
 0 68 3 0
 0 54 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h6 n3 n2
 1
-106 1
-5
+104 1
+4
 0 68 3 0
 0 54 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h6 n4 n3
 1
-106 1
-5
+104 1
+4
 0 68 3 0
 0 54 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h6 n5 n4
 1
-106 1
-5
+104 1
+4
 0 68 3 0
 0 54 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h6 n6 n5
 1
-106 1
-5
+104 1
+4
 0 68 3 0
 0 54 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h6 n7 n6
 1
-106 1
-5
+104 1
+4
 0 68 3 0
 0 54 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h6 n8 n7
 1
-106 1
-5
+104 1
+4
 0 68 3 0
 0 54 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h6 n9 n8
 1
-106 1
-5
+104 1
+4
 0 68 3 0
 0 54 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h7 n1 n0
 1
-106 1
-5
+104 1
+4
 0 67 3 0
 0 30 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h7 n10 n9
 1
-106 1
-5
+104 1
+4
 0 67 3 0
 0 30 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h7 n11 n10
 1
-106 1
-5
+104 1
+4
 0 67 3 0
 0 30 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h7 n12 n11
 1
-106 1
-5
+104 1
+4
 0 67 3 0
 0 30 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h7 n13 n12
 1
-106 1
-5
+104 1
+4
 0 67 3 0
 0 30 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h7 n2 n1
 1
-106 1
-5
+104 1
+4
 0 67 3 0
 0 30 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h7 n3 n2
 1
-106 1
-5
+104 1
+4
 0 67 3 0
 0 30 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h7 n4 n3
 1
-106 1
-5
+104 1
+4
 0 67 3 0
 0 30 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h7 n5 n4
 1
-106 1
-5
+104 1
+4
 0 67 3 0
 0 30 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h7 n6 n5
 1
-106 1
-5
+104 1
+4
 0 67 3 0
 0 30 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h7 n7 n6
 1
-106 1
-5
+104 1
+4
 0 67 3 0
 0 30 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h7 n8 n7
 1
-106 1
-5
+104 1
+4
 0 67 3 0
 0 30 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h7 n9 n8
 1
-106 1
-5
+104 1
+4
 0 67 3 0
 0 30 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h8 n1 n0
 1
-106 1
-5
+104 1
+4
 0 81 3 0
 0 43 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h8 n10 n9
 1
-106 1
-5
+104 1
+4
 0 81 3 0
 0 43 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h8 n11 n10
 1
-106 1
-5
+104 1
+4
 0 81 3 0
 0 43 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h8 n12 n11
 1
-106 1
-5
+104 1
+4
 0 81 3 0
 0 43 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h8 n13 n12
 1
-106 1
-5
+104 1
+4
 0 81 3 0
 0 43 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h8 n2 n1
 1
-106 1
-5
+104 1
+4
 0 81 3 0
 0 43 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h8 n3 n2
 1
-106 1
-5
+104 1
+4
 0 81 3 0
 0 43 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h8 n4 n3
 1
-106 1
-5
+104 1
+4
 0 81 3 0
 0 43 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h8 n5 n4
 1
-106 1
-5
+104 1
+4
 0 81 3 0
 0 43 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h8 n6 n5
 1
-106 1
-5
+104 1
+4
 0 81 3 0
 0 43 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h8 n7 n6
 1
-106 1
-5
+104 1
+4
 0 81 3 0
 0 43 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h8 n8 n7
 1
-106 1
-5
+104 1
+4
 0 81 3 0
 0 43 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h8 n9 n8
 1
-106 1
-5
+104 1
+4
 0 81 3 0
 0 43 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h9 n1 n0
 1
-106 1
-5
+104 1
+4
 0 86 3 0
 0 34 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h9 n10 n9
 1
-106 1
-5
+104 1
+4
 0 86 3 0
 0 34 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h9 n11 n10
 1
-106 1
-5
+104 1
+4
 0 86 3 0
 0 34 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h9 n12 n11
 1
-106 1
-5
+104 1
+4
 0 86 3 0
 0 34 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h9 n13 n12
 1
-106 1
-5
+104 1
+4
 0 86 3 0
 0 34 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h9 n2 n1
 1
-106 1
-5
+104 1
+4
 0 86 3 0
 0 34 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h9 n3 n2
 1
-106 1
-5
+104 1
+4
 0 86 3 0
 0 34 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h9 n4 n3
 1
-106 1
-5
+104 1
+4
 0 86 3 0
 0 34 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h9 n5 n4
 1
-106 1
-5
+104 1
+4
 0 86 3 0
 0 34 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h9 n6 n5
 1
-106 1
-5
+104 1
+4
 0 86 3 0
 0 34 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h9 n7 n6
 1
-106 1
-5
+104 1
+4
 0 86 3 0
 0 34 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h9 n8 n7
 1
-106 1
-5
+104 1
+4
 0 86 3 0
 0 34 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom h9 n9 n8
 1
-106 1
-5
+104 1
+4
 0 86 3 0
 0 34 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ha n1 n0
 1
-106 1
-5
+104 1
+4
 0 58 3 0
 0 6 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ha n10 n9
 1
-106 1
-5
+104 1
+4
 0 58 3 0
 0 6 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ha n11 n10
 1
-106 1
-5
+104 1
+4
 0 58 3 0
 0 6 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ha n12 n11
 1
-106 1
-5
+104 1
+4
 0 58 3 0
 0 6 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ha n13 n12
 1
-106 1
-5
+104 1
+4
 0 58 3 0
 0 6 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ha n2 n1
 1
-106 1
-5
+104 1
+4
 0 58 3 0
 0 6 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ha n3 n2
 1
-106 1
-5
+104 1
+4
 0 58 3 0
 0 6 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ha n4 n3
 1
-106 1
-5
+104 1
+4
 0 58 3 0
 0 6 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ha n5 n4
 1
-106 1
-5
+104 1
+4
 0 58 3 0
 0 6 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ha n6 n5
 1
-106 1
-5
+104 1
+4
 0 58 3 0
 0 6 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ha n7 n6
 1
-106 1
-5
+104 1
+4
 0 58 3 0
 0 6 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ha n8 n7
 1
-106 1
-5
+104 1
+4
 0 58 3 0
 0 6 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom ha n9 n8
 1
-106 1
-5
+104 1
+4
 0 58 3 0
 0 6 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hj n1 n0
 1
-106 1
-5
+104 1
+4
 0 92 3 0
 0 37 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hj n10 n9
 1
-106 1
-5
+104 1
+4
 0 92 3 0
 0 37 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hj n11 n10
 1
-106 1
-5
+104 1
+4
 0 92 3 0
 0 37 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hj n12 n11
 1
-106 1
-5
+104 1
+4
 0 92 3 0
 0 37 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hj n13 n12
 1
-106 1
-5
+104 1
+4
 0 92 3 0
 0 37 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hj n2 n1
 1
-106 1
-5
+104 1
+4
 0 92 3 0
 0 37 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hj n3 n2
 1
-106 1
-5
+104 1
+4
 0 92 3 0
 0 37 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hj n4 n3
 1
-106 1
-5
+104 1
+4
 0 92 3 0
 0 37 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hj n5 n4
 1
-106 1
-5
+104 1
+4
 0 92 3 0
 0 37 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hj n6 n5
 1
-106 1
-5
+104 1
+4
 0 92 3 0
 0 37 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hj n7 n6
 1
-106 1
-5
+104 1
+4
 0 92 3 0
 0 37 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hj n8 n7
 1
-106 1
-5
+104 1
+4
 0 92 3 0
 0 37 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hj n9 n8
 1
-106 1
-5
+104 1
+4
 0 92 3 0
 0 37 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hk n1 n0
 1
-106 1
-5
+104 1
+4
 0 111 3 0
 0 8 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hk n10 n9
 1
-106 1
-5
+104 1
+4
 0 111 3 0
 0 8 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hk n11 n10
 1
-106 1
-5
+104 1
+4
 0 111 3 0
 0 8 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hk n12 n11
 1
-106 1
-5
+104 1
+4
 0 111 3 0
 0 8 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hk n13 n12
 1
-106 1
-5
+104 1
+4
 0 111 3 0
 0 8 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hk n2 n1
 1
-106 1
-5
+104 1
+4
 0 111 3 0
 0 8 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hk n3 n2
 1
-106 1
-5
+104 1
+4
 0 111 3 0
 0 8 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hk n4 n3
 1
-106 1
-5
+104 1
+4
 0 111 3 0
 0 8 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hk n5 n4
 1
-106 1
-5
+104 1
+4
 0 111 3 0
 0 8 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hk n6 n5
 1
-106 1
-5
+104 1
+4
 0 111 3 0
 0 8 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hk n7 n6
 1
-106 1
-5
+104 1
+4
 0 111 3 0
 0 8 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hk n8 n7
 1
-106 1
-5
+104 1
+4
 0 111 3 0
 0 8 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hk n9 n8
 1
-106 1
-5
+104 1
+4
 0 111 3 0
 0 8 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hq n1 n0
 1
-106 1
-5
+104 1
+4
 0 95 3 0
 0 24 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hq n10 n9
 1
-106 1
-5
+104 1
+4
 0 95 3 0
 0 24 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hq n11 n10
 1
-106 1
-5
+104 1
+4
 0 95 3 0
 0 24 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hq n12 n11
 1
-106 1
-5
+104 1
+4
 0 95 3 0
 0 24 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hq n13 n12
 1
-106 1
-5
+104 1
+4
 0 95 3 0
 0 24 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hq n2 n1
 1
-106 1
-5
+104 1
+4
 0 95 3 0
 0 24 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hq n3 n2
 1
-106 1
-5
+104 1
+4
 0 95 3 0
 0 24 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hq n4 n3
 1
-106 1
-5
+104 1
+4
 0 95 3 0
 0 24 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hq n5 n4
 1
-106 1
-5
+104 1
+4
 0 95 3 0
 0 24 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hq n6 n5
 1
-106 1
-5
+104 1
+4
 0 95 3 0
 0 24 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hq n7 n6
 1
-106 1
-5
+104 1
+4
 0 95 3 0
 0 24 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hq n8 n7
 1
-106 1
-5
+104 1
+4
 0 95 3 0
 0 24 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom hq n9 n8
 1
-106 1
-5
+104 1
+4
 0 95 3 0
 0 24 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s10 n1 n0
 1
-106 1
-5
+104 1
+4
 0 97 3 0
 0 36 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s10 n10 n9
 1
-106 1
-5
+104 1
+4
 0 97 3 0
 0 36 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s10 n11 n10
 1
-106 1
-5
+104 1
+4
 0 97 3 0
 0 36 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s10 n12 n11
 1
-106 1
-5
+104 1
+4
 0 97 3 0
 0 36 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s10 n13 n12
 1
-106 1
-5
+104 1
+4
 0 97 3 0
 0 36 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s10 n2 n1
 1
-106 1
-5
+104 1
+4
 0 97 3 0
 0 36 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s10 n3 n2
 1
-106 1
-5
+104 1
+4
 0 97 3 0
 0 36 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s10 n4 n3
 1
-106 1
-5
+104 1
+4
 0 97 3 0
 0 36 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s10 n5 n4
 1
-106 1
-5
+104 1
+4
 0 97 3 0
 0 36 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s10 n6 n5
 1
-106 1
-5
+104 1
+4
 0 97 3 0
 0 36 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s10 n7 n6
 1
-106 1
-5
+104 1
+4
 0 97 3 0
 0 36 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s10 n8 n7
 1
-106 1
-5
+104 1
+4
 0 97 3 0
 0 36 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s10 n9 n8
 1
-106 1
-5
+104 1
+4
 0 97 3 0
 0 36 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s2 n1 n0
 1
-106 1
-5
+104 1
+4
 0 75 3 0
 0 22 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s2 n10 n9
 1
-106 1
-5
+104 1
+4
 0 75 3 0
 0 22 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s2 n11 n10
 1
-106 1
-5
+104 1
+4
 0 75 3 0
 0 22 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s2 n12 n11
 1
-106 1
-5
+104 1
+4
 0 75 3 0
 0 22 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s2 n13 n12
 1
-106 1
-5
+104 1
+4
 0 75 3 0
 0 22 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s2 n2 n1
 1
-106 1
-5
+104 1
+4
 0 75 3 0
 0 22 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s2 n3 n2
 1
-106 1
-5
+104 1
+4
 0 75 3 0
 0 22 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s2 n4 n3
 1
-106 1
-5
+104 1
+4
 0 75 3 0
 0 22 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s2 n5 n4
 1
-106 1
-5
+104 1
+4
 0 75 3 0
 0 22 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s2 n6 n5
 1
-106 1
-5
+104 1
+4
 0 75 3 0
 0 22 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s2 n7 n6
 1
-106 1
-5
+104 1
+4
 0 75 3 0
 0 22 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s2 n8 n7
 1
-106 1
-5
+104 1
+4
 0 75 3 0
 0 22 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s2 n9 n8
 1
-106 1
-5
+104 1
+4
 0 75 3 0
 0 22 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s3 n1 n0
 1
-106 1
-5
+104 1
+4
 0 76 3 0
 0 46 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s3 n10 n9
 1
-106 1
-5
+104 1
+4
 0 76 3 0
 0 46 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s3 n11 n10
 1
-106 1
-5
+104 1
+4
 0 76 3 0
 0 46 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s3 n12 n11
 1
-106 1
-5
+104 1
+4
 0 76 3 0
 0 46 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s3 n13 n12
 1
-106 1
-5
+104 1
+4
 0 76 3 0
 0 46 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s3 n2 n1
 1
-106 1
-5
+104 1
+4
 0 76 3 0
 0 46 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s3 n3 n2
 1
-106 1
-5
+104 1
+4
 0 76 3 0
 0 46 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s3 n4 n3
 1
-106 1
-5
+104 1
+4
 0 76 3 0
 0 46 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s3 n5 n4
 1
-106 1
-5
+104 1
+4
 0 76 3 0
 0 46 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s3 n6 n5
 1
-106 1
-5
+104 1
+4
 0 76 3 0
 0 46 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s3 n7 n6
 1
-106 1
-5
+104 1
+4
 0 76 3 0
 0 46 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s3 n8 n7
 1
-106 1
-5
+104 1
+4
 0 76 3 0
 0 46 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s3 n9 n8
 1
-106 1
-5
+104 1
+4
 0 76 3 0
 0 46 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s4 n1 n0
 1
-106 1
-5
+104 1
+4
 0 61 3 0
 0 26 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s4 n10 n9
 1
-106 1
-5
+104 1
+4
 0 61 3 0
 0 26 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s4 n11 n10
 1
-106 1
-5
+104 1
+4
 0 61 3 0
 0 26 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s4 n12 n11
 1
-106 1
-5
+104 1
+4
 0 61 3 0
 0 26 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s4 n13 n12
 1
-106 1
-5
+104 1
+4
 0 61 3 0
 0 26 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s4 n2 n1
 1
-106 1
-5
+104 1
+4
 0 61 3 0
 0 26 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s4 n3 n2
 1
-106 1
-5
+104 1
+4
 0 61 3 0
 0 26 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s4 n4 n3
 1
-106 1
-5
+104 1
+4
 0 61 3 0
 0 26 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s4 n5 n4
 1
-106 1
-5
+104 1
+4
 0 61 3 0
 0 26 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s4 n6 n5
 1
-106 1
-5
+104 1
+4
 0 61 3 0
 0 26 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s4 n7 n6
 1
-106 1
-5
+104 1
+4
 0 61 3 0
 0 26 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s4 n8 n7
 1
-106 1
-5
+104 1
+4
 0 61 3 0
 0 26 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s4 n9 n8
 1
-106 1
-5
+104 1
+4
 0 61 3 0
 0 26 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s5 n1 n0
 1
-106 1
-5
+104 1
+4
 0 79 3 0
 0 55 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s5 n10 n9
 1
-106 1
-5
+104 1
+4
 0 79 3 0
 0 55 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s5 n11 n10
 1
-106 1
-5
+104 1
+4
 0 79 3 0
 0 55 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s5 n12 n11
 1
-106 1
-5
+104 1
+4
 0 79 3 0
 0 55 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s5 n13 n12
 1
-106 1
-5
+104 1
+4
 0 79 3 0
 0 55 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s5 n2 n1
 1
-106 1
-5
+104 1
+4
 0 79 3 0
 0 55 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s5 n3 n2
 1
-106 1
-5
+104 1
+4
 0 79 3 0
 0 55 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s5 n4 n3
 1
-106 1
-5
+104 1
+4
 0 79 3 0
 0 55 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s5 n5 n4
 1
-106 1
-5
+104 1
+4
 0 79 3 0
 0 55 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s5 n6 n5
 1
-106 1
-5
+104 1
+4
 0 79 3 0
 0 55 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s5 n7 n6
 1
-106 1
-5
+104 1
+4
 0 79 3 0
 0 55 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s5 n8 n7
 1
-106 1
-5
+104 1
+4
 0 79 3 0
 0 55 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s5 n9 n8
 1
-106 1
-5
+104 1
+4
 0 79 3 0
 0 55 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s6 n1 n0
 1
-106 1
-5
+104 1
+4
 0 85 3 0
 0 28 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s6 n10 n9
 1
-106 1
-5
+104 1
+4
 0 85 3 0
 0 28 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s6 n11 n10
 1
-106 1
-5
+104 1
+4
 0 85 3 0
 0 28 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s6 n12 n11
 1
-106 1
-5
+104 1
+4
 0 85 3 0
 0 28 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s6 n13 n12
 1
-106 1
-5
+104 1
+4
 0 85 3 0
 0 28 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s6 n2 n1
 1
-106 1
-5
+104 1
+4
 0 85 3 0
 0 28 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s6 n3 n2
 1
-106 1
-5
+104 1
+4
 0 85 3 0
 0 28 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s6 n4 n3
 1
-106 1
-5
+104 1
+4
 0 85 3 0
 0 28 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s6 n5 n4
 1
-106 1
-5
+104 1
+4
 0 85 3 0
 0 28 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s6 n6 n5
 1
-106 1
-5
+104 1
+4
 0 85 3 0
 0 28 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s6 n7 n6
 1
-106 1
-5
+104 1
+4
 0 85 3 0
 0 28 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s6 n8 n7
 1
-106 1
-5
+104 1
+4
 0 85 3 0
 0 28 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s6 n9 n8
 1
-106 1
-5
+104 1
+4
 0 85 3 0
 0 28 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s7 n1 n0
 1
-106 1
-5
+104 1
+4
 0 88 3 0
 0 19 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s7 n10 n9
 1
-106 1
-5
+104 1
+4
 0 88 3 0
 0 19 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s7 n11 n10
 1
-106 1
-5
+104 1
+4
 0 88 3 0
 0 19 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s7 n12 n11
 1
-106 1
-5
+104 1
+4
 0 88 3 0
 0 19 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s7 n13 n12
 1
-106 1
-5
+104 1
+4
 0 88 3 0
 0 19 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s7 n2 n1
 1
-106 1
-5
+104 1
+4
 0 88 3 0
 0 19 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s7 n3 n2
 1
-106 1
-5
+104 1
+4
 0 88 3 0
 0 19 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s7 n4 n3
 1
-106 1
-5
+104 1
+4
 0 88 3 0
 0 19 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s7 n5 n4
 1
-106 1
-5
+104 1
+4
 0 88 3 0
 0 19 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s7 n6 n5
 1
-106 1
-5
+104 1
+4
 0 88 3 0
 0 19 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s7 n7 n6
 1
-106 1
-5
+104 1
+4
 0 88 3 0
 0 19 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s7 n8 n7
 1
-106 1
-5
+104 1
+4
 0 88 3 0
 0 19 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s7 n9 n8
 1
-106 1
-5
+104 1
+4
 0 88 3 0
 0 19 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s8 n1 n0
 1
-106 1
-5
+104 1
+4
 0 91 3 0
 0 32 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s8 n10 n9
 1
-106 1
-5
+104 1
+4
 0 91 3 0
 0 32 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s8 n11 n10
 1
-106 1
-5
+104 1
+4
 0 91 3 0
 0 32 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s8 n12 n11
 1
-106 1
-5
+104 1
+4
 0 91 3 0
 0 32 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s8 n13 n12
 1
-106 1
-5
+104 1
+4
 0 91 3 0
 0 32 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s8 n2 n1
 1
-106 1
-5
+104 1
+4
 0 91 3 0
 0 32 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s8 n3 n2
 1
-106 1
-5
+104 1
+4
 0 91 3 0
 0 32 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s8 n4 n3
 1
-106 1
-5
+104 1
+4
 0 91 3 0
 0 32 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s8 n5 n4
 1
-106 1
-5
+104 1
+4
 0 91 3 0
 0 32 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s8 n6 n5
 1
-106 1
-5
+104 1
+4
 0 91 3 0
 0 32 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s8 n7 n6
 1
-106 1
-5
+104 1
+4
 0 91 3 0
 0 32 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s8 n8 n7
 1
-106 1
-5
+104 1
+4
 0 91 3 0
 0 32 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s8 n9 n8
 1
-106 1
-5
+104 1
+4
 0 91 3 0
 0 32 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s9 n1 n0
 1
-106 1
-5
+104 1
+4
 0 94 3 0
 0 47 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s9 n10 n9
 1
-106 1
-5
+104 1
+4
 0 94 3 0
 0 47 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s9 n11 n10
 1
-106 1
-5
+104 1
+4
 0 94 3 0
 0 47 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s9 n12 n11
 1
-106 1
-5
+104 1
+4
 0 94 3 0
 0 47 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s9 n13 n12
 1
-106 1
-5
+104 1
+4
 0 94 3 0
 0 47 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s9 n2 n1
 1
-106 1
-5
+104 1
+4
 0 94 3 0
 0 47 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s9 n3 n2
 1
-106 1
-5
+104 1
+4
 0 94 3 0
 0 47 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s9 n4 n3
 1
-106 1
-5
+104 1
+4
 0 94 3 0
 0 47 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s9 n5 n4
 1
-106 1
-5
+104 1
+4
 0 94 3 0
 0 47 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s9 n6 n5
 1
-106 1
-5
+104 1
+4
 0 94 3 0
 0 47 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s9 n7 n6
 1
-106 1
-5
+104 1
+4
 0 94 3 0
 0 47 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s9 n8 n7
 1
-106 1
-5
+104 1
+4
 0 94 3 0
 0 47 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom s9 n9 n8
 1
-106 1
-5
+104 1
+4
 0 94 3 0
 0 47 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sa n1 n0
 1
-106 1
-5
+104 1
+4
 0 56 3 0
 0 7 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sa n10 n9
 1
-106 1
-5
+104 1
+4
 0 56 3 0
 0 7 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sa n11 n10
 1
-106 1
-5
+104 1
+4
 0 56 3 0
 0 7 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sa n12 n11
 1
-106 1
-5
+104 1
+4
 0 56 3 0
 0 7 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sa n13 n12
 1
-106 1
-5
+104 1
+4
 0 56 3 0
 0 7 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sa n2 n1
 1
-106 1
-5
+104 1
+4
 0 56 3 0
 0 7 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sa n3 n2
 1
-106 1
-5
+104 1
+4
 0 56 3 0
 0 7 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sa n4 n3
 1
-106 1
-5
+104 1
+4
 0 56 3 0
 0 7 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sa n5 n4
 1
-106 1
-5
+104 1
+4
 0 56 3 0
 0 7 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sa n6 n5
 1
-106 1
-5
+104 1
+4
 0 56 3 0
 0 7 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sa n7 n6
 1
-106 1
-5
+104 1
+4
 0 56 3 0
 0 7 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sa n8 n7
 1
-106 1
-5
+104 1
+4
 0 56 3 0
 0 7 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sa n9 n8
 1
-106 1
-5
+104 1
+4
 0 56 3 0
 0 7 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sj n1 n0
 1
-106 1
-5
+104 1
+4
 0 99 3 0
 0 20 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sj n10 n9
 1
-106 1
-5
+104 1
+4
 0 99 3 0
 0 20 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sj n11 n10
 1
-106 1
-5
+104 1
+4
 0 99 3 0
 0 20 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sj n12 n11
 1
-106 1
-5
+104 1
+4
 0 99 3 0
 0 20 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sj n13 n12
 1
-106 1
-5
+104 1
+4
 0 99 3 0
 0 20 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sj n2 n1
 1
-106 1
-5
+104 1
+4
 0 99 3 0
 0 20 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sj n3 n2
 1
-106 1
-5
+104 1
+4
 0 99 3 0
 0 20 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sj n4 n3
 1
-106 1
-5
+104 1
+4
 0 99 3 0
 0 20 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sj n5 n4
 1
-106 1
-5
+104 1
+4
 0 99 3 0
 0 20 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sj n6 n5
 1
-106 1
-5
+104 1
+4
 0 99 3 0
 0 20 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sj n7 n6
 1
-106 1
-5
+104 1
+4
 0 99 3 0
 0 20 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sj n8 n7
 1
-106 1
-5
+104 1
+4
 0 99 3 0
 0 20 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sj n9 n8
 1
-106 1
-5
+104 1
+4
 0 99 3 0
 0 20 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sk n1 n0
 1
-106 1
-5
+104 1
+4
 0 112 3 0
 0 10 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sk n10 n9
 1
-106 1
-5
+104 1
+4
 0 112 3 0
 0 10 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sk n11 n10
 1
-106 1
-5
+104 1
+4
 0 112 3 0
 0 10 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sk n12 n11
 1
-106 1
-5
+104 1
+4
 0 112 3 0
 0 10 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sk n13 n12
 1
-106 1
-5
+104 1
+4
 0 112 3 0
 0 10 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sk n2 n1
 1
-106 1
-5
+104 1
+4
 0 112 3 0
 0 10 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sk n3 n2
 1
-106 1
-5
+104 1
+4
 0 112 3 0
 0 10 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sk n4 n3
 1
-106 1
-5
+104 1
+4
 0 112 3 0
 0 10 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sk n5 n4
 1
-106 1
-5
+104 1
+4
 0 112 3 0
 0 10 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sk n6 n5
 1
-106 1
-5
+104 1
+4
 0 112 3 0
 0 10 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sk n7 n6
 1
-106 1
-5
+104 1
+4
 0 112 3 0
 0 10 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sk n8 n7
 1
-106 1
-5
+104 1
+4
 0 112 3 0
 0 10 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sk n9 n8
 1
-106 1
-5
+104 1
+4
 0 112 3 0
 0 10 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sq n1 n0
 1
-106 1
-5
+104 1
+4
 0 101 3 0
 0 21 -1 0
 0 105 1 0
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sq n10 n9
 1
-106 1
-5
+104 1
+4
 0 101 3 0
 0 21 -1 0
 0 105 2 13
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sq n11 n10
 1
-106 1
-5
+104 1
+4
 0 101 3 0
 0 21 -1 0
 0 105 3 2
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sq n12 n11
 1
-106 1
-5
+104 1
+4
 0 101 3 0
 0 21 -1 0
 0 105 4 3
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sq n13 n12
 1
-106 1
-5
+104 1
+4
 0 101 3 0
 0 21 -1 0
 0 105 5 4
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sq n2 n1
 1
-106 1
-5
+104 1
+4
 0 101 3 0
 0 21 -1 0
 0 105 6 1
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sq n3 n2
 1
-106 1
-5
+104 1
+4
 0 101 3 0
 0 21 -1 0
 0 105 7 6
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sq n4 n3
 1
-106 1
-5
+104 1
+4
 0 101 3 0
 0 21 -1 0
 0 105 8 7
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sq n5 n4
 1
-106 1
-5
+104 1
+4
 0 101 3 0
 0 21 -1 0
 0 105 9 8
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sq n6 n5
 1
-106 1
-5
+104 1
+4
 0 101 3 0
 0 21 -1 0
 0 105 10 9
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sq n7 n6
 1
-106 1
-5
+104 1
+4
 0 101 3 0
 0 21 -1 0
 0 105 11 10
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sq n8 n7
 1
-106 1
-5
+104 1
+4
 0 101 3 0
 0 21 -1 0
 0 105 12 11
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-bottom sq n9 n8
 1
-106 1
-5
+104 1
+4
 0 101 3 0
 0 21 -1 0
 0 105 13 12
 0 108 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c10 n1 n0
 1
-107 1
-4
+106 1
+3
 0 100 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c10 n10 n9
 1
-107 1
-4
+106 1
+3
 0 100 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c10 n11 n10
 1
-107 1
-4
+106 1
+3
 0 100 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c10 n12 n11
 1
-107 1
-4
+106 1
+3
 0 100 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c10 n13 n12
 1
-107 1
-4
+106 1
+3
 0 100 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c10 n2 n1
 1
-107 1
-4
+106 1
+3
 0 100 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c10 n3 n2
 1
-107 1
-4
+106 1
+3
 0 100 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c10 n4 n3
 1
-107 1
-4
+106 1
+3
 0 100 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c10 n5 n4
 1
-107 1
-4
+106 1
+3
 0 100 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c10 n6 n5
 1
-107 1
-4
+106 1
+3
 0 100 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c10 n7 n6
 1
-107 1
-4
+106 1
+3
 0 100 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c10 n8 n7
 1
-107 1
-4
+106 1
+3
 0 100 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c10 n9 n8
 1
-107 1
-4
+106 1
+3
 0 100 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c2 n1 n0
 1
-107 1
-4
+106 1
+3
 0 72 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c2 n10 n9
 1
-107 1
-4
+106 1
+3
 0 72 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c2 n11 n10
 1
-107 1
-4
+106 1
+3
 0 72 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c2 n12 n11
 1
-107 1
-4
+106 1
+3
 0 72 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c2 n13 n12
 1
-107 1
-4
+106 1
+3
 0 72 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c2 n2 n1
 1
-107 1
-4
+106 1
+3
 0 72 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c2 n3 n2
 1
-107 1
-4
+106 1
+3
 0 72 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c2 n4 n3
 1
-107 1
-4
+106 1
+3
 0 72 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c2 n5 n4
 1
-107 1
-4
+106 1
+3
 0 72 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c2 n6 n5
 1
-107 1
-4
+106 1
+3
 0 72 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c2 n7 n6
 1
-107 1
-4
+106 1
+3
 0 72 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c2 n8 n7
 1
-107 1
-4
+106 1
+3
 0 72 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c2 n9 n8
 1
-107 1
-4
+106 1
+3
 0 72 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c3 n1 n0
 1
-107 1
-4
+106 1
+3
 0 71 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c3 n10 n9
 1
-107 1
-4
+106 1
+3
 0 71 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c3 n11 n10
 1
-107 1
-4
+106 1
+3
 0 71 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c3 n12 n11
 1
-107 1
-4
+106 1
+3
 0 71 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c3 n13 n12
 1
-107 1
-4
+106 1
+3
 0 71 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c3 n2 n1
 1
-107 1
-4
+106 1
+3
 0 71 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c3 n3 n2
 1
-107 1
-4
+106 1
+3
 0 71 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c3 n4 n3
 1
-107 1
-4
+106 1
+3
 0 71 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c3 n5 n4
 1
-107 1
-4
+106 1
+3
 0 71 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c3 n6 n5
 1
-107 1
-4
+106 1
+3
 0 71 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c3 n7 n6
 1
-107 1
-4
+106 1
+3
 0 71 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c3 n8 n7
 1
-107 1
-4
+106 1
+3
 0 71 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c3 n9 n8
 1
-107 1
-4
+106 1
+3
 0 71 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c4 n1 n0
 1
-107 1
-4
+106 1
+3
 0 84 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c4 n10 n9
 1
-107 1
-4
+106 1
+3
 0 84 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c4 n11 n10
 1
-107 1
-4
+106 1
+3
 0 84 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c4 n12 n11
 1
-107 1
-4
+106 1
+3
 0 84 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c4 n13 n12
 1
-107 1
-4
+106 1
+3
 0 84 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c4 n2 n1
 1
-107 1
-4
+106 1
+3
 0 84 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c4 n3 n2
 1
-107 1
-4
+106 1
+3
 0 84 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c4 n4 n3
 1
-107 1
-4
+106 1
+3
 0 84 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c4 n5 n4
 1
-107 1
-4
+106 1
+3
 0 84 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c4 n6 n5
 1
-107 1
-4
+106 1
+3
 0 84 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c4 n7 n6
 1
-107 1
-4
+106 1
+3
 0 84 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c4 n8 n7
 1
-107 1
-4
+106 1
+3
 0 84 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c4 n9 n8
 1
-107 1
-4
+106 1
+3
 0 84 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c5 n1 n0
 1
-107 1
-4
+106 1
+3
 0 87 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c5 n10 n9
 1
-107 1
-4
+106 1
+3
 0 87 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c5 n11 n10
 1
-107 1
-4
+106 1
+3
 0 87 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c5 n12 n11
 1
-107 1
-4
+106 1
+3
 0 87 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c5 n13 n12
 1
-107 1
-4
+106 1
+3
 0 87 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c5 n2 n1
 1
-107 1
-4
+106 1
+3
 0 87 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c5 n3 n2
 1
-107 1
-4
+106 1
+3
 0 87 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c5 n4 n3
 1
-107 1
-4
+106 1
+3
 0 87 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c5 n5 n4
 1
-107 1
-4
+106 1
+3
 0 87 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c5 n6 n5
 1
-107 1
-4
+106 1
+3
 0 87 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c5 n7 n6
 1
-107 1
-4
+106 1
+3
 0 87 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c5 n8 n7
 1
-107 1
-4
+106 1
+3
 0 87 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c5 n9 n8
 1
-107 1
-4
+106 1
+3
 0 87 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c6 n1 n0
 1
-107 1
-4
+106 1
+3
 0 90 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c6 n10 n9
 1
-107 1
-4
+106 1
+3
 0 90 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c6 n11 n10
 1
-107 1
-4
+106 1
+3
 0 90 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c6 n12 n11
 1
-107 1
-4
+106 1
+3
 0 90 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c6 n13 n12
 1
-107 1
-4
+106 1
+3
 0 90 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c6 n2 n1
 1
-107 1
-4
+106 1
+3
 0 90 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c6 n3 n2
 1
-107 1
-4
+106 1
+3
 0 90 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c6 n4 n3
 1
-107 1
-4
+106 1
+3
 0 90 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c6 n5 n4
 1
-107 1
-4
+106 1
+3
 0 90 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c6 n6 n5
 1
-107 1
-4
+106 1
+3
 0 90 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c6 n7 n6
 1
-107 1
-4
+106 1
+3
 0 90 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c6 n8 n7
 1
-107 1
-4
+106 1
+3
 0 90 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c6 n9 n8
 1
-107 1
-4
+106 1
+3
 0 90 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c7 n1 n0
 1
-107 1
-4
+106 1
+3
 0 93 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c7 n10 n9
 1
-107 1
-4
+106 1
+3
 0 93 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c7 n11 n10
 1
-107 1
-4
+106 1
+3
 0 93 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c7 n12 n11
 1
-107 1
-4
+106 1
+3
 0 93 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c7 n13 n12
 1
-107 1
-4
+106 1
+3
 0 93 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c7 n2 n1
 1
-107 1
-4
+106 1
+3
 0 93 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c7 n3 n2
 1
-107 1
-4
+106 1
+3
 0 93 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c7 n4 n3
 1
-107 1
-4
+106 1
+3
 0 93 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c7 n5 n4
 1
-107 1
-4
+106 1
+3
 0 93 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c7 n6 n5
 1
-107 1
-4
+106 1
+3
 0 93 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c7 n7 n6
 1
-107 1
-4
+106 1
+3
 0 93 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c7 n8 n7
 1
-107 1
-4
+106 1
+3
 0 93 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c7 n9 n8
 1
-107 1
-4
+106 1
+3
 0 93 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c8 n1 n0
 1
-107 1
-4
+106 1
+3
 0 96 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c8 n10 n9
 1
-107 1
-4
+106 1
+3
 0 96 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c8 n11 n10
 1
-107 1
-4
+106 1
+3
 0 96 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c8 n12 n11
 1
-107 1
-4
+106 1
+3
 0 96 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c8 n13 n12
 1
-107 1
-4
+106 1
+3
 0 96 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c8 n2 n1
 1
-107 1
-4
+106 1
+3
 0 96 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c8 n3 n2
 1
-107 1
-4
+106 1
+3
 0 96 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c8 n4 n3
 1
-107 1
-4
+106 1
+3
 0 96 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c8 n5 n4
 1
-107 1
-4
+106 1
+3
 0 96 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c8 n6 n5
 1
-107 1
-4
+106 1
+3
 0 96 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c8 n7 n6
 1
-107 1
-4
+106 1
+3
 0 96 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c8 n8 n7
 1
-107 1
-4
+106 1
+3
 0 96 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c8 n9 n8
 1
-107 1
-4
+106 1
+3
 0 96 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c9 n1 n0
 1
-107 1
-4
+106 1
+3
 0 98 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c9 n10 n9
 1
-107 1
-4
+106 1
+3
 0 98 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c9 n11 n10
 1
-107 1
-4
+106 1
+3
 0 98 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c9 n12 n11
 1
-107 1
-4
+106 1
+3
 0 98 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c9 n13 n12
 1
-107 1
-4
+106 1
+3
 0 98 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c9 n2 n1
 1
-107 1
-4
+106 1
+3
 0 98 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c9 n3 n2
 1
-107 1
-4
+106 1
+3
 0 98 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c9 n4 n3
 1
-107 1
-4
+106 1
+3
 0 98 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c9 n5 n4
 1
-107 1
-4
+106 1
+3
 0 98 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c9 n6 n5
 1
-107 1
-4
+106 1
+3
 0 98 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c9 n7 n6
 1
-107 1
-4
+106 1
+3
 0 98 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c9 n8 n7
 1
-107 1
-4
+106 1
+3
 0 98 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free c9 n9 n8
 1
-107 1
-4
+106 1
+3
 0 98 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ca n1 n0
 1
-107 1
-4
+106 1
+3
 0 69 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ca n10 n9
 1
-107 1
-4
+106 1
+3
 0 69 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ca n11 n10
 1
-107 1
-4
+106 1
+3
 0 69 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ca n12 n11
 1
-107 1
-4
+106 1
+3
 0 69 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ca n13 n12
 1
-107 1
-4
+106 1
+3
 0 69 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ca n2 n1
 1
-107 1
-4
+106 1
+3
 0 69 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ca n3 n2
 1
-107 1
-4
+106 1
+3
 0 69 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ca n4 n3
 1
-107 1
-4
+106 1
+3
 0 69 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ca n5 n4
 1
-107 1
-4
+106 1
+3
 0 69 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ca n6 n5
 1
-107 1
-4
+106 1
+3
 0 69 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ca n7 n6
 1
-107 1
-4
+106 1
+3
 0 69 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ca n8 n7
 1
-107 1
-4
+106 1
+3
 0 69 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ca n9 n8
 1
-107 1
-4
+106 1
+3
 0 69 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cj n1 n0
 1
-107 1
-4
+106 1
+3
 0 102 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cj n10 n9
 1
-107 1
-4
+106 1
+3
 0 102 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cj n11 n10
 1
-107 1
-4
+106 1
+3
 0 102 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cj n12 n11
 1
-107 1
-4
+106 1
+3
 0 102 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cj n13 n12
 1
-107 1
-4
+106 1
+3
 0 102 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cj n2 n1
 1
-107 1
-4
+106 1
+3
 0 102 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cj n3 n2
 1
-107 1
-4
+106 1
+3
 0 102 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cj n4 n3
 1
-107 1
-4
+106 1
+3
 0 102 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cj n5 n4
 1
-107 1
-4
+106 1
+3
 0 102 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cj n6 n5
 1
-107 1
-4
+106 1
+3
 0 102 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cj n7 n6
 1
-107 1
-4
+106 1
+3
 0 102 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cj n8 n7
 1
-107 1
-4
+106 1
+3
 0 102 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cj n9 n8
 1
-107 1
-4
+106 1
+3
 0 102 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ck n1 n0
 1
-107 1
-4
+106 1
+3
 0 109 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ck n10 n9
 1
-107 1
-4
+106 1
+3
 0 109 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ck n11 n10
 1
-107 1
-4
+106 1
+3
 0 109 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ck n12 n11
 1
-107 1
-4
+106 1
+3
 0 109 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ck n13 n12
 1
-107 1
-4
+106 1
+3
 0 109 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ck n2 n1
 1
-107 1
-4
+106 1
+3
 0 109 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ck n3 n2
 1
-107 1
-4
+106 1
+3
 0 109 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ck n4 n3
 1
-107 1
-4
+106 1
+3
 0 109 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ck n5 n4
 1
-107 1
-4
+106 1
+3
 0 109 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ck n6 n5
 1
-107 1
-4
+106 1
+3
 0 109 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ck n7 n6
 1
-107 1
-4
+106 1
+3
 0 109 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ck n8 n7
 1
-107 1
-4
+106 1
+3
 0 109 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ck n9 n8
 1
-107 1
-4
+106 1
+3
 0 109 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cq n1 n0
 1
-107 1
-4
+106 1
+3
 0 103 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cq n10 n9
 1
-107 1
-4
+106 1
+3
 0 103 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cq n11 n10
 1
-107 1
-4
+106 1
+3
 0 103 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cq n12 n11
 1
-107 1
-4
+106 1
+3
 0 103 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cq n13 n12
 1
-107 1
-4
+106 1
+3
 0 103 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cq n2 n1
 1
-107 1
-4
+106 1
+3
 0 103 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cq n3 n2
 1
-107 1
-4
+106 1
+3
 0 103 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cq n4 n3
 1
-107 1
-4
+106 1
+3
 0 103 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cq n5 n4
 1
-107 1
-4
+106 1
+3
 0 103 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cq n6 n5
 1
-107 1
-4
+106 1
+3
 0 103 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cq n7 n6
 1
-107 1
-4
+106 1
+3
 0 103 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cq n8 n7
 1
-107 1
-4
+106 1
+3
 0 103 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free cq n9 n8
 1
-107 1
-4
+106 1
+3
 0 103 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d10 n1 n0
 1
-107 1
-4
+106 1
+3
 0 83 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d10 n10 n9
 1
-107 1
-4
+106 1
+3
 0 83 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d10 n11 n10
 1
-107 1
-4
+106 1
+3
 0 83 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d10 n12 n11
 1
-107 1
-4
+106 1
+3
 0 83 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d10 n13 n12
 1
-107 1
-4
+106 1
+3
 0 83 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d10 n2 n1
 1
-107 1
-4
+106 1
+3
 0 83 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d10 n3 n2
 1
-107 1
-4
+106 1
+3
 0 83 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d10 n4 n3
 1
-107 1
-4
+106 1
+3
 0 83 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d10 n5 n4
 1
-107 1
-4
+106 1
+3
 0 83 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d10 n6 n5
 1
-107 1
-4
+106 1
+3
 0 83 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d10 n7 n6
 1
-107 1
-4
+106 1
+3
 0 83 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d10 n8 n7
 1
-107 1
-4
+106 1
+3
 0 83 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d10 n9 n8
 1
-107 1
-4
+106 1
+3
 0 83 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d2 n1 n0
 1
-107 1
-4
+106 1
+3
 0 60 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d2 n10 n9
 1
-107 1
-4
+106 1
+3
 0 60 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d2 n11 n10
 1
-107 1
-4
+106 1
+3
 0 60 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d2 n12 n11
 1
-107 1
-4
+106 1
+3
 0 60 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d2 n13 n12
 1
-107 1
-4
+106 1
+3
 0 60 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d2 n2 n1
 1
-107 1
-4
+106 1
+3
 0 60 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d2 n3 n2
 1
-107 1
-4
+106 1
+3
 0 60 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d2 n4 n3
 1
-107 1
-4
+106 1
+3
 0 60 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d2 n5 n4
 1
-107 1
-4
+106 1
+3
 0 60 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d2 n6 n5
 1
-107 1
-4
+106 1
+3
 0 60 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d2 n7 n6
 1
-107 1
-4
+106 1
+3
 0 60 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d2 n8 n7
 1
-107 1
-4
+106 1
+3
 0 60 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d2 n9 n8
 1
-107 1
-4
+106 1
+3
 0 60 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d3 n1 n0
 1
-107 1
-4
+106 1
+3
 0 59 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d3 n10 n9
 1
-107 1
-4
+106 1
+3
 0 59 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d3 n11 n10
 1
-107 1
-4
+106 1
+3
 0 59 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d3 n12 n11
 1
-107 1
-4
+106 1
+3
 0 59 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d3 n13 n12
 1
-107 1
-4
+106 1
+3
 0 59 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d3 n2 n1
 1
-107 1
-4
+106 1
+3
 0 59 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d3 n3 n2
 1
-107 1
-4
+106 1
+3
 0 59 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d3 n4 n3
 1
-107 1
-4
+106 1
+3
 0 59 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d3 n5 n4
 1
-107 1
-4
+106 1
+3
 0 59 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d3 n6 n5
 1
-107 1
-4
+106 1
+3
 0 59 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d3 n7 n6
 1
-107 1
-4
+106 1
+3
 0 59 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d3 n8 n7
 1
-107 1
-4
+106 1
+3
 0 59 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d3 n9 n8
 1
-107 1
-4
+106 1
+3
 0 59 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d4 n1 n0
 1
-107 1
-4
+106 1
+3
 0 77 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d4 n10 n9
 1
-107 1
-4
+106 1
+3
 0 77 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d4 n11 n10
 1
-107 1
-4
+106 1
+3
 0 77 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d4 n12 n11
 1
-107 1
-4
+106 1
+3
 0 77 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d4 n13 n12
 1
-107 1
-4
+106 1
+3
 0 77 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d4 n2 n1
 1
-107 1
-4
+106 1
+3
 0 77 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d4 n3 n2
 1
-107 1
-4
+106 1
+3
 0 77 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d4 n4 n3
 1
-107 1
-4
+106 1
+3
 0 77 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d4 n5 n4
 1
-107 1
-4
+106 1
+3
 0 77 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d4 n6 n5
 1
-107 1
-4
+106 1
+3
 0 77 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d4 n7 n6
 1
-107 1
-4
+106 1
+3
 0 77 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d4 n8 n7
 1
-107 1
-4
+106 1
+3
 0 77 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d4 n9 n8
 1
-107 1
-4
+106 1
+3
 0 77 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d5 n1 n0
 1
-107 1
-4
+106 1
+3
 0 78 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d5 n10 n9
 1
-107 1
-4
+106 1
+3
 0 78 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d5 n11 n10
 1
-107 1
-4
+106 1
+3
 0 78 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d5 n12 n11
 1
-107 1
-4
+106 1
+3
 0 78 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d5 n13 n12
 1
-107 1
-4
+106 1
+3
 0 78 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d5 n2 n1
 1
-107 1
-4
+106 1
+3
 0 78 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d5 n3 n2
 1
-107 1
-4
+106 1
+3
 0 78 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d5 n4 n3
 1
-107 1
-4
+106 1
+3
 0 78 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d5 n5 n4
 1
-107 1
-4
+106 1
+3
 0 78 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d5 n6 n5
 1
-107 1
-4
+106 1
+3
 0 78 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d5 n7 n6
 1
-107 1
-4
+106 1
+3
 0 78 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d5 n8 n7
 1
-107 1
-4
+106 1
+3
 0 78 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d5 n9 n8
 1
-107 1
-4
+106 1
+3
 0 78 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d6 n1 n0
 1
-107 1
-4
+106 1
+3
 0 73 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d6 n10 n9
 1
-107 1
-4
+106 1
+3
 0 73 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d6 n11 n10
 1
-107 1
-4
+106 1
+3
 0 73 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d6 n12 n11
 1
-107 1
-4
+106 1
+3
 0 73 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d6 n13 n12
 1
-107 1
-4
+106 1
+3
 0 73 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d6 n2 n1
 1
-107 1
-4
+106 1
+3
 0 73 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d6 n3 n2
 1
-107 1
-4
+106 1
+3
 0 73 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d6 n4 n3
 1
-107 1
-4
+106 1
+3
 0 73 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d6 n5 n4
 1
-107 1
-4
+106 1
+3
 0 73 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d6 n6 n5
 1
-107 1
-4
+106 1
+3
 0 73 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d6 n7 n6
 1
-107 1
-4
+106 1
+3
 0 73 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d6 n8 n7
 1
-107 1
-4
+106 1
+3
 0 73 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d6 n9 n8
 1
-107 1
-4
+106 1
+3
 0 73 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d7 n1 n0
 1
-107 1
-4
+106 1
+3
 0 74 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d7 n10 n9
 1
-107 1
-4
+106 1
+3
 0 74 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d7 n11 n10
 1
-107 1
-4
+106 1
+3
 0 74 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d7 n12 n11
 1
-107 1
-4
+106 1
+3
 0 74 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d7 n13 n12
 1
-107 1
-4
+106 1
+3
 0 74 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d7 n2 n1
 1
-107 1
-4
+106 1
+3
 0 74 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d7 n3 n2
 1
-107 1
-4
+106 1
+3
 0 74 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d7 n4 n3
 1
-107 1
-4
+106 1
+3
 0 74 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d7 n5 n4
 1
-107 1
-4
+106 1
+3
 0 74 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d7 n6 n5
 1
-107 1
-4
+106 1
+3
 0 74 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d7 n7 n6
 1
-107 1
-4
+106 1
+3
 0 74 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d7 n8 n7
 1
-107 1
-4
+106 1
+3
 0 74 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d7 n9 n8
 1
-107 1
-4
+106 1
+3
 0 74 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d8 n1 n0
 1
-107 1
-4
+106 1
+3
 0 70 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d8 n10 n9
 1
-107 1
-4
+106 1
+3
 0 70 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d8 n11 n10
 1
-107 1
-4
+106 1
+3
 0 70 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d8 n12 n11
 1
-107 1
-4
+106 1
+3
 0 70 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d8 n13 n12
 1
-107 1
-4
+106 1
+3
 0 70 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d8 n2 n1
 1
-107 1
-4
+106 1
+3
 0 70 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d8 n3 n2
 1
-107 1
-4
+106 1
+3
 0 70 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d8 n4 n3
 1
-107 1
-4
+106 1
+3
 0 70 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d8 n5 n4
 1
-107 1
-4
+106 1
+3
 0 70 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d8 n6 n5
 1
-107 1
-4
+106 1
+3
 0 70 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d8 n7 n6
 1
-107 1
-4
+106 1
+3
 0 70 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d8 n8 n7
 1
-107 1
-4
+106 1
+3
 0 70 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d8 n9 n8
 1
-107 1
-4
+106 1
+3
 0 70 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d9 n1 n0
 1
-107 1
-4
+106 1
+3
 0 82 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d9 n10 n9
 1
-107 1
-4
+106 1
+3
 0 82 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d9 n11 n10
 1
-107 1
-4
+106 1
+3
 0 82 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d9 n12 n11
 1
-107 1
-4
+106 1
+3
 0 82 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d9 n13 n12
 1
-107 1
-4
+106 1
+3
 0 82 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d9 n2 n1
 1
-107 1
-4
+106 1
+3
 0 82 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d9 n3 n2
 1
-107 1
-4
+106 1
+3
 0 82 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d9 n4 n3
 1
-107 1
-4
+106 1
+3
 0 82 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d9 n5 n4
 1
-107 1
-4
+106 1
+3
 0 82 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d9 n6 n5
 1
-107 1
-4
+106 1
+3
 0 82 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d9 n7 n6
 1
-107 1
-4
+106 1
+3
 0 82 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d9 n8 n7
 1
-107 1
-4
+106 1
+3
 0 82 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free d9 n9 n8
 1
-107 1
-4
+106 1
+3
 0 82 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free da n1 n0
 1
-107 1
-4
+106 1
+3
 0 57 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free da n10 n9
 1
-107 1
-4
+106 1
+3
 0 57 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free da n11 n10
 1
-107 1
-4
+106 1
+3
 0 57 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free da n12 n11
 1
-107 1
-4
+106 1
+3
 0 57 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free da n13 n12
 1
-107 1
-4
+106 1
+3
 0 57 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free da n2 n1
 1
-107 1
-4
+106 1
+3
 0 57 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free da n3 n2
 1
-107 1
-4
+106 1
+3
 0 57 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free da n4 n3
 1
-107 1
-4
+106 1
+3
 0 57 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free da n5 n4
 1
-107 1
-4
+106 1
+3
 0 57 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free da n6 n5
 1
-107 1
-4
+106 1
+3
 0 57 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free da n7 n6
 1
-107 1
-4
+106 1
+3
 0 57 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free da n8 n7
 1
-107 1
-4
+106 1
+3
 0 57 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free da n9 n8
 1
-107 1
-4
+106 1
+3
 0 57 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dj n1 n0
 1
-107 1
-4
+106 1
+3
 0 80 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dj n10 n9
 1
-107 1
-4
+106 1
+3
 0 80 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dj n11 n10
 1
-107 1
-4
+106 1
+3
 0 80 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dj n12 n11
 1
-107 1
-4
+106 1
+3
 0 80 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dj n13 n12
 1
-107 1
-4
+106 1
+3
 0 80 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dj n2 n1
 1
-107 1
-4
+106 1
+3
 0 80 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dj n3 n2
 1
-107 1
-4
+106 1
+3
 0 80 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dj n4 n3
 1
-107 1
-4
+106 1
+3
 0 80 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dj n5 n4
 1
-107 1
-4
+106 1
+3
 0 80 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dj n6 n5
 1
-107 1
-4
+106 1
+3
 0 80 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dj n7 n6
 1
-107 1
-4
+106 1
+3
 0 80 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dj n8 n7
 1
-107 1
-4
+106 1
+3
 0 80 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dj n9 n8
 1
-107 1
-4
+106 1
+3
 0 80 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dk n1 n0
 1
-107 1
-4
+106 1
+3
 0 110 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dk n10 n9
 1
-107 1
-4
+106 1
+3
 0 110 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dk n11 n10
 1
-107 1
-4
+106 1
+3
 0 110 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dk n12 n11
 1
-107 1
-4
+106 1
+3
 0 110 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dk n13 n12
 1
-107 1
-4
+106 1
+3
 0 110 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dk n2 n1
 1
-107 1
-4
+106 1
+3
 0 110 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dk n3 n2
 1
-107 1
-4
+106 1
+3
 0 110 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dk n4 n3
 1
-107 1
-4
+106 1
+3
 0 110 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dk n5 n4
 1
-107 1
-4
+106 1
+3
 0 110 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dk n6 n5
 1
-107 1
-4
+106 1
+3
 0 110 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dk n7 n6
 1
-107 1
-4
+106 1
+3
 0 110 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dk n8 n7
 1
-107 1
-4
+106 1
+3
 0 110 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dk n9 n8
 1
-107 1
-4
+106 1
+3
 0 110 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dq n1 n0
 1
-107 1
-4
+106 1
+3
 0 66 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dq n10 n9
 1
-107 1
-4
+106 1
+3
 0 66 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dq n11 n10
 1
-107 1
-4
+106 1
+3
 0 66 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dq n12 n11
 1
-107 1
-4
+106 1
+3
 0 66 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dq n13 n12
 1
-107 1
-4
+106 1
+3
 0 66 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dq n2 n1
 1
-107 1
-4
+106 1
+3
 0 66 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dq n3 n2
 1
-107 1
-4
+106 1
+3
 0 66 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dq n4 n3
 1
-107 1
-4
+106 1
+3
 0 66 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dq n5 n4
 1
-107 1
-4
+106 1
+3
 0 66 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dq n6 n5
 1
-107 1
-4
+106 1
+3
 0 66 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dq n7 n6
 1
-107 1
-4
+106 1
+3
 0 66 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dq n8 n7
 1
-107 1
-4
+106 1
+3
 0 66 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free dq n9 n8
 1
-107 1
-4
+106 1
+3
 0 66 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h10 n1 n0
 1
-107 1
-4
+106 1
+3
 0 89 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h10 n10 n9
 1
-107 1
-4
+106 1
+3
 0 89 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h10 n11 n10
 1
-107 1
-4
+106 1
+3
 0 89 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h10 n12 n11
 1
-107 1
-4
+106 1
+3
 0 89 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h10 n13 n12
 1
-107 1
-4
+106 1
+3
 0 89 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h10 n2 n1
 1
-107 1
-4
+106 1
+3
 0 89 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h10 n3 n2
 1
-107 1
-4
+106 1
+3
 0 89 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h10 n4 n3
 1
-107 1
-4
+106 1
+3
 0 89 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h10 n5 n4
 1
-107 1
-4
+106 1
+3
 0 89 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h10 n6 n5
 1
-107 1
-4
+106 1
+3
 0 89 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h10 n7 n6
 1
-107 1
-4
+106 1
+3
 0 89 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h10 n8 n7
 1
-107 1
-4
+106 1
+3
 0 89 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h10 n9 n8
 1
-107 1
-4
+106 1
+3
 0 89 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h2 n1 n0
 1
-107 1
-4
+106 1
+3
 0 63 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h2 n10 n9
 1
-107 1
-4
+106 1
+3
 0 63 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h2 n11 n10
 1
-107 1
-4
+106 1
+3
 0 63 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h2 n12 n11
 1
-107 1
-4
+106 1
+3
 0 63 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h2 n13 n12
 1
-107 1
-4
+106 1
+3
 0 63 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h2 n2 n1
 1
-107 1
-4
+106 1
+3
 0 63 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h2 n3 n2
 1
-107 1
-4
+106 1
+3
 0 63 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h2 n4 n3
 1
-107 1
-4
+106 1
+3
 0 63 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h2 n5 n4
 1
-107 1
-4
+106 1
+3
 0 63 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h2 n6 n5
 1
-107 1
-4
+106 1
+3
 0 63 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h2 n7 n6
 1
-107 1
-4
+106 1
+3
 0 63 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h2 n8 n7
 1
-107 1
-4
+106 1
+3
 0 63 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h2 n9 n8
 1
-107 1
-4
+106 1
+3
 0 63 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h3 n1 n0
 1
-107 1
-4
+106 1
+3
 0 62 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h3 n10 n9
 1
-107 1
-4
+106 1
+3
 0 62 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h3 n11 n10
 1
-107 1
-4
+106 1
+3
 0 62 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h3 n12 n11
 1
-107 1
-4
+106 1
+3
 0 62 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h3 n13 n12
 1
-107 1
-4
+106 1
+3
 0 62 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h3 n2 n1
 1
-107 1
-4
+106 1
+3
 0 62 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h3 n3 n2
 1
-107 1
-4
+106 1
+3
 0 62 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h3 n4 n3
 1
-107 1
-4
+106 1
+3
 0 62 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h3 n5 n4
 1
-107 1
-4
+106 1
+3
 0 62 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h3 n6 n5
 1
-107 1
-4
+106 1
+3
 0 62 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h3 n7 n6
 1
-107 1
-4
+106 1
+3
 0 62 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h3 n8 n7
 1
-107 1
-4
+106 1
+3
 0 62 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h3 n9 n8
 1
-107 1
-4
+106 1
+3
 0 62 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h4 n1 n0
 1
-107 1
-4
+106 1
+3
 0 65 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h4 n10 n9
 1
-107 1
-4
+106 1
+3
 0 65 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h4 n11 n10
 1
-107 1
-4
+106 1
+3
 0 65 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h4 n12 n11
 1
-107 1
-4
+106 1
+3
 0 65 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h4 n13 n12
 1
-107 1
-4
+106 1
+3
 0 65 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h4 n2 n1
 1
-107 1
-4
+106 1
+3
 0 65 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h4 n3 n2
 1
-107 1
-4
+106 1
+3
 0 65 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h4 n4 n3
 1
-107 1
-4
+106 1
+3
 0 65 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h4 n5 n4
 1
-107 1
-4
+106 1
+3
 0 65 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h4 n6 n5
 1
-107 1
-4
+106 1
+3
 0 65 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h4 n7 n6
 1
-107 1
-4
+106 1
+3
 0 65 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h4 n8 n7
 1
-107 1
-4
+106 1
+3
 0 65 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h4 n9 n8
 1
-107 1
-4
+106 1
+3
 0 65 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h5 n1 n0
 1
-107 1
-4
+106 1
+3
 0 64 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h5 n10 n9
 1
-107 1
-4
+106 1
+3
 0 64 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h5 n11 n10
 1
-107 1
-4
+106 1
+3
 0 64 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h5 n12 n11
 1
-107 1
-4
+106 1
+3
 0 64 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h5 n13 n12
 1
-107 1
-4
+106 1
+3
 0 64 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h5 n2 n1
 1
-107 1
-4
+106 1
+3
 0 64 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h5 n3 n2
 1
-107 1
-4
+106 1
+3
 0 64 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h5 n4 n3
 1
-107 1
-4
+106 1
+3
 0 64 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h5 n5 n4
 1
-107 1
-4
+106 1
+3
 0 64 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h5 n6 n5
 1
-107 1
-4
+106 1
+3
 0 64 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h5 n7 n6
 1
-107 1
-4
+106 1
+3
 0 64 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h5 n8 n7
 1
-107 1
-4
+106 1
+3
 0 64 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h5 n9 n8
 1
-107 1
-4
+106 1
+3
 0 64 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h6 n1 n0
 1
-107 1
-4
+106 1
+3
 0 68 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h6 n10 n9
 1
-107 1
-4
+106 1
+3
 0 68 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h6 n11 n10
 1
-107 1
-4
+106 1
+3
 0 68 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h6 n12 n11
 1
-107 1
-4
+106 1
+3
 0 68 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h6 n13 n12
 1
-107 1
-4
+106 1
+3
 0 68 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h6 n2 n1
 1
-107 1
-4
+106 1
+3
 0 68 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h6 n3 n2
 1
-107 1
-4
+106 1
+3
 0 68 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h6 n4 n3
 1
-107 1
-4
+106 1
+3
 0 68 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h6 n5 n4
 1
-107 1
-4
+106 1
+3
 0 68 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h6 n6 n5
 1
-107 1
-4
+106 1
+3
 0 68 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h6 n7 n6
 1
-107 1
-4
+106 1
+3
 0 68 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h6 n8 n7
 1
-107 1
-4
+106 1
+3
 0 68 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h6 n9 n8
 1
-107 1
-4
+106 1
+3
 0 68 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h7 n1 n0
 1
-107 1
-4
+106 1
+3
 0 67 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h7 n10 n9
 1
-107 1
-4
+106 1
+3
 0 67 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h7 n11 n10
 1
-107 1
-4
+106 1
+3
 0 67 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h7 n12 n11
 1
-107 1
-4
+106 1
+3
 0 67 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h7 n13 n12
 1
-107 1
-4
+106 1
+3
 0 67 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h7 n2 n1
 1
-107 1
-4
+106 1
+3
 0 67 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h7 n3 n2
 1
-107 1
-4
+106 1
+3
 0 67 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h7 n4 n3
 1
-107 1
-4
+106 1
+3
 0 67 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h7 n5 n4
 1
-107 1
-4
+106 1
+3
 0 67 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h7 n6 n5
 1
-107 1
-4
+106 1
+3
 0 67 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h7 n7 n6
 1
-107 1
-4
+106 1
+3
 0 67 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h7 n8 n7
 1
-107 1
-4
+106 1
+3
 0 67 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h7 n9 n8
 1
-107 1
-4
+106 1
+3
 0 67 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h8 n1 n0
 1
-107 1
-4
+106 1
+3
 0 81 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h8 n10 n9
 1
-107 1
-4
+106 1
+3
 0 81 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h8 n11 n10
 1
-107 1
-4
+106 1
+3
 0 81 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h8 n12 n11
 1
-107 1
-4
+106 1
+3
 0 81 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h8 n13 n12
 1
-107 1
-4
+106 1
+3
 0 81 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h8 n2 n1
 1
-107 1
-4
+106 1
+3
 0 81 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h8 n3 n2
 1
-107 1
-4
+106 1
+3
 0 81 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h8 n4 n3
 1
-107 1
-4
+106 1
+3
 0 81 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h8 n5 n4
 1
-107 1
-4
+106 1
+3
 0 81 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h8 n6 n5
 1
-107 1
-4
+106 1
+3
 0 81 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h8 n7 n6
 1
-107 1
-4
+106 1
+3
 0 81 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h8 n8 n7
 1
-107 1
-4
+106 1
+3
 0 81 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h8 n9 n8
 1
-107 1
-4
+106 1
+3
 0 81 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h9 n1 n0
 1
-107 1
-4
+106 1
+3
 0 86 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h9 n10 n9
 1
-107 1
-4
+106 1
+3
 0 86 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h9 n11 n10
 1
-107 1
-4
+106 1
+3
 0 86 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h9 n12 n11
 1
-107 1
-4
+106 1
+3
 0 86 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h9 n13 n12
 1
-107 1
-4
+106 1
+3
 0 86 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h9 n2 n1
 1
-107 1
-4
+106 1
+3
 0 86 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h9 n3 n2
 1
-107 1
-4
+106 1
+3
 0 86 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h9 n4 n3
 1
-107 1
-4
+106 1
+3
 0 86 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h9 n5 n4
 1
-107 1
-4
+106 1
+3
 0 86 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h9 n6 n5
 1
-107 1
-4
+106 1
+3
 0 86 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h9 n7 n6
 1
-107 1
-4
+106 1
+3
 0 86 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h9 n8 n7
 1
-107 1
-4
+106 1
+3
 0 86 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free h9 n9 n8
 1
-107 1
-4
+106 1
+3
 0 86 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ha n1 n0
 1
-107 1
-4
+106 1
+3
 0 58 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ha n10 n9
 1
-107 1
-4
+106 1
+3
 0 58 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ha n11 n10
 1
-107 1
-4
+106 1
+3
 0 58 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ha n12 n11
 1
-107 1
-4
+106 1
+3
 0 58 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ha n13 n12
 1
-107 1
-4
+106 1
+3
 0 58 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ha n2 n1
 1
-107 1
-4
+106 1
+3
 0 58 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ha n3 n2
 1
-107 1
-4
+106 1
+3
 0 58 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ha n4 n3
 1
-107 1
-4
+106 1
+3
 0 58 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ha n5 n4
 1
-107 1
-4
+106 1
+3
 0 58 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ha n6 n5
 1
-107 1
-4
+106 1
+3
 0 58 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ha n7 n6
 1
-107 1
-4
+106 1
+3
 0 58 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ha n8 n7
 1
-107 1
-4
+106 1
+3
 0 58 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free ha n9 n8
 1
-107 1
-4
+106 1
+3
 0 58 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hj n1 n0
 1
-107 1
-4
+106 1
+3
 0 92 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hj n10 n9
 1
-107 1
-4
+106 1
+3
 0 92 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hj n11 n10
 1
-107 1
-4
+106 1
+3
 0 92 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hj n12 n11
 1
-107 1
-4
+106 1
+3
 0 92 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hj n13 n12
 1
-107 1
-4
+106 1
+3
 0 92 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hj n2 n1
 1
-107 1
-4
+106 1
+3
 0 92 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hj n3 n2
 1
-107 1
-4
+106 1
+3
 0 92 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hj n4 n3
 1
-107 1
-4
+106 1
+3
 0 92 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hj n5 n4
 1
-107 1
-4
+106 1
+3
 0 92 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hj n6 n5
 1
-107 1
-4
+106 1
+3
 0 92 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hj n7 n6
 1
-107 1
-4
+106 1
+3
 0 92 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hj n8 n7
 1
-107 1
-4
+106 1
+3
 0 92 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hj n9 n8
 1
-107 1
-4
+106 1
+3
 0 92 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hk n1 n0
 1
-107 1
-4
+106 1
+3
 0 111 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hk n10 n9
 1
-107 1
-4
+106 1
+3
 0 111 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hk n11 n10
 1
-107 1
-4
+106 1
+3
 0 111 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hk n12 n11
 1
-107 1
-4
+106 1
+3
 0 111 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hk n13 n12
 1
-107 1
-4
+106 1
+3
 0 111 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hk n2 n1
 1
-107 1
-4
+106 1
+3
 0 111 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hk n3 n2
 1
-107 1
-4
+106 1
+3
 0 111 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hk n4 n3
 1
-107 1
-4
+106 1
+3
 0 111 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hk n5 n4
 1
-107 1
-4
+106 1
+3
 0 111 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hk n6 n5
 1
-107 1
-4
+106 1
+3
 0 111 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hk n7 n6
 1
-107 1
-4
+106 1
+3
 0 111 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hk n8 n7
 1
-107 1
-4
+106 1
+3
 0 111 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hk n9 n8
 1
-107 1
-4
+106 1
+3
 0 111 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hq n1 n0
 1
-107 1
-4
+106 1
+3
 0 95 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hq n10 n9
 1
-107 1
-4
+106 1
+3
 0 95 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hq n11 n10
 1
-107 1
-4
+106 1
+3
 0 95 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hq n12 n11
 1
-107 1
-4
+106 1
+3
 0 95 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hq n13 n12
 1
-107 1
-4
+106 1
+3
 0 95 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hq n2 n1
 1
-107 1
-4
+106 1
+3
 0 95 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hq n3 n2
 1
-107 1
-4
+106 1
+3
 0 95 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hq n4 n3
 1
-107 1
-4
+106 1
+3
 0 95 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hq n5 n4
 1
-107 1
-4
+106 1
+3
 0 95 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hq n6 n5
 1
-107 1
-4
+106 1
+3
 0 95 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hq n7 n6
 1
-107 1
-4
+106 1
+3
 0 95 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hq n8 n7
 1
-107 1
-4
+106 1
+3
 0 95 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free hq n9 n8
 1
-107 1
-4
+106 1
+3
 0 95 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s10 n1 n0
 1
-107 1
-4
+106 1
+3
 0 97 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s10 n10 n9
 1
-107 1
-4
+106 1
+3
 0 97 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s10 n11 n10
 1
-107 1
-4
+106 1
+3
 0 97 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s10 n12 n11
 1
-107 1
-4
+106 1
+3
 0 97 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s10 n13 n12
 1
-107 1
-4
+106 1
+3
 0 97 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s10 n2 n1
 1
-107 1
-4
+106 1
+3
 0 97 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s10 n3 n2
 1
-107 1
-4
+106 1
+3
 0 97 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s10 n4 n3
 1
-107 1
-4
+106 1
+3
 0 97 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s10 n5 n4
 1
-107 1
-4
+106 1
+3
 0 97 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s10 n6 n5
 1
-107 1
-4
+106 1
+3
 0 97 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s10 n7 n6
 1
-107 1
-4
+106 1
+3
 0 97 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s10 n8 n7
 1
-107 1
-4
+106 1
+3
 0 97 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s10 n9 n8
 1
-107 1
-4
+106 1
+3
 0 97 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s2 n1 n0
 1
-107 1
-4
+106 1
+3
 0 75 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s2 n10 n9
 1
-107 1
-4
+106 1
+3
 0 75 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s2 n11 n10
 1
-107 1
-4
+106 1
+3
 0 75 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s2 n12 n11
 1
-107 1
-4
+106 1
+3
 0 75 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s2 n13 n12
 1
-107 1
-4
+106 1
+3
 0 75 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s2 n2 n1
 1
-107 1
-4
+106 1
+3
 0 75 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s2 n3 n2
 1
-107 1
-4
+106 1
+3
 0 75 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s2 n4 n3
 1
-107 1
-4
+106 1
+3
 0 75 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s2 n5 n4
 1
-107 1
-4
+106 1
+3
 0 75 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s2 n6 n5
 1
-107 1
-4
+106 1
+3
 0 75 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s2 n7 n6
 1
-107 1
-4
+106 1
+3
 0 75 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s2 n8 n7
 1
-107 1
-4
+106 1
+3
 0 75 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s2 n9 n8
 1
-107 1
-4
+106 1
+3
 0 75 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s3 n1 n0
 1
-107 1
-4
+106 1
+3
 0 76 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s3 n10 n9
 1
-107 1
-4
+106 1
+3
 0 76 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s3 n11 n10
 1
-107 1
-4
+106 1
+3
 0 76 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s3 n12 n11
 1
-107 1
-4
+106 1
+3
 0 76 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s3 n13 n12
 1
-107 1
-4
+106 1
+3
 0 76 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s3 n2 n1
 1
-107 1
-4
+106 1
+3
 0 76 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s3 n3 n2
 1
-107 1
-4
+106 1
+3
 0 76 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s3 n4 n3
 1
-107 1
-4
+106 1
+3
 0 76 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s3 n5 n4
 1
-107 1
-4
+106 1
+3
 0 76 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s3 n6 n5
 1
-107 1
-4
+106 1
+3
 0 76 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s3 n7 n6
 1
-107 1
-4
+106 1
+3
 0 76 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s3 n8 n7
 1
-107 1
-4
+106 1
+3
 0 76 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s3 n9 n8
 1
-107 1
-4
+106 1
+3
 0 76 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s4 n1 n0
 1
-107 1
-4
+106 1
+3
 0 61 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s4 n10 n9
 1
-107 1
-4
+106 1
+3
 0 61 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s4 n11 n10
 1
-107 1
-4
+106 1
+3
 0 61 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s4 n12 n11
 1
-107 1
-4
+106 1
+3
 0 61 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s4 n13 n12
 1
-107 1
-4
+106 1
+3
 0 61 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s4 n2 n1
 1
-107 1
-4
+106 1
+3
 0 61 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s4 n3 n2
 1
-107 1
-4
+106 1
+3
 0 61 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s4 n4 n3
 1
-107 1
-4
+106 1
+3
 0 61 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s4 n5 n4
 1
-107 1
-4
+106 1
+3
 0 61 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s4 n6 n5
 1
-107 1
-4
+106 1
+3
 0 61 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s4 n7 n6
 1
-107 1
-4
+106 1
+3
 0 61 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s4 n8 n7
 1
-107 1
-4
+106 1
+3
 0 61 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s4 n9 n8
 1
-107 1
-4
+106 1
+3
 0 61 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s5 n1 n0
 1
-107 1
-4
+106 1
+3
 0 79 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s5 n10 n9
 1
-107 1
-4
+106 1
+3
 0 79 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s5 n11 n10
 1
-107 1
-4
+106 1
+3
 0 79 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s5 n12 n11
 1
-107 1
-4
+106 1
+3
 0 79 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s5 n13 n12
 1
-107 1
-4
+106 1
+3
 0 79 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s5 n2 n1
 1
-107 1
-4
+106 1
+3
 0 79 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s5 n3 n2
 1
-107 1
-4
+106 1
+3
 0 79 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s5 n4 n3
 1
-107 1
-4
+106 1
+3
 0 79 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s5 n5 n4
 1
-107 1
-4
+106 1
+3
 0 79 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s5 n6 n5
 1
-107 1
-4
+106 1
+3
 0 79 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s5 n7 n6
 1
-107 1
-4
+106 1
+3
 0 79 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s5 n8 n7
 1
-107 1
-4
+106 1
+3
 0 79 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s5 n9 n8
 1
-107 1
-4
+106 1
+3
 0 79 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s6 n1 n0
 1
-107 1
-4
+106 1
+3
 0 85 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s6 n10 n9
 1
-107 1
-4
+106 1
+3
 0 85 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s6 n11 n10
 1
-107 1
-4
+106 1
+3
 0 85 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s6 n12 n11
 1
-107 1
-4
+106 1
+3
 0 85 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s6 n13 n12
 1
-107 1
-4
+106 1
+3
 0 85 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s6 n2 n1
 1
-107 1
-4
+106 1
+3
 0 85 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s6 n3 n2
 1
-107 1
-4
+106 1
+3
 0 85 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s6 n4 n3
 1
-107 1
-4
+106 1
+3
 0 85 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s6 n5 n4
 1
-107 1
-4
+106 1
+3
 0 85 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s6 n6 n5
 1
-107 1
-4
+106 1
+3
 0 85 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s6 n7 n6
 1
-107 1
-4
+106 1
+3
 0 85 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s6 n8 n7
 1
-107 1
-4
+106 1
+3
 0 85 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s6 n9 n8
 1
-107 1
-4
+106 1
+3
 0 85 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s7 n1 n0
 1
-107 1
-4
+106 1
+3
 0 88 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s7 n10 n9
 1
-107 1
-4
+106 1
+3
 0 88 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s7 n11 n10
 1
-107 1
-4
+106 1
+3
 0 88 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s7 n12 n11
 1
-107 1
-4
+106 1
+3
 0 88 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s7 n13 n12
 1
-107 1
-4
+106 1
+3
 0 88 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s7 n2 n1
 1
-107 1
-4
+106 1
+3
 0 88 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s7 n3 n2
 1
-107 1
-4
+106 1
+3
 0 88 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s7 n4 n3
 1
-107 1
-4
+106 1
+3
 0 88 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s7 n5 n4
 1
-107 1
-4
+106 1
+3
 0 88 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s7 n6 n5
 1
-107 1
-4
+106 1
+3
 0 88 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s7 n7 n6
 1
-107 1
-4
+106 1
+3
 0 88 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s7 n8 n7
 1
-107 1
-4
+106 1
+3
 0 88 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s7 n9 n8
 1
-107 1
-4
+106 1
+3
 0 88 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s8 n1 n0
 1
-107 1
-4
+106 1
+3
 0 91 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s8 n10 n9
 1
-107 1
-4
+106 1
+3
 0 91 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s8 n11 n10
 1
-107 1
-4
+106 1
+3
 0 91 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s8 n12 n11
 1
-107 1
-4
+106 1
+3
 0 91 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s8 n13 n12
 1
-107 1
-4
+106 1
+3
 0 91 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s8 n2 n1
 1
-107 1
-4
+106 1
+3
 0 91 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s8 n3 n2
 1
-107 1
-4
+106 1
+3
 0 91 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s8 n4 n3
 1
-107 1
-4
+106 1
+3
 0 91 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s8 n5 n4
 1
-107 1
-4
+106 1
+3
 0 91 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s8 n6 n5
 1
-107 1
-4
+106 1
+3
 0 91 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s8 n7 n6
 1
-107 1
-4
+106 1
+3
 0 91 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s8 n8 n7
 1
-107 1
-4
+106 1
+3
 0 91 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s8 n9 n8
 1
-107 1
-4
+106 1
+3
 0 91 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s9 n1 n0
 1
-107 1
-4
+106 1
+3
 0 94 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s9 n10 n9
 1
-107 1
-4
+106 1
+3
 0 94 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s9 n11 n10
 1
-107 1
-4
+106 1
+3
 0 94 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s9 n12 n11
 1
-107 1
-4
+106 1
+3
 0 94 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s9 n13 n12
 1
-107 1
-4
+106 1
+3
 0 94 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s9 n2 n1
 1
-107 1
-4
+106 1
+3
 0 94 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s9 n3 n2
 1
-107 1
-4
+106 1
+3
 0 94 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s9 n4 n3
 1
-107 1
-4
+106 1
+3
 0 94 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s9 n5 n4
 1
-107 1
-4
+106 1
+3
 0 94 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s9 n6 n5
 1
-107 1
-4
+106 1
+3
 0 94 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s9 n7 n6
 1
-107 1
-4
+106 1
+3
 0 94 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s9 n8 n7
 1
-107 1
-4
+106 1
+3
 0 94 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free s9 n9 n8
 1
-107 1
-4
+106 1
+3
 0 94 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sa n1 n0
 1
-107 1
-4
+106 1
+3
 0 56 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sa n10 n9
 1
-107 1
-4
+106 1
+3
 0 56 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sa n11 n10
 1
-107 1
-4
+106 1
+3
 0 56 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sa n12 n11
 1
-107 1
-4
+106 1
+3
 0 56 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sa n13 n12
 1
-107 1
-4
+106 1
+3
 0 56 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sa n2 n1
 1
-107 1
-4
+106 1
+3
 0 56 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sa n3 n2
 1
-107 1
-4
+106 1
+3
 0 56 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sa n4 n3
 1
-107 1
-4
+106 1
+3
 0 56 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sa n5 n4
 1
-107 1
-4
+106 1
+3
 0 56 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sa n6 n5
 1
-107 1
-4
+106 1
+3
 0 56 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sa n7 n6
 1
-107 1
-4
+106 1
+3
 0 56 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sa n8 n7
 1
-107 1
-4
+106 1
+3
 0 56 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sa n9 n8
 1
-107 1
-4
+106 1
+3
 0 56 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sj n1 n0
 1
-107 1
-4
+106 1
+3
 0 99 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sj n10 n9
 1
-107 1
-4
+106 1
+3
 0 99 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sj n11 n10
 1
-107 1
-4
+106 1
+3
 0 99 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sj n12 n11
 1
-107 1
-4
+106 1
+3
 0 99 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sj n13 n12
 1
-107 1
-4
+106 1
+3
 0 99 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sj n2 n1
 1
-107 1
-4
+106 1
+3
 0 99 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sj n3 n2
 1
-107 1
-4
+106 1
+3
 0 99 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sj n4 n3
 1
-107 1
-4
+106 1
+3
 0 99 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sj n5 n4
 1
-107 1
-4
+106 1
+3
 0 99 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sj n6 n5
 1
-107 1
-4
+106 1
+3
 0 99 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sj n7 n6
 1
-107 1
-4
+106 1
+3
 0 99 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sj n8 n7
 1
-107 1
-4
+106 1
+3
 0 99 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sj n9 n8
 1
-107 1
-4
+106 1
+3
 0 99 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sk n1 n0
 1
-107 1
-4
+106 1
+3
 0 112 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sk n10 n9
 1
-107 1
-4
+106 1
+3
 0 112 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sk n11 n10
 1
-107 1
-4
+106 1
+3
 0 112 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sk n12 n11
 1
-107 1
-4
+106 1
+3
 0 112 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sk n13 n12
 1
-107 1
-4
+106 1
+3
 0 112 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sk n2 n1
 1
-107 1
-4
+106 1
+3
 0 112 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sk n3 n2
 1
-107 1
-4
+106 1
+3
 0 112 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sk n4 n3
 1
-107 1
-4
+106 1
+3
 0 112 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sk n5 n4
 1
-107 1
-4
+106 1
+3
 0 112 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sk n6 n5
 1
-107 1
-4
+106 1
+3
 0 112 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sk n7 n6
 1
-107 1
-4
+106 1
+3
 0 112 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sk n8 n7
 1
-107 1
-4
+106 1
+3
 0 112 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sk n9 n8
 1
-107 1
-4
+106 1
+3
 0 112 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sq n1 n0
 1
-107 1
-4
+106 1
+3
 0 101 3 2
-0 104 1 0
+0 107 1 0
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sq n10 n9
 1
-107 1
-4
+106 1
+3
 0 101 3 2
-0 104 2 13
+0 107 2 13
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sq n11 n10
 1
-107 1
-4
+106 1
+3
 0 101 3 2
-0 104 3 2
+0 107 3 2
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sq n12 n11
 1
-107 1
-4
+106 1
+3
 0 101 3 2
-0 104 4 3
+0 107 4 3
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sq n13 n12
 1
-107 1
-4
+106 1
+3
 0 101 3 2
-0 104 5 4
+0 107 5 4
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sq n2 n1
 1
-107 1
-4
+106 1
+3
 0 101 3 2
-0 104 6 1
+0 107 6 1
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sq n3 n2
 1
-107 1
-4
+106 1
+3
 0 101 3 2
-0 104 7 6
+0 107 7 6
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sq n4 n3
 1
-107 1
-4
+106 1
+3
 0 101 3 2
-0 104 8 7
+0 107 8 7
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sq n5 n4
 1
-107 1
-4
+106 1
+3
 0 101 3 2
-0 104 9 8
+0 107 9 8
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sq n6 n5
 1
-107 1
-4
+106 1
+3
 0 101 3 2
-0 104 10 9
+0 107 10 9
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sq n7 n6
 1
-107 1
-4
+106 1
+3
 0 101 3 2
-0 104 11 10
+0 107 11 10
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sq n8 n7
 1
-107 1
-4
+106 1
+3
 0 101 3 2
-0 104 12 11
+0 107 12 11
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
 from-moveable-to-free sq n9 n8
 1
-107 1
-4
+106 1
+3
 0 101 3 2
-0 104 13 12
+0 107 13 12
 0 108 -1 1
-0 106 -1 1
 1
 end_operator
 begin_operator
@@ -30985,8 +29633,8 @@ from-moveable-to-home c10 c9 c n10 n9
 0 100 3 1
 0 98 1 7
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -30996,8 +29644,8 @@ from-moveable-to-home c2 ca c n2 n1
 0 72 3 1
 0 69 1 7
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31007,8 +29655,8 @@ from-moveable-to-home c3 c2 c n3 n2
 0 72 1 7
 0 71 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31018,8 +29666,8 @@ from-moveable-to-home c4 c3 c n4 n3
 0 71 1 6
 0 84 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31029,8 +29677,8 @@ from-moveable-to-home c5 c4 c n5 n4
 0 84 1 7
 0 87 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31040,8 +29688,8 @@ from-moveable-to-home c6 c5 c n6 n5
 0 87 1 7
 0 90 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31051,8 +29699,8 @@ from-moveable-to-home c7 c6 c n7 n6
 0 90 1 7
 0 93 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31062,8 +29710,8 @@ from-moveable-to-home c8 c7 c n8 n7
 0 93 1 7
 0 96 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31073,8 +29721,8 @@ from-moveable-to-home c9 c8 c n9 n8
 0 96 1 7
 0 98 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31084,8 +29732,8 @@ from-moveable-to-home ca c0 c n1 n0
 0 0 0 1
 0 69 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31095,8 +29743,8 @@ from-moveable-to-home cj c10 c n11 n10
 0 100 1 7
 0 102 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31106,8 +29754,8 @@ from-moveable-to-home ck cq c n13 n12
 0 109 3 1
 0 103 1 7
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31117,8 +29765,8 @@ from-moveable-to-home cq cj c n12 n11
 0 102 1 7
 0 103 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31128,8 +29776,8 @@ from-moveable-to-home d10 d9 d n10 n9
 0 83 3 1
 0 82 1 7
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31139,8 +29787,8 @@ from-moveable-to-home d2 da d n2 n1
 0 60 3 1
 0 57 1 7
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31150,8 +29798,8 @@ from-moveable-to-home d3 d2 d n3 n2
 0 60 1 7
 0 59 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31161,8 +29809,8 @@ from-moveable-to-home d4 d3 d n4 n3
 0 59 1 6
 0 77 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31172,8 +29820,8 @@ from-moveable-to-home d5 d4 d n5 n4
 0 77 1 7
 0 78 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31183,8 +29831,8 @@ from-moveable-to-home d6 d5 d n6 n5
 0 78 1 7
 0 73 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31194,8 +29842,8 @@ from-moveable-to-home d7 d6 d n7 n6
 0 73 1 6
 0 74 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31205,8 +29853,8 @@ from-moveable-to-home d8 d7 d n8 n7
 0 74 1 7
 0 70 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31216,8 +29864,8 @@ from-moveable-to-home d9 d8 d n9 n8
 0 70 1 6
 0 82 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31227,8 +29875,8 @@ from-moveable-to-home da d0 d n1 n0
 0 1 0 1
 0 57 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31238,8 +29886,8 @@ from-moveable-to-home dj d10 d n11 n10
 0 83 1 7
 0 80 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31249,8 +29897,8 @@ from-moveable-to-home dk dq d n13 n12
 0 110 3 1
 0 66 1 6
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31260,8 +29908,8 @@ from-moveable-to-home dq dj d n12 n11
 0 80 1 7
 0 66 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31271,8 +29919,8 @@ from-moveable-to-home h10 h9 h n10 n9
 0 89 3 1
 0 86 1 7
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31282,8 +29930,8 @@ from-moveable-to-home h2 ha h n2 n1
 0 63 3 1
 0 58 1 7
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31293,8 +29941,8 @@ from-moveable-to-home h3 h2 h n3 n2
 0 63 1 7
 0 62 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31304,8 +29952,8 @@ from-moveable-to-home h4 h3 h n4 n3
 0 62 1 6
 0 65 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31315,8 +29963,8 @@ from-moveable-to-home h5 h4 h n5 n4
 0 65 1 7
 0 64 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31326,8 +29974,8 @@ from-moveable-to-home h6 h5 h n6 n5
 0 64 1 6
 0 68 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31337,8 +29985,8 @@ from-moveable-to-home h7 h6 h n7 n6
 0 68 1 7
 0 67 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31348,8 +29996,8 @@ from-moveable-to-home h8 h7 h n8 n7
 0 67 1 6
 0 81 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31359,8 +30007,8 @@ from-moveable-to-home h9 h8 h n9 n8
 0 81 1 7
 0 86 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31370,8 +30018,8 @@ from-moveable-to-home ha h0 h n1 n0
 0 3 0 1
 0 58 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31381,8 +30029,8 @@ from-moveable-to-home hj h10 h n11 n10
 0 89 1 7
 0 92 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31392,8 +30040,8 @@ from-moveable-to-home hk hq h n13 n12
 0 111 3 1
 0 95 1 7
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31403,8 +30051,8 @@ from-moveable-to-home hq hj h n12 n11
 0 92 1 7
 0 95 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31414,8 +30062,8 @@ from-moveable-to-home s10 s9 s n10 n9
 0 97 3 1
 0 94 1 7
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31425,8 +30073,8 @@ from-moveable-to-home s2 sa s n2 n1
 0 75 3 1
 0 56 1 6
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31436,8 +30084,8 @@ from-moveable-to-home s3 s2 s n3 n2
 0 75 1 7
 0 76 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31447,8 +30095,8 @@ from-moveable-to-home s4 s3 s n4 n3
 0 76 1 7
 0 61 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31458,8 +30106,8 @@ from-moveable-to-home s5 s4 s n5 n4
 0 61 1 6
 0 79 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31469,8 +30117,8 @@ from-moveable-to-home s6 s5 s n6 n5
 0 79 1 7
 0 85 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31480,8 +30128,8 @@ from-moveable-to-home s7 s6 s n7 n6
 0 85 1 7
 0 88 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31491,8 +30139,8 @@ from-moveable-to-home s8 s7 s n8 n7
 0 88 1 7
 0 91 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31502,8 +30150,8 @@ from-moveable-to-home s9 s8 s n9 n8
 0 91 1 7
 0 94 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31513,8 +30161,8 @@ from-moveable-to-home sa s0 s n1 n0
 0 2 0 1
 0 56 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31524,8 +30172,8 @@ from-moveable-to-home sj s10 s n11 n10
 0 97 1 7
 0 99 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31535,8 +30183,8 @@ from-moveable-to-home sk sq s n13 n12
 0 112 3 1
 0 101 1 7
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31546,8 +30194,8 @@ from-moveable-to-home sq sj s n12 n11
 0 99 1 7
 0 101 3 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31558,8 +30206,8 @@ from-moveable-to-stack c10 dj
 0 35 -1 0
 0 14 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31570,8 +30218,8 @@ from-moveable-to-stack c10 hj
 0 35 -1 0
 0 37 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31582,8 +30230,8 @@ from-moveable-to-stack c2 d3
 0 9 -1 0
 0 25 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31594,8 +30242,8 @@ from-moveable-to-stack c2 h3
 0 9 -1 0
 0 27 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31606,8 +30254,8 @@ from-moveable-to-stack c3 d4
 0 42 -1 0
 0 49 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31618,8 +30266,8 @@ from-moveable-to-stack c3 h4
 0 42 -1 0
 0 50 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31630,8 +30278,8 @@ from-moveable-to-stack c4 d5
 0 17 -1 0
 0 16 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31642,8 +30290,8 @@ from-moveable-to-stack c4 h5
 0 17 -1 0
 0 18 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31654,8 +30302,8 @@ from-moveable-to-stack c5 d6
 0 52 -1 0
 0 53 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31666,8 +30314,8 @@ from-moveable-to-stack c5 h6
 0 52 -1 0
 0 54 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31678,8 +30326,8 @@ from-moveable-to-stack c6 d7
 0 23 -1 0
 0 15 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31690,8 +30338,8 @@ from-moveable-to-stack c6 h7
 0 23 -1 0
 0 30 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31702,8 +30350,8 @@ from-moveable-to-stack c7 d8
 0 51 -1 0
 0 48 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31714,8 +30362,8 @@ from-moveable-to-stack c7 h8
 0 51 -1 0
 0 43 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31726,8 +30374,8 @@ from-moveable-to-stack c8 d9
 0 31 -1 0
 0 33 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31738,8 +30386,8 @@ from-moveable-to-stack c8 h9
 0 31 -1 0
 0 34 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31750,8 +30398,8 @@ from-moveable-to-stack c9 d10
 0 45 -1 0
 0 39 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31762,8 +30410,8 @@ from-moveable-to-stack c9 h10
 0 45 -1 0
 0 44 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31774,8 +30422,8 @@ from-moveable-to-stack ca d2
 0 5 -1 0
 0 40 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31786,8 +30434,8 @@ from-moveable-to-stack ca h2
 0 5 -1 0
 0 41 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31798,8 +30446,8 @@ from-moveable-to-stack cj dq
 0 38 -1 0
 0 29 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31810,8 +30458,8 @@ from-moveable-to-stack cj hq
 0 38 -1 0
 0 24 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31822,8 +30470,8 @@ from-moveable-to-stack cq dk
 0 12 -1 0
 0 11 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31834,8 +30482,8 @@ from-moveable-to-stack cq hk
 0 12 -1 0
 0 8 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31846,8 +30494,8 @@ from-moveable-to-stack d10 cj
 0 38 0 1
 0 39 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31858,8 +30506,8 @@ from-moveable-to-stack d10 sj
 0 39 -1 0
 0 20 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31870,8 +30518,8 @@ from-moveable-to-stack d2 c3
 0 42 0 1
 0 40 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31882,8 +30530,8 @@ from-moveable-to-stack d2 s3
 0 40 -1 0
 0 46 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31894,8 +30542,8 @@ from-moveable-to-stack d3 c4
 0 17 0 1
 0 25 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31906,8 +30554,8 @@ from-moveable-to-stack d3 s4
 0 25 -1 0
 0 26 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31918,8 +30566,8 @@ from-moveable-to-stack d4 c5
 0 52 0 1
 0 49 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31930,8 +30578,8 @@ from-moveable-to-stack d4 s5
 0 49 -1 0
 0 55 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31942,8 +30590,8 @@ from-moveable-to-stack d5 c6
 0 23 0 1
 0 16 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31954,8 +30602,8 @@ from-moveable-to-stack d5 s6
 0 16 -1 0
 0 28 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31966,8 +30614,8 @@ from-moveable-to-stack d6 c7
 0 51 0 1
 0 53 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31978,8 +30626,8 @@ from-moveable-to-stack d6 s7
 0 53 -1 0
 0 19 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -31990,8 +30638,8 @@ from-moveable-to-stack d7 c8
 0 31 0 1
 0 15 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32002,8 +30650,8 @@ from-moveable-to-stack d7 s8
 0 15 -1 0
 0 32 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32014,8 +30662,8 @@ from-moveable-to-stack d8 c9
 0 45 0 1
 0 48 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32026,8 +30674,8 @@ from-moveable-to-stack d8 s9
 0 48 -1 0
 0 47 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32038,8 +30686,8 @@ from-moveable-to-stack d9 c10
 0 35 0 1
 0 33 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32050,8 +30698,8 @@ from-moveable-to-stack d9 s10
 0 33 -1 0
 0 36 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32062,8 +30710,8 @@ from-moveable-to-stack da c2
 0 9 0 1
 0 4 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32074,8 +30722,8 @@ from-moveable-to-stack da s2
 0 4 -1 0
 0 22 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32086,8 +30734,8 @@ from-moveable-to-stack dj cq
 0 12 0 1
 0 14 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32098,8 +30746,8 @@ from-moveable-to-stack dj sq
 0 14 -1 0
 0 21 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32110,8 +30758,8 @@ from-moveable-to-stack dq ck
 0 13 0 1
 0 29 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32122,8 +30770,8 @@ from-moveable-to-stack dq sk
 0 29 -1 0
 0 10 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32134,8 +30782,8 @@ from-moveable-to-stack h10 cj
 0 38 0 1
 0 44 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32146,8 +30794,8 @@ from-moveable-to-stack h10 sj
 0 44 -1 0
 0 20 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32158,8 +30806,8 @@ from-moveable-to-stack h2 c3
 0 42 0 1
 0 41 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32170,8 +30818,8 @@ from-moveable-to-stack h2 s3
 0 41 -1 0
 0 46 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32182,8 +30830,8 @@ from-moveable-to-stack h3 c4
 0 17 0 1
 0 27 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32194,8 +30842,8 @@ from-moveable-to-stack h3 s4
 0 27 -1 0
 0 26 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32206,8 +30854,8 @@ from-moveable-to-stack h4 c5
 0 52 0 1
 0 50 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32218,8 +30866,8 @@ from-moveable-to-stack h4 s5
 0 50 -1 0
 0 55 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32230,8 +30878,8 @@ from-moveable-to-stack h5 c6
 0 23 0 1
 0 18 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32242,8 +30890,8 @@ from-moveable-to-stack h5 s6
 0 18 -1 0
 0 28 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32254,8 +30902,8 @@ from-moveable-to-stack h6 c7
 0 51 0 1
 0 54 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32266,8 +30914,8 @@ from-moveable-to-stack h6 s7
 0 54 -1 0
 0 19 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32278,8 +30926,8 @@ from-moveable-to-stack h7 c8
 0 31 0 1
 0 30 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32290,8 +30938,8 @@ from-moveable-to-stack h7 s8
 0 30 -1 0
 0 32 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32302,8 +30950,8 @@ from-moveable-to-stack h8 c9
 0 45 0 1
 0 43 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32314,8 +30962,8 @@ from-moveable-to-stack h8 s9
 0 43 -1 0
 0 47 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32326,8 +30974,8 @@ from-moveable-to-stack h9 c10
 0 35 0 1
 0 34 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32338,8 +30986,8 @@ from-moveable-to-stack h9 s10
 0 34 -1 0
 0 36 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32350,8 +30998,8 @@ from-moveable-to-stack ha c2
 0 9 0 1
 0 6 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32362,8 +31010,8 @@ from-moveable-to-stack ha s2
 0 6 -1 0
 0 22 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32374,8 +31022,8 @@ from-moveable-to-stack hj cq
 0 12 0 1
 0 37 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32386,8 +31034,8 @@ from-moveable-to-stack hj sq
 0 37 -1 0
 0 21 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32398,8 +31046,8 @@ from-moveable-to-stack hq ck
 0 13 0 1
 0 24 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32410,8 +31058,8 @@ from-moveable-to-stack hq sk
 0 24 -1 0
 0 10 0 1
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32422,8 +31070,8 @@ from-moveable-to-stack s10 dj
 0 14 0 1
 0 36 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32434,8 +31082,8 @@ from-moveable-to-stack s10 hj
 0 37 0 1
 0 36 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32446,8 +31094,8 @@ from-moveable-to-stack s2 d3
 0 25 0 1
 0 22 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32458,8 +31106,8 @@ from-moveable-to-stack s2 h3
 0 27 0 1
 0 22 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32470,8 +31118,8 @@ from-moveable-to-stack s3 d4
 0 49 0 1
 0 46 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32482,8 +31130,8 @@ from-moveable-to-stack s3 h4
 0 50 0 1
 0 46 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32494,8 +31142,8 @@ from-moveable-to-stack s4 d5
 0 16 0 1
 0 26 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32506,8 +31154,8 @@ from-moveable-to-stack s4 h5
 0 18 0 1
 0 26 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32518,8 +31166,8 @@ from-moveable-to-stack s5 d6
 0 53 0 1
 0 55 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32530,8 +31178,8 @@ from-moveable-to-stack s5 h6
 0 54 0 1
 0 55 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32542,8 +31190,8 @@ from-moveable-to-stack s6 d7
 0 15 0 1
 0 28 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32554,8 +31202,8 @@ from-moveable-to-stack s6 h7
 0 30 0 1
 0 28 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32566,8 +31214,8 @@ from-moveable-to-stack s7 d8
 0 48 0 1
 0 19 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32578,8 +31226,8 @@ from-moveable-to-stack s7 h8
 0 43 0 1
 0 19 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32590,8 +31238,8 @@ from-moveable-to-stack s8 d9
 0 33 0 1
 0 32 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32602,8 +31250,8 @@ from-moveable-to-stack s8 h9
 0 34 0 1
 0 32 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32614,8 +31262,8 @@ from-moveable-to-stack s9 d10
 0 39 0 1
 0 47 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32626,8 +31274,8 @@ from-moveable-to-stack s9 h10
 0 44 0 1
 0 47 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32638,8 +31286,8 @@ from-moveable-to-stack sa d2
 0 40 0 1
 0 7 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32650,8 +31298,8 @@ from-moveable-to-stack sa h2
 0 41 0 1
 0 7 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32662,8 +31310,8 @@ from-moveable-to-stack sj dq
 0 29 0 1
 0 20 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32674,8 +31322,8 @@ from-moveable-to-stack sj hq
 0 24 0 1
 0 20 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32686,8 +31334,8 @@ from-moveable-to-stack sq dk
 0 11 0 1
 0 21 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
@@ -32698,8 +31346,8 @@ from-moveable-to-stack sq hk
 0 8 0 1
 0 21 -1 0
 0 108 -1 1
+0 104 -1 1
 0 106 -1 1
-0 107 -1 1
 1
 end_operator
 begin_operator
