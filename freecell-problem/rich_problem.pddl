@@ -1,4 +1,4 @@
-(define (problem freecell-10-4)
+(define (problem rich_problem)
 (:domain freecell)
 (:objects
     SK

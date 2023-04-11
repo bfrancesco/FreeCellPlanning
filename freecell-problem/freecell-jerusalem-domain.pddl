@@ -7,6 +7,7 @@
           suit
   )
   
+
   (:predicates 	(VALUE ?card - card ?val - num)
 
         (SUIT ?card - card ?st - suit)
@@ -21,33 +22,46 @@
         (CLEAR ?card - card)
         (HOME ?card - card)
         (BOTTOMCOL ?card - card)
+
+        ; A card has the status of moveable when it has been chosen for a move
         (MOVEABLE ?card)
-        ;A CARD WAS ALREADY IN THE STATE OF MOVEABLE
+        
+        ;When a card is moveable, then the status is occupied
+        ;Occupied avoids having multiple cards in moveable state.
+        ;It forces the completion of a move (From moveable to a position) 
         (OCCUPIED)
-        ;THE ORIGIN IS THE BOTTOM, IT DOESN'T HAVE SENSE TO GO BOTTOM-BOTTOM
+        
+        ;The origin of the moveable card is the bottom
+        ;bottom identifies a column that is empty or it is going to be empty
+        ;ORBOTT avoids having a move from empty column to empty column
         (ORBOTT)
-        ;THE ORIGIN IS FREE, IT DOESN'T HAVE SENSE TO GO FREE-FREE
+        
+        ;The origin of the moveable card is a freecell
+        ;ORFREE avoids having a move from a freecell to a freecell
         (ORFREE)
 
         (CELLSPACE ?ncol - num)
         (COLSPACE ?ncol - num))
 
 
-
+;It takes a card from a column with one element and puts it in the state of moveable
+;It specifies the origin (bottom) and virtually removes the card from the column 
 (:action FROM-BOTTOM-TO-MOVEABLE
   :parameters (?card - card ?ncol - num ?ncol_prev - num)
   :precondition
    (and (not (OCCUPIED)) (CLEAR ?card) (BOTTOMCOL ?card) (COLSPACE ?ncol_prev) (SUCCESSOR ?ncol ?ncol_prev))
   :effect
-   (and (OCCUPIED) (ORBOTT) (MOVEABLE ?card)  (not (CLEAR ?card)) (not (BOTTOMCOL ?card)) (not (COLSPACE ?ncol_prev)) (COLSPACE ?ncol) )
+   (and (OCCUPIED) (ORBOTT) (MOVEABLE ?card)  (not (CLEAR ?card)) (not (BOTTOMCOL ?card)) (not (COLSPACE ?ncol_prev)) (COLSPACE ?ncol))
 )
 
+;It takes a card from a column with more than one element and puts it in the state of moveable
+;Its origin is not relevant, then it is not specified, it virtually removes the card from the column. 
 (:action FROM-STACK-TO-MOVEABLE
   :parameters (?card - card ?card_prev - card)
   :precondition
    (and (not (OCCUPIED)) (CLEAR ?card) (ON ?card ?card_prev) )
   :effect
-   (and (OCCUPIED) (MOVEABLE ?card) (not (ON ?card ?card_prev)) (CLEAR ?card_prev))
+   (and (OCCUPIED) (not (CLEAR ?card)) (MOVEABLE ?card) (not (ON ?card ?card_prev)) (CLEAR ?card_prev))
 )
 
 (:action FROM-FREE-TO-MOVEABLE
