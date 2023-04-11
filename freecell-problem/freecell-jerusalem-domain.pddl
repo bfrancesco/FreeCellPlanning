@@ -7,7 +7,6 @@
           suit
   )
   
-
   (:predicates 	(VALUE ?card - card ?val - num)
 
         (SUIT ?card - card ?st - suit)
@@ -45,7 +44,8 @@
 
 
 ;It takes a card from a column with one element and puts it in the state of moveable
-;It specifies the origin (bottom) and virtually removes the card from the column 
+;It specifies the origin (bottom) and virtually removes the card from the column  (increase colspace)
+;It blocks the selection of other cards to be moveable using occupied
 (:action FROM-BOTTOM-TO-MOVEABLE
   :parameters (?card - card ?ncol - num ?ncol_prev - num)
   :precondition
@@ -56,6 +56,7 @@
 
 ;It takes a card from a column with more than one element and puts it in the state of moveable
 ;Its origin is not relevant, then it is not specified, it virtually removes the card from the column. 
+;It blocks the selection of other cards to be moveable using occupied
 (:action FROM-STACK-TO-MOVEABLE
   :parameters (?card - card ?card_prev - card)
   :precondition
@@ -64,6 +65,9 @@
    (and (OCCUPIED) (not (CLEAR ?card)) (MOVEABLE ?card) (not (ON ?card ?card_prev)) (CLEAR ?card_prev))
 )
 
+;It takes a card from a freecell and puts it in the state of moveable
+;It specifies the origin (free) and virtually removes the card from the freecell (increase cellspace) 
+;It blocks the selection of other cards to be moveable using occupied
 (:action FROM-FREE-TO-MOVEABLE
   :parameters (?card - card ?nfree - num ?nfree_prev - num)
   :precondition
@@ -72,6 +76,9 @@
    (and (OCCUPIED) (ORFREE) (MOVEABLE ?card) (not (INCELL ?card)) (not (CELLSPACE ?nfree_prev)) (CELLSPACE ?nfree))
 )
 
+;It takes the only moveable card and puts it into a freecell
+;It can't happen if the moveable card was already in the freecell.
+;It clears moveable, occupied and the origin and decreases the cellspace 
 (:action FROM-MOVEABLE-TO-FREE
   :parameters (?card - card ?nfree - num ?nfree_prev - num)
   :precondition
@@ -80,6 +87,9 @@
    (and (not (MOVEABLE ?card)) (not (ORFREE)) (not (OCCUPIED)) (INCELL ?card) (not (CELLSPACE ?nfree)) (CELLSPACE ?nfree_prev) )
 )
 
+;It takes the only moveable card and puts it into an empty column
+;It can't happen if the moveable card was already in a column with one element.
+;It clears moveable, occupied and the origin and decreases the colspace 
 (:action FROM-MOVEABLE-TO-BOTTOM
   :parameters (?card - card ?ncol - num ?ncol_prev - num)
   :precondition
@@ -88,6 +98,8 @@
    (and (not (MOVEABLE ?card)) (not (ORBOTT)) (not (OCCUPIED)) (CLEAR ?card)  (BOTTOMCOL ?card) (not (COLSPACE ?ncol)) (COLSPACE ?ncol_prev))
 )
 
+;It takes the only moveable card and puts it into a column with more than one element.
+;It clears moveable, occupied and eventually the origin and changes the state of the card that was on top
 (:action FROM-MOVEABLE-TO-STACK
   :parameters (?card - card ?card_prev - card)
   :precondition
@@ -96,6 +108,8 @@
    (and (not (CLEAR ?card_prev)) (not (ORBOTT)) (not (ORFREE)) (CLEAR ?card) (not (MOVEABLE ?card)) (not (OCCUPIED)) (ON ?card ?card_prev) )
 )
 
+;It takes the only moveable card and puts it into home cell if the suit and value are correct .
+;It clears moveable, occupied and eventually the origin, then it updates the state of the homecell
 (:action FROM-MOVEABLE-TO-HOME
   :parameters (?card - card ?card_to - card ?suit - suit ?val - num ?val_to - num)
   :precondition
@@ -104,5 +118,4 @@
   :effect
    (and (not (MOVEABLE ?card)) (not (ORBOTT)) (not (ORFREE)) (not (OCCUPIED))  (not (HOME ?card_to)) (HOME ?card))
 )
-
 )
