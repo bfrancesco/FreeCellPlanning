@@ -1,7 +1,7 @@
 ;; freecell domain.
 
 (define (domain freecell)
-  (:requirements :strips :typing) 
+  (:requirements :strips :typing  :conditional-effects) 
   (:types card
           num
           suit
@@ -33,14 +33,6 @@
    (and (CLEAR ?card) (BOTTOMCOL ?card) (COLSPACE ?ncol_prev) (SUCCESSOR ?ncol ?ncol_prev) (CELLSPACE ?nfree) (SUCCESSOR ?nfree ?nfree_prev) )
   :effect
    (and (not (CLEAR ?card)) (not (BOTTOMCOL ?card)) (not (COLSPACE ?ncol_prev)) (COLSPACE ?ncol) (INCELL ?card) (not (CELLSPACE ?nfree)) (CELLSPACE ?nfree_prev))
-)
-
-(:action FROM-STACK-TO-STACK
-  :parameters (?card - card ?card_to - card ?card_prev - card)
-  :precondition
-   (and (CLEAR ?card) (CLEAR ?card_to) (CANSTACK ?card ?card_to) (ON ?card ?card_prev))
-  :effect
-   (and  (CLEAR ?card_prev) (not (CLEAR ?card_to)) (not (ON ?card ?card_prev)) (ON ?card ?card_to))
 )
 
 ; (:action FROM-STACK-TO-BOTTOM
@@ -75,14 +67,38 @@
    (and  (CLEAR ?card)  (BOTTOMCOL ?card) (not (COLSPACE ?ncol)) (COLSPACE ?ncol_prev) (not (INCELL ?card)) (not (CELLSPACE ?nfree_prev)) (CELLSPACE ?nfree))
 )
 
-(:action FROM-FREE-TO-STACK
+; (:action FROM-FREE-TO-STACK
+;   :parameters (?card - card ?card_prev - card ?nfree - num ?nfree_prev - num)
+;   :precondition
+;    (and (INCELL ?card)  (CELLSPACE ?nfree_prev) (SUCCESSOR ?nfree ?nfree_prev) (CLEAR ?card_prev) (CANSTACK ?card ?card_prev))
+;   :effect
+;    (and (not (CLEAR ?card_prev)) (CLEAR ?card) (not (INCELL ?card)) (not (CELLSPACE ?nfree_prev)) (CELLSPACE ?nfree) (ON ?card ?card_prev) )
+; )
+
+(:action FROM-TO-STACK
   :parameters (?card - card ?card_prev - card ?nfree - num ?nfree_prev - num)
   :precondition
-   (and (INCELL ?card)  (CELLSPACE ?nfree_prev) (SUCCESSOR ?nfree ?nfree_prev) (CLEAR ?card_prev) (CANSTACK ?card ?card_prev))
+   (and (or (and (INCELL ?card) (CELLSPACE ?nfree_prev) (SUCCESSOR ?nfree ?nfree_prev)) (and (BOTTOMCOL ?card) (CLEAR ?card) (COLSPACE ?nfree_prev) (SUCCESSOR ?nfree ?nfree_prev))  (CLEAR ?card_prev) (CANSTACK ?card ?card_prev)))
   :effect
-   (and (not (CLEAR ?card_prev)) (CLEAR ?card) (not (INCELL ?card)) (not (CELLSPACE ?nfree_prev)) (CELLSPACE ?nfree) (ON ?card ?card_prev) )
+   (and 
+   (not (CLEAR ?card_prev))
+   (CLEAR ?card)
+    (ON ?card ?card_prev)
+   (when (INCELL ?card) 
+    (and (not (INCELL ?card)) (not (CELLSPACE ?nfree_prev)) (CELLSPACE ?nfree)))
+   (when (CLEAR ?card)
+   (and (not (CLEAR ?card)) (not (BOTTOMCOL ?card)) (not (COLSPACE ?nfree_prev)) (COLSPACE ?nfree))
+   ) 
+   )
 )
 
+; (:action FROM-BOTTOM-TO-STACK
+;   :parameters (?card - card ?card_to - card ?ncol - num ?ncol_prev - num)
+;   :precondition
+;    (and (CLEAR ?card) (CLEAR ?card_to) (CANSTACK ?card ?card_to) (BOTTOMCOL ?card) (COLSPACE ?ncol_prev) (SUCCESSOR ?ncol ?ncol_prev))
+;   :effect
+;    (and  (not (CLEAR ?card_to)) (not (BOTTOMCOL ?card)) (ON ?card ?card_to) (not (COLSPACE ?ncol_prev)) (COLSPACE ?ncol))
+; )
 
 ; (:action FROM-STACK-TO-STACK-DOUBLE
 ;   :parameters (?card - card ?card_to - card ?card_prev - card ?card_home - card ?suit - suit ?val - num ?val_home - num)
@@ -94,13 +110,7 @@
 ;    (and  (CLEAR ?card_prev) (not (CLEAR ?card_to)) (not (ON ?card ?card_prev)) (ON ?card ?card_to))
 ; )
 
-(:action FROM-BOTTOM-TO-STACK
-  :parameters (?card - card ?card_to - card ?ncol - num ?ncol_prev - num)
-  :precondition
-   (and (CLEAR ?card) (CLEAR ?card_to) (CANSTACK ?card ?card_to) (BOTTOMCOL ?card) (COLSPACE ?ncol_prev) (SUCCESSOR ?ncol ?ncol_prev))
-  :effect
-   (and  (not (CLEAR ?card_to)) (not (BOTTOMCOL ?card)) (ON ?card ?card_to) (not (COLSPACE ?ncol_prev)) (COLSPACE ?ncol))
-)
+
 
 (:action FROM-BOTTOM-TO-HOME
   :parameters (?card - card ?card_to - card ?suit - suit ?val - num ?val_to - num ?ncol - num ?ncol_prev - num)

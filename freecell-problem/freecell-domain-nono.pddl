@@ -43,13 +43,13 @@
    (and  (CLEAR ?card_prev) (not (CLEAR ?card_to)) (not (ON ?card ?card_prev)) (ON ?card ?card_to))
 )
 
-; (:action FROM-STACK-TO-BOTTOM
-;   :parameters (?card - card ?card_prev - card  ?nfree - num ?nfree_prev - num)
-;   :precondition
-;    (and (CLEAR ?card) (ON ?card ?card_prev) (COLSPACE ?nfree) (SUCCESSOR ?nfree ?nfree_prev) )
-;   :effect
-;    (and (not (ON ?card ?card_prev)) (not (COLSPACE ?nfree)) (COLSPACE ?nfree_prev) (CLEAR ?card_prev))
-; )
+(:action FROM-STACK-TO-BOTTOM
+  :parameters (?card - card ?card_prev - card  ?nfree - num ?nfree_prev - num)
+  :precondition
+   (and (CLEAR ?card) (ON ?card ?card_prev) (COLSPACE ?nfree) (SUCCESSOR ?nfree ?nfree_prev) )
+  :effect
+   (and (not (ON ?card ?card_prev)) (not (COLSPACE ?nfree)) (COLSPACE ?nfree_prev) (CLEAR ?card_prev))
+)
 
 ; (:action FROM-STACK-TO-FREE
 ;   :parameters (?card - card ?card_prev - card  ?nfree - num ?nfree_prev - num)

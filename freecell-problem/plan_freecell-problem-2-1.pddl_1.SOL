@@ -1,14 +1,30 @@
 
 ; Version LPG-td-1.4
-; Seed 61625035
-; Command line: ./lpg-td -o ../freecell-problem/freecell-domain.pddl -f ../freecell-problem/freecell-problem-2-1.pddl -n 1 
+; Seed 97395704
+; Command line: ./lpg-td -o ../freecell-problem/freecell-domain.pddl -f ../freecell-problem/freecell-problem-2-1.pddl -speed 
 ; Problem ../freecell-problem
 ; Actions having STRIPS duration
-; Time 0.02
-; Search time 0.00
-; Parsing time 0.00
-; Mutex time 0.00
-; NrActions 0
+; Time 0.59
+; Search time 0.50
+; Parsing time 0.01
+; Mutex time 0.08
+; NrActions 18
 
-
-no solution
+0:   (FROM-BOTTOM-TO-HOME DA D0 D N1 N0 N3 N2) [1]
+0:   (FROM-STACK-TO-FREE C2 CA N4 N3) [1]
+1:   (FROM-BOTTOM-TO-HOME D2 DA D N2 N1 N4 N3) [1]
+2:   (FROM-BOTTOM-TO-HOME HA H0 H N1 N0 N5 N4) [1]
+3:   (FROM-BOTTOM-TO-FREE S2 N6 N5 N3 N2) [1]
+4:   (FROM-FREE-TO-BOTTOM C2 N6 N5 N3 N2) [1]
+5:   (FROM-STACK-TO-FREE CA SA N3 N2) [1]
+6:   (FROM-FREE-TO-BOTTOM S2 N5 N4 N3 N2) [1]
+7:   (FROM-BOTTOM-TO-HOME H2 HA H N2 N1 N5 N4) [1]
+8:   (FROM-BOTTOM-TO-HOME SA S0 S N1 N0 N6 N5) [1]
+9:   (FROM-FREE-TO-BOTTOM CA N6 N5 N4 N3) [1]
+10:   (FROM-BOTTOM-TO-HOME S2 SA S N2 N1 N6 N5) [1]
+11:   (FROM-BOTTOM-TO-FREE CA N7 N6 N4 N3) [1]
+12:   (FROM-FREE-TO-BOTTOM CA N7 N6 N4 N3) [1]
+13:   (FROM-BOTTOM-TO-FREE C2 N7 N6 N4 N3) [1]
+14:   (FROM-BOTTOM-TO-HOME CA C0 C N1 N0 N8 N7) [1]
+15:   (FROM-FREE-TO-BOTTOM C2 N8 N7 N4 N3) [1]
+16:   (FROM-BOTTOM-TO-HOME C2 CA C N2 N1 N8 N7) [1]

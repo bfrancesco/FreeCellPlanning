@@ -105,7 +105,7 @@
    (and    (CHECKED) (FORCED) (LASMOSSA ?card ?card_to) (BOTTOMCOL ?card)
   (COLSPACE ?ncol_prev) (SUCCESSOR ?ncol ?ncol_prev))
   :effect
-   (and  (not (CHECKED)) (not (FORCED)) (not (LASMOSSA ?card  ?card_to)) (not (HOME ?card_to)) (HOME ?card) (not (CLEAR ?card)) (not (BOTTOMCOL ?card)) 
+   (and  (not (CHECKED)) (not (FORCED)) (not (LASMOSSA ?card  ?card_to)) (not (CLEAR ?card)) (not (BOTTOMCOL ?card)) 
    (not (COLSPACE ?ncol_prev)) (COLSPACE ?ncol))
 )
 
@@ -114,17 +114,17 @@
   :precondition
    (and   (CHECKED) (LASMOSSA ?card ?card_to) (ON ?card ?card_prev) )
   :effect
-   (and  (not (CHECKED)) (not (FORCED)) (not (LASMOSSA ?card  ?card_to)) (not (HOME ?card_to)) (HOME ?card) (not (CLEAR ?card)) (CLEAR ?card_prev) (not (ON ?card ?card_prev)))
+   (and  (not (CHECKED)) (not (FORCED)) (not (LASMOSSA ?card  ?card_to)) (not (CLEAR ?card)) (CLEAR ?card_prev) (not (ON ?card ?card_prev)))
 )
 
-(:action FROM-FREE-TO-HOME
-  :parameters (?card - card ?card_to - card ?ncol - num ?ncol_prev - num)
-  :precondition
-   (and   (CHECKED) (FORCED) (LASMOSSA ?card ?card_to) (INCELL ?card) (CELLSPACE ?ncol_prev) (SUCCESSOR ?ncol ?ncol_prev))
-  :effect
-   (and (not (CHECKED)) (not (FORCED)) (not (LASMOSSA ?card ?card_to)) (not (INCELL ?card)) 
-   (not (CELLSPACE ?ncol_prev)) (CELLSPACE ?ncol))
-)
+; (:action FROM-FREE-TO-HOME
+;   :parameters (?card - card ?card_to - card ?ncol - num ?ncol_prev - num)
+;   :precondition
+;    (and   (CHECKED) (FORCED) (LASMOSSA ?card ?card_to) (INCELL ?card) (CELLSPACE ?ncol_prev) (SUCCESSOR ?ncol ?ncol_prev))
+;   :effect
+;    (and (not (CHECKED)) (not (FORCED)) (not (LASMOSSA ?card ?card_to)) (not (INCELL ?card)) 
+;    (not (CELLSPACE ?ncol_prev)) (CELLSPACE ?ncol))
+; )
 
 (:action CHECKFORCED
   :parameters (?card - card ?card_to - card ?suit - suit ?val_to - num)
@@ -133,7 +133,7 @@
   :effect
    (and (CHECKED) 
    ( when 
-    (exists (?val - num) (and (or (CLEAR ?card) (INCELL ?card)) (HOME ?card_to) (SUIT ?card ?suit) (SUIT ?card_to ?suit) (VALUE ?card ?val) (VALUE ?card_to ?val_to) (SUCCESSOR ?val ?val_to ))) 
+    (exists (?val - num) (and (or (CLEAR ?card)) (HOME ?card_to) (SUIT ?card ?suit) (SUIT ?card_to ?suit) (VALUE ?card ?val) (VALUE ?card_to ?val_to) (SUCCESSOR ?val ?val_to ))) 
     (and (not (HOME ?card_to)) (HOME ?card) (FORCED) (LASMOSSA ?card  ?card_to))
    )
    )
