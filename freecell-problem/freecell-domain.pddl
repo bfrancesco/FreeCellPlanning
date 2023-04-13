@@ -27,13 +27,13 @@
 
 
 
-(:action FROM-BOTTOM-TO-FREE
-  :parameters (?card - card ?ncol - num ?ncol_prev - num ?nfree - num ?nfree_prev - num)
-  :precondition
-   (and (CLEAR ?card) (BOTTOMCOL ?card) (COLSPACE ?ncol_prev) (SUCCESSOR ?ncol ?ncol_prev) (CELLSPACE ?nfree) (SUCCESSOR ?nfree ?nfree_prev) )
-  :effect
-   (and (not (CLEAR ?card)) (not (BOTTOMCOL ?card)) (not (COLSPACE ?ncol_prev)) (COLSPACE ?ncol) (INCELL ?card) (not (CELLSPACE ?nfree)) (CELLSPACE ?nfree_prev))
-)
+; (:action FROM-BOTTOM-TO-FREE
+;   :parameters (?card - card ?ncol - num ?ncol_prev - num ?nfree - num ?nfree_prev - num)
+;   :precondition
+;    (and (CLEAR ?card) (BOTTOMCOL ?card) (COLSPACE ?ncol_prev) (SUCCESSOR ?ncol ?ncol_prev) (CELLSPACE ?nfree) (SUCCESSOR ?nfree ?nfree_prev) )
+;   :effect
+;    (and (not (CLEAR ?card)) (not (BOTTOMCOL ?card)) (not (COLSPACE ?ncol_prev)) (COLSPACE ?ncol) (INCELL ?card) (not (CELLSPACE ?nfree)) (CELLSPACE ?nfree_prev))
+; )
 
 (:action FROM-STACK-TO-STACK
   :parameters (?card - card ?card_to - card ?card_prev - card)
@@ -43,13 +43,13 @@
    (and  (CLEAR ?card_prev) (not (CLEAR ?card_to)) (not (ON ?card ?card_prev)) (ON ?card ?card_to))
 )
 
-; (:action FROM-STACK-TO-BOTTOM
-;   :parameters (?card - card ?card_prev - card  ?nfree - num ?nfree_prev - num)
-;   :precondition
-;    (and (CLEAR ?card) (ON ?card ?card_prev) (COLSPACE ?nfree) (SUCCESSOR ?nfree ?nfree_prev) )
-;   :effect
-;    (and (not (ON ?card ?card_prev)) (not (COLSPACE ?nfree)) (COLSPACE ?nfree_prev) (CLEAR ?card_prev))
-; )
+(:action FROM-STACK-TO-BOTTOM
+  :parameters (?card - card ?card_prev - card  ?nfree - num ?nfree_prev - num)
+  :precondition
+   (and (CLEAR ?card) (ON ?card ?card_prev) (COLSPACE ?nfree) (SUCCESSOR ?nfree ?nfree_prev) )
+  :effect
+   (and (not (ON ?card ?card_prev)) (not (COLSPACE ?nfree)) (COLSPACE ?nfree_prev) (CLEAR ?card_prev))
+)
 
 ; (:action FROM-STACK-TO-FREE
 ;   :parameters (?card - card ?card_prev - card  ?nfree - num ?nfree_prev - num)
